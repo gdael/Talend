@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Glenn" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_psOHIEY_Ee6DabcNpGtBLw" name="ServerIP" prompt="ServerIP?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="10.10.10.109"/>
     <contextParameter comment="" internalId="_psOHIUY_Ee6DabcNpGtBLw" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
     <contextParameter comment="" internalId="_psOHIkY_Ee6DabcNpGtBLw" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:cSrya+CqDbTHRfwH5BWKTY+Lc4y0Yc12cqxrwgj72KW1YJBunlnWG20ciA=="/>
     <contextParameter comment="" internalId="_wO8hY0ZMEe6DabcNpGtBLw" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="\\10.10.10.109\Users\g.dael\Documents\SampleData\Berka"/>
     <contextParameter comment="" internalId="_uN81YEbNEe6_lJuzHrbHJQ" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="account.asc"/>
+    <contextParameter comment="" internalId="_gTDgcEuyEe6CRLSLK0eDIQ" name="DataSteward_Cloud" prompt="DataSteward_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tds.ap.cloud.talend.com/data-stewardship"/>
+    <contextParameter comment="" internalId="_gTDgcUuyEe6CRLSLK0eDIQ" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com/data-preparation"/>
   </context>
   <context confirmationNeeded="false" name="Glenn">
     <contextParameter comment="" internalId="_uN81YEbNEe6_lJuzHrbHJQ" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="account.asc"/>
@@ -12,6 +14,8 @@
     <contextParameter comment="" internalId="_agvZ4Uq9Ee6U-eUL53IKpw" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
     <contextParameter comment="" internalId="_agvZ4kq9Ee6U-eUL53IKpw" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:z4Azu/14xWI4/oqarNwHE3B6fioeGigcTEt83bsfygikVfUcVe7Za9snSA=="/>
     <contextParameter comment="" internalId="_agvZ40q9Ee6U-eUL53IKpw" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="D:\01. Data Integration\Talend\Training Materials\Sample Data\Bank Dataset Sample\data_berka"/>
+    <contextParameter comment="" internalId="_gTDgckuyEe6CRLSLK0eDIQ" name="DataSteward_Cloud" prompt="DataSteward_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tds.ap.cloud.talend.com/data-stewardship"/>
+    <contextParameter comment="" internalId="_gTDgc0uyEe6CRLSLK0eDIQ" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -227,14 +231,12 @@
   </node>
   <node componentName="tDataprepRun" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDataprepRun_1"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://10.10.10.109:9999&quot;"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;g.dael@mtc.local&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="context.DataPrep_Cloud"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;glenn.dael@nfr.mtc.com.ph&quot;"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:UzwPwr6PAPRFefHuvWD8vRokquwiQXHQy28c+N7ln8aTgfqD6aA3tOpZHh32"/>
     <elementParameter field="CHECK" name="USE_PREP_PATH" value="false"/>
-    <elementParameter field="DATA_PREP_ID" name="PREPARATION_ID" value="&quot;50462ab3-9f39-47bd-833c-4875baa786a8&quot;"/>
-    <elementParameter field="TEXT" name="PREPARATION_NAME" show="false" value="BankAccount_Preparation"/>
-    <elementParameter field="DP_VERSION" name="VERSION_NAME" value=""/>
-    <elementParameter field="TEXT" name="VERSION_ID" show="false" value=""/>
+    <elementParameter field="DATA_PREP_ID" name="PREPARATION_ID" value="&quot;defc0d5a-da39-4eae-9315-3558d74d4f49&quot;"/>
+    <elementParameter field="TEXT" name="PREPARATION_NAME" show="false" value="Berka_Account Preparation"/>
     <elementParameter field="TEXT" name="PREPARATION_PATH" show="false" value="&quot;folder/preparation&quot;"/>
     <elementParameter field="TEXT" name="PREPARATION_VERSION" show="false" value="&quot;Current state&quot;"/>
     <elementParameter field="FETCH_SCHEMA" name="FETCH_SCHEMA" value=""/>
@@ -353,10 +355,10 @@
     <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMongoDBOutput_1">
-      <column comment="" key="false" length="4" name="account_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="district_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="frequency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="date" nullable="true" pattern="&quot;yyMMdd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="account_id" nullable="false" originalDbColumnName="0000" originalLength="-1" pattern="" precision="-1" sourceType="String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="district_id" nullable="false" originalDbColumnName="0001" originalLength="-1" pattern="" precision="-1" sourceType="String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="frequency" nullable="false" originalDbColumnName="0002" originalLength="-1" pattern="" precision="-1" sourceType="String" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="date" nullable="false" originalDbColumnName="0003" originalLength="-1" pattern="" precision="-1" sourceType="String" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
@@ -384,7 +386,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDataprepRun_1" offsetLabelX="0" offsetLabelY="0" source="tDataprepRun_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDataprepRun_1" offsetLabelX="3" offsetLabelY="1" source="tDataprepRun_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
@@ -407,13 +409,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53a0b9e6-29e8-4aea-8af0-654b24915c9b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dDEdAcCbKqNNH37vDCwvAfpEc+sC2xDKq47Z/0diTV5Gsc6xHxsVFodN3BAeGUsHEIhJSRATa7RS&#13;
-ljN4htDs6A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8d4990bc-868a-42b0-b60a-18a0dc249ef1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7FFoPl4GUiEzeQQBYpgiyZ/NWdChvV4vWbI63mXofR8rdlYa1/RAkg1lJ166e/wkDY2ubODNb4S0&#13;
-iGKA0JydnA==</DigestValue></Reference></SignedInfo><SignatureValue>P0+lw4OXIjgb0t0ALGsLJokRhU5iFlG11I7PPgv3XSqHGqHqb9zYnd6rKINwZb+YhScI3uGuW+xn&#13;
-NDh6cB9fYXp/bcIrLNiOHGbfCvAqjaqjmAOs6KjMS5KGkcH77DoLZb0eQ7XfWO3a5765MNzzGDdS&#13;
-jDwtQZe/Ho9Q7dBMQFsL4+GY6TgKF3gurMpjKuwf+5t/N2NrI/l303QNWZ3DaKWa2SAtvufOWllh&#13;
-0td3SanAiUDWSEnlK2CWDwNyzZT+v8qZBvF+YuQoCu61vlkStinWLNd/4XXkDxd0XLgcBbY4XWxr&#13;
-V6tELarcj7rLBSlewbQXGfOIf4Is7GCprMFJ1g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bec1f2c1-c9f3-4f3c-95e9-082b4fa5097e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lc4xtTybRmnLVnyVgRZo4Ir8T82rotXJ2h9YYmdCvRNNkTNcr0Fz+F15PHONCbPzTOFp/oxZmKe7&#13;
+G5OpmoL6rA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7e886741-8421-4947-b9da-26a5b2441a33"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OfOL9/AJabEd4lQDAlWqYbVtuHeVBcKeIIG+VrwLvQ9pSuy0BKal6KB9R0QLaRm2dEy2domqoFIy&#13;
+J/zewTIvfQ==</DigestValue></Reference></SignedInfo><SignatureValue>lWDN7kSMgMkc1fq8/2qhIU/ohn7dvNVTYa5ajo7RA2LRHulCndi5kIbMua4cYc89bas4Yzocqf9o&#13;
+wozjyuLRRDa6XZuYNTteKYBSakp1BiVlMZ8QVBq9X2cOTr3UwwQWJgXzh2EH5YwGPQXdiBF7cQNe&#13;
+/chRa7I5X7W/ZY32OUoKaWntjJwDynZJ+SQRMhPINqaPrDbgA1QixryvSypvdFLq8mimREQFtRw0&#13;
+0fLc2LeWngFHQY0h9AV5l2JEnUC9g7SlnrtzoUTlkoQYClFe0y1gYeV6y9Akm4QBSxS7qD21qdKu&#13;
+HHU9EeQuyV4XsLWFpNtAlcFftheNDJ9eg6QryQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -435,4 +437,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8d4990bc-868a-42b0-b60a-18a0dc249ef1" Target="#_53a0b9e6-29e8-4aea-8af0-654b24915c9b"><Timestamp>2023-09-05 03:19:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7e886741-8421-4947-b9da-26a5b2441a33" Target="#_bec1f2c1-c9f3-4f3c-95e9-082b4fa5097e"><Timestamp>2023-09-05 06:53:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
