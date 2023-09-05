@@ -1,5 +1,28 @@
 [ {
   "baseItem" : {
+    "id" : "_-oG4wEiQEe6p-Ngmc4s3Fg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_te3ncEZBEe6DabcNpGtBLw - loan",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_BbFbEEY-Ee6DabcNpGtBLw",
     "version" : "0.1",
     "type" : "job"
@@ -14,6 +37,48 @@
     "type" : "context"
   }, {
     "id" : "_Nsz-UEYxEe6DabcNpGtBLw - account",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ED7NkErIEe6U-eUL53IKpw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_fbpzsErIEe6U-eUL53IKpw - District",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Is_BYEhtEe6HgsX9pfXYKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_J3B6YEZDEe6DabcNpGtBLw - Disposition",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -150,6 +215,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_u_XXYEiSEe6p-Ngmc4s3Fg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Elbg4EiTEe6p-Ngmc4s3Fg - Transaction",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_z1164EbhEe6xJusnshqK-Q",
     "version" : "0.1",
     "type" : "job"
@@ -162,6 +246,10 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "A04_clientTstandardizerow_1",
+    "version" : "Latest",
+    "type" : "routine"
   }, {
     "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
     "version" : "Latest",

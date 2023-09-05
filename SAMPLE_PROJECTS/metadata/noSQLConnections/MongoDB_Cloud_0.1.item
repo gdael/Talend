@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendNoSQLMetadata:NoSQLConnection xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:xmi="http://www.omg.org/XMI" dbType="MONGODB" label="MongoDB_Cloud" name="MongoDB_Cloud" xmi:id="_Pir-0Eh2Ee6EWew8PbyVrg" xmi:version="2.0">
+  <attributes key="DB_VERSION" value="MONGODB_4_4_X" xmi:id="_cqCvcEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="HOST" value="mongodb://atlas-sql-64c31f5c1de43a6e7a8757b7-5fhey.a.query.mongodb.net/SampleDB?ssl=true&amp;authSource=admin" xmi:id="_cqCvcUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="PORT" value="27017" xmi:id="_cqCvckieEe6p-Ngmc4s3Fg"/>
+  <attributes key="DATABASE" value="SampleDB" xmi:id="_cqCvc0ieEe6p-Ngmc4s3Fg"/>
+  <attributes key="USE_CONNECTION_STRING" value="true" xmi:id="_cqCvdEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="CONNECTION_STRING" value="mongodb+srv://gdael:Justdoitnow123@mtc-db.ajoblxu.mongodb.net/" xmi:id="_cqCvdUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="REQUIRED_AUTHENTICATION" value="false" xmi:id="_cqCvdkieEe6p-Ngmc4s3Fg"/>
+  <attributes key="USERNAME" value="" xmi:id="_cqCvd0ieEe6p-Ngmc4s3Fg"/>
+  <attributes key="PASSWORD" value="" xmi:id="_cqCveEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="REQUIRED_ENCRYPTION" value="false" xmi:id="_cqCveUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="USE_REPLICA_SET" value="false" xmi:id="_cqCvekieEe6p-Ngmc4s3Fg"/>
+  <attributes key="AUTHENTICATION_MECHANISM" value="SCRAMSHA1_MEC" xmi:id="_cqCve0ieEe6p-Ngmc4s3Fg"/>
+  <attributes key="SET_AUTHENTICATION_DATABASE" value="false" xmi:id="_cqCvfEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="AUTHENTICATION_DATABASE" value="" xmi:id="_cqCvfUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="KRB_USER_PRINCIPAL" value="" xmi:id="_cqCvfkieEe6p-Ngmc4s3Fg"/>
+  <attributes key="KRB_REALM" value="" xmi:id="_cqCvf0ieEe6p-Ngmc4s3Fg"/>
+  <attributes key="KRB_KDC" value="" xmi:id="_cqCvgEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="SSLPEMKEYFILE" value="" xmi:id="_cqCvgUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="X509_CERT_KEYSTORE_PASSWORD" value="" xmi:id="_cqCvgkieEe6p-Ngmc4s3Fg"/>
+  <attributes key="USE_SSLCAFILE" value="false" xmi:id="_cqCvg0ieEe6p-Ngmc4s3Fg"/>
+  <attributes key="SSLCAFILE" value="" xmi:id="_cqCvhEieEe6p-Ngmc4s3Fg"/>
+  <attributes key="X509_CERT_AUTH_TRUSTSTORE_PASSWORD" value="" xmi:id="_cqCvhUieEe6p-Ngmc4s3Fg"/>
+  <attributes key="REPLICA_SET" value="[]" xmi:id="_cqCvhkieEe6p-Ngmc4s3Fg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8b4b9b89-e9c2-448f-ab89-f84c71862c48"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OzBJBpr1r6ZVsYcYs4jwx4KHdVdV5VhDGkWX4SRVHY3MBY2wO41KiV5isrm+e9ObLPDSIBEt0cas&#13;
+nM0EVzoa5g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9b6fba9-e804-4e75-89ff-5b22e5fd29c4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>12V65/2skLHdTrwipccGTzkgIO2Qddl3IusbKMgb4K61p1fNtm9em/znkO2mEiMJL9urZFOIEKL+&#13;
+tfviYmUoYQ==</DigestValue></Reference></SignedInfo><SignatureValue>D+F7M7p0w7aO24V5omW5BkcxJplYAmfyeYWJuiPV/hDPvJ+dhVXW3DC6ZJDOkg24zdeniGTqbIRJ&#13;
+YQ2LJ+KPH1EwS5iI7DEQiBvXfMoQ9U3y+EbLpjsp/0bm1wfXbmNA3m6SLD0nVR4BGMPq7S7TWKAs&#13;
+9mAsm0Bm7sTONKW6j6waXmbA1a8/LLwuh0CEx6L7WxJK8lxWhRwcl3zjOQHuTB17/SAuYoo0y2aa&#13;
+YSlqdFI3ynMcYjXpzKy/LbySQThU1mRSBfHc02gQFqCmA1Up+4Pwx1ANsgt+kOrrflUrCcR6baHD&#13;
+Kfn/BB+USHD0Evb6QN+jkKlLn4gkqZKqRrnBig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9b6fba9-e804-4e75-89ff-5b22e5fd29c4" Target="#_8b4b9b89-e9c2-448f-ab89-f84c71862c48"><Timestamp>2023-09-05 01:48:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendNoSQLMetadata:NoSQLConnection>

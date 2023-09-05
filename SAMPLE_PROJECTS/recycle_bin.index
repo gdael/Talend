@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/Sample</deletedFolders>
-  <deletedFolders>process/Sample/Bank_dataset_sample</deletedFolders>
-  <deletedItems id="_BbFbEEY-Ee6DabcNpGtBLw" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_Is_BYEhtEe6HgsX9pfXYKA" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_O0ekcEZGEe6DabcNpGtBLw" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_Q7dHwEY1Ee6DabcNpGtBLw" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_SxFggEbhEe6_lJuzHrbHJQ" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_T-vPYEYxEe6DabcNpGtBLw" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_siTuAEZAEe6DabcNpGtBLw" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-  <deletedItems id="_z1164EbhEe6xJusnshqK-Q" path="Sample/Bank_dataset_sample" type="PROCESS"/>
-</recyclebin:RecycleBin>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
