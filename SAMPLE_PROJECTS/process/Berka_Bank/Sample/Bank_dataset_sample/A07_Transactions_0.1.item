@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Glenn" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_JFiPAEiTEe6p-Ngmc4s3Fg" name="ServerIP" prompt="ServerIP?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="10.10.10.109"/>
-    <contextParameter comment="" internalId="_JFiPAUiTEe6p-Ngmc4s3Fg" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
-    <contextParameter comment="" internalId="_JFiPAkiTEe6p-Ngmc4s3Fg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:VEuO9Din1XgSlJ1B0hGpFzNRNPp5CfWgT/Pd6WTkfx0jOUgQKN/q2x4O4g=="/>
-    <contextParameter comment="" internalId="_JFi2EEiTEe6p-Ngmc4s3Fg" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="\\10.10.10.109\Users\g.dael\Documents\SampleData\Berka"/>
-    <contextParameter comment="" internalId="_JFi2EUiTEe6p-Ngmc4s3Fg" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com/data-preparation"/>
-    <contextParameter comment="" internalId="_JFi2EkiTEe6p-Ngmc4s3Fg" name="Filename" prompt="Filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trans.asc"/>
-  </context>
   <context confirmationNeeded="false" name="Glenn">
-    <contextParameter comment="" internalId="_JFi2EkiTEe6p-Ngmc4s3Fg" name="Filename" prompt="Filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trans.asc"/>
-    <contextParameter comment="" internalId="_ajpj8Eq9Ee6U-eUL53IKpw" name="ServerIP" prompt="ServerIP?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="10.10.10.109"/>
-    <contextParameter comment="" internalId="_ajpj8Uq9Ee6U-eUL53IKpw" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
-    <contextParameter comment="" internalId="_ajpj8kq9Ee6U-eUL53IKpw" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:z4Azu/14xWI4/oqarNwHE3B6fioeGigcTEt83bsfygikVfUcVe7Za9snSA=="/>
-    <contextParameter comment="" internalId="_ajpj80q9Ee6U-eUL53IKpw" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="D:\01. Data Integration\Talend\Training Materials\Sample Data\Bank Dataset Sample\data_berka"/>
-    <contextParameter comment="" internalId="_ajpj9Eq9Ee6U-eUL53IKpw" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com"/>
+    <contextParameter comment="" internalId="_DSN7YEuaEe6CRLSLK0eDIQ" name="ServerIP" prompt="ServerIP?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="10.10.10.109"/>
+    <contextParameter comment="" internalId="_DSN7YUuaEe6CRLSLK0eDIQ" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
+    <contextParameter comment="" internalId="_DSN7YkuaEe6CRLSLK0eDIQ" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:LChmhgO/TLLLCsZnWX/eQoxcTnKmcT0QhDCaM9/jnFMN1cXJnmjL8Q5Dxg=="/>
+    <contextParameter comment="" internalId="_DSN7Y0uaEe6CRLSLK0eDIQ" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="D:\01. Data Integration\Talend\Training Materials\Sample Data\Bank Dataset Sample\data_berka"/>
+    <contextParameter comment="" internalId="_DSN7ZEuaEe6CRLSLK0eDIQ" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com"/>
+    <contextParameter comment="" internalId="_DSN7ZUuaEe6CRLSLK0eDIQ" name="DataSteward_Cloud" prompt="DataSteward_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tds.ap.cloud.talend.com/data-stewardship"/>
+    <contextParameter comment="" internalId="_DSN7ZkuaEe6CRLSLK0eDIQ" name="Filename" prompt="Filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trans.asc"/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_DSN7Z0uaEe6CRLSLK0eDIQ" name="ServerIP" prompt="ServerIP?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="10.10.10.109"/>
+    <contextParameter comment="" internalId="_DSN7aEuaEe6CRLSLK0eDIQ" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="g.dael@mtc.local"/>
+    <contextParameter comment="" internalId="_DSN7aUuaEe6CRLSLK0eDIQ" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Password" value="enc:system.encryption.key.v1:kJVOWtgLaOMT0V9A9k1uZozIHLeNtvKwCcS+aXA5daN0VemaZlDKvFw9FA=="/>
+    <contextParameter comment="" internalId="_DSN7akuaEe6CRLSLK0eDIQ" name="File_Directory" prompt="File_Directory?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_Directory" value="\\10.10.10.109\Users\g.dael\Documents\SampleData\Berka"/>
+    <contextParameter comment="" internalId="_DSN7a0uaEe6CRLSLK0eDIQ" name="DataPrep_Cloud" prompt="DataPrep_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tdp.ap.cloud.talend.com/data-preparation"/>
+    <contextParameter comment="" internalId="_DSN7bEuaEe6CRLSLK0eDIQ" name="DataSteward_Cloud" prompt="DataSteward_Cloud?" promptNeeded="false" repositoryContextId="_V8JBIEY6Ee6DabcNpGtBLw" type="id_String" value="https://tds.ap.cloud.talend.com/data-stewardship"/>
+    <contextParameter comment="" internalId="_DSN7bUuaEe6CRLSLK0eDIQ" name="Filename" prompt="Filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trans.asc"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -112,21 +114,21 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_qFxRYEh1Ee6EWew8PbyVrg" name="DQTechnical"/>
-    <routinesParameter id="_qE2EUEh1Ee6EWew8PbyVrg" name="DataMasking"/>
-    <routinesParameter id="_yqGHEEhuEe6fg_dIOzmc6w" name="DataOperation"/>
-    <routinesParameter id="_qFK0cEh1Ee6EWew8PbyVrg" name="DataQualityDependencies"/>
-    <routinesParameter id="_qFC4oEh1Ee6EWew8PbyVrg" name="DataQuality"/>
-    <routinesParameter id="_qFXBsEh1Ee6EWew8PbyVrg" name="DqStringHandling"/>
-    <routinesParameter id="_yqPRAEhuEe6fg_dIOzmc6w" name="Mathematical"/>
-    <routinesParameter id="_yqXM0EhuEe6fg_dIOzmc6w" name="Numeric"/>
-    <routinesParameter id="_yqehkEhuEe6fg_dIOzmc6w" name="Relational"/>
-    <routinesParameter id="_ypkioEhuEe6fg_dIOzmc6w" name="SQLike"/>
-    <routinesParameter id="_yqoSkEhuEe6fg_dIOzmc6w" name="StringHandling"/>
-    <routinesParameter id="_yqwOYEhuEe6fg_dIOzmc6w" name="TalendDataGenerator"/>
-    <routinesParameter id="_yq5_YEhuEe6fg_dIOzmc6w" name="TalendDate"/>
-    <routinesParameter id="_yrP9oEhuEe6fg_dIOzmc6w" name="TalendStringUtil"/>
-    <routinesParameter id="_yrIo4EhuEe6fg_dIOzmc6w" name="TalendString"/>
+    <routinesParameter id="_9JVw8EDKEe61wIHm7r1X3Q" name="DataOperation"/>
+    <routinesParameter id="_9Je64EDKEe61wIHm7r1X3Q" name="Mathematical"/>
+    <routinesParameter id="_9Jor4EDKEe61wIHm7r1X3Q" name="Numeric"/>
+    <routinesParameter id="_9J5KkEDKEe61wIHm7r1X3Q" name="Relational"/>
+    <routinesParameter id="_9I5FAEDKEe61wIHm7r1X3Q" name="SQLike"/>
+    <routinesParameter id="_9J_4QEDKEe61wIHm7r1X3Q" name="StringHandling"/>
+    <routinesParameter id="_9KH0EEDKEe61wIHm7r1X3Q" name="TalendDataGenerator"/>
+    <routinesParameter id="_9KPI0EDKEe61wIHm7r1X3Q" name="TalendDate"/>
+    <routinesParameter id="_9KeZYEDKEe61wIHm7r1X3Q" name="TalendStringUtil"/>
+    <routinesParameter id="_9KWdkEDKEe61wIHm7r1X3Q" name="TalendString"/>
+    <routinesParameter id="_ZvELoEuJEe6RmNSsM6HtUQ" name="DQTechnical"/>
+    <routinesParameter id="_ZuT9sEuJEe6RmNSsM6HtUQ" name="DataMasking"/>
+    <routinesParameter id="_Zu5zkEuJEe6RmNSsM6HtUQ" name="DqStringHandling"/>
+    <routinesParameter id="_ZupU4EuJEe6RmNSsM6HtUQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_Zufj4EuJEe6RmNSsM6HtUQ" name="DataQuality"/>
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
@@ -268,12 +270,12 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="672" posY="128">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_u_XXYEiSEe6p-Ngmc4s3Fg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_SxFggEbhEe6_lJuzHrbHJQ-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -328,19 +330,19 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="128">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
     <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="trans_id"/>
       <elementValue elementRef="LENGTH" value="10"/>
@@ -379,8 +381,8 @@
       <column comment="" key="false" length="10" name="account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_2"/>
+  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_4_4_X"/>
@@ -404,7 +406,7 @@
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="SET_X509_USERNAME" show="false" value="false"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:DvGfLsqrNIEOY9GwQM59FeWdaQWrWELKlvtG54q3"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:XocEZPXtGF8ya+d3pgW3O3iGDclELeLbijtRlJ/s"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -480,9 +482,8 @@
     <elementParameter field="TEXT" name="QUERY_NODE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="NODES" show="false"/>
     <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;Load to DB&lt;/b&gt;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Transaction" name="tMongoDBOutput_2">
+    <metadata connector="FLOW" label="Transaction" name="tMongoDBOutput_1">
       <column comment="" key="false" length="7" name="trans_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="account_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -504,104 +505,6 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_1"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_4_4_X"/>
-    <elementParameter field="CHECK" name="USE_CONNECTION_STRING" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_STRING" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
-    <elementParameter field="TABLE" name="REPLICA_SET" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="27017"/>
-    <elementParameter field="TEXT" name="DATABASE" value="&quot;Bank_Berka&quot;"/>
-    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
-    <elementParameter field="CHECK" name="SET_WRITE_CONCERN" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="WRITE_CONCERN" show="false" value="ACKNOWLEDGED"/>
-    <elementParameter field="LABEL" name="WRITE_CONCERN_NOTE" show="false" value="Note : Use Connection component to set Write Concern"/>
-    <elementParameter field="CHECK" name="SET_BULK_WRITE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="BULK_WRITE_TYPE" show="false" value="Unordered"/>
-    <elementParameter field="TEXT" name="BULK_WRITE_SIZE" show="false" value="&quot;1000&quot;"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SET_X509_USERNAME" show="false" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:N1hNcsglajvNLpLY5Ux5yq/Ho9D4IKZi2Xq7agfm"/>
-    <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
-    <elementParameter field="TEXT" name="COLLECTION" value="&quot;Client&quot;"/>
-    <elementParameter field="CHECK" name="DROP_COLLECTION_CREATE" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="CHECK" name="UPDATE_ALL" show="false" value="false"/>
-    <elementParameter field="CHECK" name="DELETE_ALL" show="false" value="false"/>
-    <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="client_id"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="birthdate"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="district_id"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="gender"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="firstname"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="lastname"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="QUERYOPTION_NOTIMEOUT" show="false" value="false"/>
-    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
-    <elementParameter field="TABLE" name="ROOT" show="false"/>
-    <elementParameter field="TABLE" name="GROUP" show="false"/>
-    <elementParameter field="TABLE" name="LOOP" show="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" show="false" value=""/>
-    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" show="false" value="true"/>
-    <elementParameter field="CHECK" name="IGNORE_SERVICE_ATTRIBUTES_FOR_EMPTY" show="false" value="false"/>
-    <elementParameter field="TABLE" name="GROUPBYS" show="false"/>
-    <elementParameter field="CHECK" name="REMOVE_ROOT" show="false" value="true"/>
-    <elementParameter field="TEXT" name="DATA_NODE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="QUERY_NODE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TABLE" name="NODES" show="false"/>
-    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;Load to DB&lt;/b&gt;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tMongoDBOutput_1">
-      <column comment="" key="false" length="2" name="client_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="birthdate" nullable="true" pattern="&quot;MM-dd-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="district_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="gender" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="firstname" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="lastname" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="email" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileExist_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
@@ -620,15 +523,10 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <connection connectorName="FLOW" label="Result" lineStyle="0" metaname="Result" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="operation_1"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Result"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tMongoDBOutput_2">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tMongoDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
@@ -647,18 +545,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8f9753a9-2a5e-4b21-965a-e0caa779fbd6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g8JcE1osHCE9PLKlEXW0afDuWJMajZEllxzA9SxWaxpfKHJHqLo3AqYuvGNzUbfKDvLKYCutU4eo&#13;
-C3yNJfq+DA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8c777510-8d63-4236-a9d4-4479ae3168e7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oEyqoeA9xvV0Hp9GazJbUwieDm9q7fdiI9wRdZh6me8+PyWK1K3/UbItLNTKI0o1HOd/TEO65mYS&#13;
-cDMP1/opuw==</DigestValue></Reference></SignedInfo><SignatureValue>R3Im2fpA2NBascw/wq4IY/g8NdK32ffb2KyPsfzhvdqHmOr7qyRjmsZsn5G+ecvSy+nqk7loUfDd&#13;
-Canj3ZYMgCWP9ij4NnfNhDzFJDO3onoPOzL3V5oLOVEk1FtbICLs9wJ6uldgfFoZEMoeJK/JKRDP&#13;
-kjUj1dJCEKD+gc6qRNKT008pjOKqBxc6IylO9LpZ+OO7u3arIIbOz60yJktrjnxQLMxXOrGVqapd&#13;
-+4LAO3lnWLXZZwKY8Cmu6Du7dQHuw6zjmGGXK8m7ErvgwjiOciiUENBuqiSOHJ2vralBYQv/joJi&#13;
-q2d0R3baQuteYM7BeqRXKyNMpul44w4tppQ1vg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_88718384-4ce7-41d4-b6c3-ab5068798079"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yT8WJmjNhf5//x3TN61N5AEVZ+P4PKUge5CwxqrgIfTVWo8AO09JzMjQplY3wXCtCX7fwg7iRwRH&#13;
+3r7Ni86w/w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_963c10a6-b79d-43e9-8fc0-eabbf5b8dbac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jn8qBpp2rDh/uDKaECPRY1EvjIUtEIhpaO0QtgQFSktPIWDUug2hwxX4Gi5cdGOFW900ILSEg88q&#13;
+T8zRcyawPQ==</DigestValue></Reference></SignedInfo><SignatureValue>opIbX1D5RgRGhvDQ2upeq5vMSDiU273pWFNEM4alr5B/nahC6xzTewQVB+f7Qo/kGkF0+zk1SDd9&#13;
+n8uaSxtpiEMp0UKVVKGakLR/pFhJWEx28i59l+YJZYAxxspoyNQEULo8cx0I8B0K9L1ZBQUK7dnb&#13;
+yRdSVeGfhYC2duHC6jJsy19b1ZThADCvFiW7DfXWYJkwyagU6ump5asHRP10EUXIwoRmwPRP1iHX&#13;
+nn24QJiqG0IsZdChuzLZDfpiGR+CwzwkzAMFOdpueZO/2PwjtxibJm8623wcpYhvKMI1maqsP76Q&#13;
+QrOi6WOa9F/noIBjol+za7S8hXUPi5dPArpNcQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -680,4 +573,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8c777510-8d63-4236-a9d4-4479ae3168e7" Target="#_8f9753a9-2a5e-4b21-965a-e0caa779fbd6"><Timestamp>2023-09-05 02:39:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_963c10a6-b79d-43e9-8fc0-eabbf5b8dbac" Target="#_88718384-4ce7-41d4-b6c3-ab5068798079"><Timestamp>2023-09-05 03:03:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

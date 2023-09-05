@@ -139,19 +139,15 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_J3B6YEZDEe6DabcNpGtBLw",
+    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
     "version" : "Latest",
-    "type" : "property"
+    "type" : "context"
   }, {
-    "id" : "_mIou0EZDEe6DabcNpGtBLw",
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "property"
+    "type" : "context"
   }, {
-    "id" : "_J3B6YEZDEe6DabcNpGtBLw - Disposition",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "id" : "_Elbg4EiTEe6p-Ngmc4s3Fg - Transaction",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -210,25 +206,6 @@
     "type" : "schema"
   }, {
     "id" : "_te3ncEZBEe6DabcNpGtBLw - loan",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_u_XXYEiSEe6p-Ngmc4s3Fg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_V8JBIEY6Ee6DabcNpGtBLw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_Elbg4EiTEe6p-Ngmc4s3Fg - Transaction",
     "version" : "Latest",
     "type" : "schema"
   } ]

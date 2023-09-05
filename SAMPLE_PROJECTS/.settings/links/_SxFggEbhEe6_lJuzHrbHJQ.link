@@ -1,0 +1,48 @@
+{
+  "itemId" : "_SxFggEbhEe6_lJuzHrbHJQ",
+  "contextList" : [ {
+    "contextName" : "Glenn",
+    "repoId" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "parameterList" : [ {
+      "id" : "_apEPcUq9Ee6U-eUL53IKpw",
+      "name" : "ServerIP"
+    }, {
+      "id" : "_apEPckq9Ee6U-eUL53IKpw",
+      "name" : "Username"
+    }, {
+      "id" : "_apEPc0q9Ee6U-eUL53IKpw",
+      "name" : "Password"
+    }, {
+      "id" : "_apEPdEq9Ee6U-eUL53IKpw",
+      "name" : "File_Directory"
+    }, {
+      "id" : "_apEPdkq9Ee6U-eUL53IKpw",
+      "name" : "DataPrep_Cloud"
+    }, {
+      "id" : "_apEPd0q9Ee6U-eUL53IKpw",
+      "name" : "DataSteward_Cloud"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_V8JBIEY6Ee6DabcNpGtBLw",
+    "parameterList" : [ {
+      "id" : "_V8pXcUY6Ee6DabcNpGtBLw",
+      "name" : "ServerIP"
+    }, {
+      "id" : "_V8pXc0Y6Ee6DabcNpGtBLw",
+      "name" : "Username"
+    }, {
+      "id" : "_V8pXdEY6Ee6DabcNpGtBLw",
+      "name" : "Password"
+    }, {
+      "id" : "_mHEH4EZLEe6DabcNpGtBLw",
+      "name" : "File_Directory"
+    }, {
+      "id" : "_PzIuQEh5Ee6p-Ngmc4s3Fg",
+      "name" : "DataPrep_Cloud"
+    }, {
+      "id" : "_VAlt8EiiEe6p-Ngmc4s3Fg",
+      "name" : "DataSteward_Cloud"
+    } ]
+  } ]
+}
