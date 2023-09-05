@@ -298,7 +298,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.TRIM(row1.operation.replaceAll(&quot;\&quot;&quot;,&quot;&quot;)) " name="operation_temp" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Var.operation_temp.equals(&quot;VYBER KARTOU&quot;)?&quot;credit card withdrawal&quot;:Var.operation_temp.equals(&quot;VKLAD&quot;)?&quot;credit in cash&quot;:Var.operation_temp.equals(&quot;PREVOD Z UCTU&quot;)?&quot;collection from another bank&quot;:Var.operation_temp.equals(&quot;VYBER&quot;)?&quot;withdrawal in cash&quot;:Var.operation_temp.equals(&quot;PREVOD NA UCET&quot;)?&quot;remittance to another bank&quot;:null; " name="operation" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.operation_temp.equals(&quot;VYBER KARTOU&quot;)?&quot;credit card withdrawal&quot;:Var.operation_temp.equals(&quot;VKLAD&quot;)?&quot;credit in cash&quot;:Var.operation_temp.equals(&quot;PREVOD Z UCTU&quot;)?&quot;collection from another bank&quot;:Var.operation_temp.equals(&quot;VYBER&quot;)?&quot;withdrawal in cash&quot;:Var.operation_temp.equals(&quot;PREVOD NA UCET&quot;)?&quot;remittance to another bank&quot;:null " name="operation" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.type.replaceAll(&quot;\&quot;&quot;,&quot;&quot;) " name="type_temp" nullable="true" type="id_String"/>
         <mapperTableEntries expression="Var.type_temp==&quot;PRIJEM&quot;?&quot;credit&quot;:&quot;withdrawal&quot; " name="type" nullable="true" type="id_String"/>
       </varTables>
@@ -367,6 +367,122 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Transaction" name="tLogRow_1">
+      <column comment="" key="false" length="7" name="trans_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="account_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="operation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="k_symbol" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="bank" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_4_4_X"/>
+    <elementParameter field="CHECK" name="USE_CONNECTION_STRING" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_STRING" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
+    <elementParameter field="TABLE" name="REPLICA_SET" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="27017"/>
+    <elementParameter field="TEXT" name="DATABASE" value="&quot;Bank_Berka&quot;"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="CHECK" name="SET_WRITE_CONCERN" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="WRITE_CONCERN" show="false" value="ACKNOWLEDGED"/>
+    <elementParameter field="LABEL" name="WRITE_CONCERN_NOTE" show="false" value="Note : Use Connection component to set Write Concern"/>
+    <elementParameter field="CHECK" name="SET_BULK_WRITE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="BULK_WRITE_TYPE" show="false" value="Unordered"/>
+    <elementParameter field="TEXT" name="BULK_WRITE_SIZE" show="false" value="&quot;1000&quot;"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
+    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="SET_X509_USERNAME" show="false" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:DvGfLsqrNIEOY9GwQM59FeWdaQWrWELKlvtG54q3"/>
+    <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
+    <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
+    <elementParameter field="TEXT" name="COLLECTION" value="&quot;Transaction&quot;"/>
+    <elementParameter field="CHECK" name="DROP_COLLECTION_CREATE" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="UPDATE_ALL" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DELETE_ALL" show="false" value="false"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="trans_id"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_id"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="type"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="operation"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="amount"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="balance"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="k_symbol"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="bank"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="QUERYOPTION_NOTIMEOUT" show="false" value="false"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="TABLE" name="ROOT" show="false"/>
+    <elementParameter field="TABLE" name="GROUP" show="false"/>
+    <elementParameter field="TABLE" name="LOOP" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" show="false" value=""/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" show="false" value="true"/>
+    <elementParameter field="CHECK" name="IGNORE_SERVICE_ATTRIBUTES_FOR_EMPTY" show="false" value="false"/>
+    <elementParameter field="TABLE" name="GROUPBYS" show="false"/>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="DATA_NODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_NODE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="NODES" show="false"/>
+    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;Load to DB&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Transaction" name="tMongoDBOutput_2">
       <column comment="" key="false" length="7" name="trans_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="account_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -486,123 +602,6 @@
       <column comment="" key="false" length="-1" name="email" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_4_4_X"/>
-    <elementParameter field="CHECK" name="USE_CONNECTION_STRING" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_STRING" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
-    <elementParameter field="TABLE" name="REPLICA_SET" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="27017"/>
-    <elementParameter field="TEXT" name="DATABASE" value="&quot;Bank_Berka&quot;"/>
-    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
-    <elementParameter field="CHECK" name="SET_WRITE_CONCERN" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="WRITE_CONCERN" show="false" value="ACKNOWLEDGED"/>
-    <elementParameter field="LABEL" name="WRITE_CONCERN_NOTE" show="false" value="Note : Use Connection component to set Write Concern"/>
-    <elementParameter field="CHECK" name="SET_BULK_WRITE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="BULK_WRITE_TYPE" show="false" value="Unordered"/>
-    <elementParameter field="TEXT" name="BULK_WRITE_SIZE" show="false" value="&quot;1000&quot;"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MECHANISM" show="false" value="NEGOTIATE_MEC"/>
-    <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SET_X509_USERNAME" show="false" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:DvGfLsqrNIEOY9GwQM59FeWdaQWrWELKlvtG54q3"/>
-    <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
-    <elementParameter field="TEXT" name="COLLECTION" value="&quot;Transaction&quot;"/>
-    <elementParameter field="CHECK" name="DROP_COLLECTION_CREATE" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="CHECK" name="UPDATE_ALL" show="false" value="false"/>
-    <elementParameter field="CHECK" name="DELETE_ALL" show="false" value="false"/>
-    <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="trans_id"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="account_id"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="type"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="operation"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="amount"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="balance"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="k_symbol"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="bank"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="account"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
-      <elementValue elementRef="REMOVE_NULL_FIELD" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="QUERYOPTION_NOTIMEOUT" show="false" value="false"/>
-    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
-    <elementParameter field="TABLE" name="ROOT" show="false"/>
-    <elementParameter field="TABLE" name="GROUP" show="false"/>
-    <elementParameter field="TABLE" name="LOOP" show="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" show="false" value=""/>
-    <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" show="false" value="true"/>
-    <elementParameter field="CHECK" name="IGNORE_SERVICE_ATTRIBUTES_FOR_EMPTY" show="false" value="false"/>
-    <elementParameter field="TABLE" name="GROUPBYS" show="false"/>
-    <elementParameter field="CHECK" name="REMOVE_ROOT" show="false" value="true"/>
-    <elementParameter field="TEXT" name="DATA_NODE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="QUERY_NODE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TABLE" name="NODES" show="false"/>
-    <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;Load to DB&lt;/b&gt;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Transaction" name="tMongoDBOutput_2">
-      <column comment="" key="false" length="7" name="trans_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="account_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="operation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="balance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="k_symbol" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="bank" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileExist_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
@@ -631,7 +630,6 @@
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tMongoDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <subjob>
@@ -654,18 +652,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMongoDBOutput_2"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1649f3a7-4e41-40ac-983c-2fc4bf607bf0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gH8eNpQrGLiEWEUpe2R5HPzoCJgGTSWMtKM+SWZ6mnhpV81lxtOw0U/0NYcZl2YiziVdpCRQix0y&#13;
-eZP9xXGb8g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3dfd28f9-37d6-46b6-b162-6e5657d35755"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cxNYshnyug/Q4etIDTuOXS6BS+D+qdPRaAhWLvhWIXFR8lRW1EGbnH+3RSP0aoOqPp9Nsi0nhBxO&#13;
-EFIFIS2Suw==</DigestValue></Reference></SignedInfo><SignatureValue>FMh9mrlFpUYswBh3eHvqYgFBMTcYksJeJKlVN44F821jtFaT0/g5OhqpANGoHt2RUZW0dppa9PgR&#13;
-C4FpCQBiGnFuq0BQLpHj3E+uEehrPYQn1TnwifZWCgxp+758HxHDy1YTroXAKyvVfaE31vNd8ubN&#13;
-qTooAo7TxqhI54sZDGtQvumfGszuQZWqEL7HKAM3lV5UBspea9Yf7jltUrI0Ht/uaZqBnLc4MVUR&#13;
-4QwqaIWyLK1CpLOaayByJlR3Me9CFRRPDkM9Sl0ZQi57ZECDgRd48M4/ptdniSm+s593CMoXW7L4&#13;
-YdJ0wFjtjGPxCi/IxMZj6KJByspUlJw2E7SKEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8f9753a9-2a5e-4b21-965a-e0caa779fbd6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g8JcE1osHCE9PLKlEXW0afDuWJMajZEllxzA9SxWaxpfKHJHqLo3AqYuvGNzUbfKDvLKYCutU4eo&#13;
+C3yNJfq+DA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8c777510-8d63-4236-a9d4-4479ae3168e7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oEyqoeA9xvV0Hp9GazJbUwieDm9q7fdiI9wRdZh6me8+PyWK1K3/UbItLNTKI0o1HOd/TEO65mYS&#13;
+cDMP1/opuw==</DigestValue></Reference></SignedInfo><SignatureValue>R3Im2fpA2NBascw/wq4IY/g8NdK32ffb2KyPsfzhvdqHmOr7qyRjmsZsn5G+ecvSy+nqk7loUfDd&#13;
+Canj3ZYMgCWP9ij4NnfNhDzFJDO3onoPOzL3V5oLOVEk1FtbICLs9wJ6uldgfFoZEMoeJK/JKRDP&#13;
+kjUj1dJCEKD+gc6qRNKT008pjOKqBxc6IylO9LpZ+OO7u3arIIbOz60yJktrjnxQLMxXOrGVqapd&#13;
++4LAO3lnWLXZZwKY8Cmu6Du7dQHuw6zjmGGXK8m7ErvgwjiOciiUENBuqiSOHJ2vralBYQv/joJi&#13;
+q2d0R3baQuteYM7BeqRXKyNMpul44w4tppQ1vg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -687,4 +680,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3dfd28f9-37d6-46b6-b162-6e5657d35755" Target="#_1649f3a7-4e41-40ac-983c-2fc4bf607bf0"><Timestamp>2023-09-05 02:35:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8c777510-8d63-4236-a9d4-4479ae3168e7" Target="#_8f9753a9-2a5e-4b21-965a-e0caa779fbd6"><Timestamp>2023-09-05 02:39:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
