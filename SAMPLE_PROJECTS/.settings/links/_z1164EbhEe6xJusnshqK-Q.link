@@ -24,6 +24,12 @@
     }, {
       "id" : "_93lj0ExLEe6cnOJn1U4frg",
       "name" : "Username_Cloud"
+    }, {
+      "id" : "_JhXyIEyTEe6cnOJn1U4frg",
+      "name" : "SMPT_Email"
+    }, {
+      "id" : "_JhXyIUyTEe6cnOJn1U4frg",
+      "name" : "SMPT_Password"
     } ]
   }, {
     "contextName" : "Glenn",
@@ -49,6 +55,12 @@
     }, {
       "id" : "_93mK4ExLEe6cnOJn1U4frg",
       "name" : "Username_Cloud"
+    }, {
+      "id" : "_JhXyIkyTEe6cnOJn1U4frg",
+      "name" : "SMPT_Email"
+    }, {
+      "id" : "_JhXyI0yTEe6cnOJn1U4frg",
+      "name" : "SMPT_Password"
     } ]
   } ]
 }
