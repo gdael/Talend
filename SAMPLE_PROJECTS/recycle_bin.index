@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/demo</deletedFolders>
+  <deletedItems id="_iLH9wEhvEe6UVM7nSwYNHA" path="Berka_Bank" type="PROCESS"/>
+  <deletedItems id="_P6YzcEuzEe6CRLSLK0eDIQ" path="Berka_Bank/Sample" type="PROCESS"/>
+  <deletedItems id="_QKNNUGZ8EeWm5YvsrIoYzQ" path="demo" type="PROCESS"/>
+</recyclebin:RecycleBin>
