@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_41VqMIQrEe6MKaVzKXwixQ" name="SMPC" creationDate="2023-11-16T10:57:32.752+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/SMPC/Column_Analysis/AMTS_EquipmentCardForms_0.1.ana#_tvMxUIQtEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_41VqMYQrEe6MKaVzKXwixQ" tag="Status" value="production"/>
+  <taggedValue xmi:id="_41VqMoQrEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_41VqM4QrEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_41VqNIQrEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_41VqNYQrEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_41VqNoQrEe6MKaVzKXwixQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_41VqN4QrEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_41VqOIQrEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_41VqOYQrEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_41VqOoQrEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_41VqO4QrEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_41VqPIQrEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_41VqPYQrEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_41VqPoQrEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_41VqP4QrEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:WkVUpLyRMsud5jK3A3To774WgQ8/F6zm0KZTcg=="/>
+  <taggedValue xmi:id="_41VqQIQrEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_41VqQYQrEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_41VqQoQrEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_41VqQ4QrEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_41VqRIQrEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_tu3aIIQtEe6MKaVzKXwixQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_tu3aIYQtEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_tu3aIoQtEe6MKaVzKXwixQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_tu3aI4QtEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="false"/>
+  <taggedValue xmi:id="_tu3aJYQtEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_tu5PUYQtEe6MKaVzKXwixQ" mustRefresh="true" reportType="Evolution">
+    <analysis href="../Analyses/SMPC/Column_Analysis/AMTS_EquipmentCardForms_0.1.ana#_vnugkYQqEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <context xmi:id="_tu3aJIQtEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

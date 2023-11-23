@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_yfC3sIRFEe6MKaVzKXwixQ" name="COCA" creationDate="2023-11-16T14:02:57.062+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/COCA_COCALists_0.1.ana#_5nVJAIRFEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/COCA_CocTransactions_0.1.ana#_5npSEIRFEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_yfC3sYRFEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_yfC3soRFEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_yfC3s4RFEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_yfC3tIRFEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_yfC3tYRFEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_yfC3toRFEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\COCA"/>
+  <taggedValue xmi:id="_yfC3t4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_yfC3uIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_yfC3uYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_yfC3uoRFEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_yfC3u4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_yfC3vIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_yfC3vYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_yfC3voRFEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_yfC3v4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:aGytGuRXLtI3Jey5d2kJaTZFsIsN21o6UobAtw=="/>
+  <taggedValue xmi:id="_yfC3wIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_yfC3wYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_yfC3woRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_yfC3w4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_yfC3xIRFEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_5nQ3kIRFEe6MKaVzKXwixQ" tag="OutputFileName" value="COCA"/>
+  <taggedValue xmi:id="_5nQ3kYRFEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_5nQ3koRFEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_5nQ3k4RFEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_5nQ3lYRFEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_5nQ3loRFEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/COCA_COCALists_0.1.ana#_UKuMUIQ_Ee6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_5nQ3l4RFEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/COCA_CocTransactions_0.1.ana#_7yby0IQ-Ee6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_8XotcIRFEe6MKaVzKXwixQ" executionDate="2023-11-16T14:04:23.946+0800" executionDuration="13837" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_5nQ3lIRFEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

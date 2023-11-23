@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_tVzcEIQ8Ee6MKaVzKXwixQ" name="MSSQL" creationDate="2023-11-16T12:57:57.070+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_AMTS_0.1.ana#_GcK8MIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_CMS_0.1.ana#_GcRp4IRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_COCADB_0.1.ana#_GcUtMIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_COCWEBDB_0.1.ana#_GceeMIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_ControlLogs_0.1.ana#_GciIkIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_EclearanceDB_0.1.ana#_GclL4IRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_EclearanceDB_SLPGC_0.1.ana#_Gco2QIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_IIS_0.1.ana#_Gcr5kIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_IIS_SLPGC_0.1.ana#_Gcvj8IRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_NAV_AMM_0.1.ana#_GcynQIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_OperationsDashboard_0.1.ana#_Gc2RoIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_PSDB_0.1.ana#_Gc58AIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_PTWorkDB_0.1.ana#_Gc9mYIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_TMS_0.1.ana#_GdBQwIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_TMS_SLPGC_0.1.ana#_GdEUEIRAEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_WDS_0.1.ana#_GdH-cIRAEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_tVzcEYQ8Ee6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report"/>
+  <taggedValue xmi:id="_tVzcEoQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_tVzcE4Q8Ee6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_5"/>
+  <taggedValue xmi:id="_tVzcFIQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value="10.10.10.108"/>
+  <taggedValue xmi:id="_tVzcFYQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_tVzcFoQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_tVzcF4Q8Ee6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_tVzcGIQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_tVzcGYQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_tVzcGoQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:QqCSyl5e/93jsy0d7JcfZqSFJ13+qa+hEEINxSr6HrmraDzzWt/G"/>
+  <taggedValue xmi:id="_tVzcG4Q8Ee6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_tVzcHIQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:mysql://10.10.10.108:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_tVzcHYQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.gjt.mm.mysql.Driver"/>
+  <taggedValue xmi:id="_tVzcHoQ8Ee6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_tVzcH4Q8Ee6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_tVzcIIQ8Ee6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_xFtcUIQ8Ee6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_xFtcUYQ8Ee6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_xFtcUoQ8Ee6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_xFuDYIQ8Ee6MKaVzKXwixQ" tag="OutputFileName" value="MSSQL"/>
+  <taggedValue xmi:id="_xFuDYYQ8Ee6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_xFuDYoQ8Ee6MKaVzKXwixQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_xFuDY4Q8Ee6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_xFuDZYQ8Ee6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_GcGqwIRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_AMTS_0.1.ana#_AgzHwIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqwYRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_CMS_0.1.ana#_exffEIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqwoRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_COCADB_0.1.ana#_iZT6UIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqw4RAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_COCWEBDB_0.1.ana#_nJwxkIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqxIRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_ControlLogs_0.1.ana#_r8_QAIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqxYRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_EclearanceDB_0.1.ana#_wIfnIIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqxoRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_EclearanceDB_SLPGC_0.1.ana#_0hmVYIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqx4RAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_IIS_0.1.ana#_3AbIQIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqyIRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_IIS_SLPGC_0.1.ana#_7rr9gIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcGqyYRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_NAV_AMM_0.1.ana#_ZS69kIQxEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR0IRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_OperationsDashboard_0.1.ana#_Bjtg0IQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR0YRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_PSDB_0.1.ana#_FVzSYIQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR0oRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_PTWorkDB_0.1.ana#_Lb34wIQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR04RAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_TMS_0.1.ana#_Z-l7UIQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR1IRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_TMS_SLPGC_0.1.ana#_dVC5wIQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_GcHR1YRAEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Overview/Catalog_Overview/Catalog_MSSQL_WDS_0.1.ana#_mKqPkIQyEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_eJZmgIRAEe6MKaVzKXwixQ" executionDate="2023-11-17T14:19:14.434+0800" executionDuration="263714" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_xFuDZIQ8Ee6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

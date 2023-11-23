@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="s02_match_matchingKey" pageWidth="528" pageHeight="182" columnWidth="528" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0f66b012-c9fb-40ee-8791-1d8f34b7a729">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="mysqlYue6"/>
+	<parameter name="RUN_TIME_FROM" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter from]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/1970").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="RUN_TIME_TO" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter to]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/2222").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="REP_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Report identifer]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_12sXABHnEeySNIcpVES4Fw"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ANA_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Analysis identifer]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_wPchQBFQEeymqeyQjpzCiA"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT 
+  TMK.ANALYSIS_PK ,
+  TMK.M_KEY_MATCHRULE_NAME,
+  TMK.M_KEY_NAME,
+  TMK.M_KEY_INPUT_COLUMN,
+  TMK.M_KEY_MATCHING_FUNCTION,
+  TMK.M_KEY_CUSTOM_MATCHER,
+  TMK.M_KEY_THRESHOLD,
+  TMK.M_KEY_TOKENNIZED_MEASURE,
+  TMK.M_KEY_HANDLE_NULL,
+  TMK.M_KEY_CONFIDENCE_WEIGHT,
+  TMK.M_KEY_MATCHRULE_THRESHOLD,
+  TMK.M_KEY_SURVIVORSHIP_FUNCTION,
+  TMK.M_KEY_REFERENCE_COLUMN,
+  TMK.M_KEY_PARAMETER,
+  TMK.AN_MATCH_THRESHOLD,
+  TMK.AN_RECORD_LINKAGE_ALGORITHM,
+  TMK.REP_RUNTIME 
+FROM TDQ_MATCHING_KEY TMK
+INNER JOIN  TDQ_ANALYSIS ANA  ON TMK.ANALYSIS_PK=ANA.AN_PK
+and ANA.REP_UUID=$P{REP_UUID} AND ANA.AN_UUID=$P{ANA_UUID}
+INNER JOIN TDQ_MATCHING_INDVALUE VAL ON TMK.ANALYSIS_PK=VAL.ANALYSIS_PK 
+ and TMK.REP_RUNTIME = VAL.REP_RUNTIME 
+ and VAL.AN_RUNTIME>=$P{RUN_TIME_FROM} AND VAL.AN_RUNTIME <=$P{RUN_TIME_TO}
+WHERE TMK.REP_RUNTIME in (
+  select max(rep_runtime) from TDQ_MATCHING_KEY
+  join TDQ_ANALYSIS ON TDQ_ANALYSIS.AN_PK=TDQ_MATCHING_KEY.ANALYSIS_PK
+  AND TDQ_ANALYSIS.REP_UUID=$P{REP_UUID} AND TDQ_ANALYSIS.AN_UUID=$P{ANA_UUID})]]>
+	</queryString>
+	<field name="M_KEY_MATCHRULE_NAME" class="java.lang.String"/>
+	<field name="M_KEY_NAME" class="java.lang.String"/>
+	<field name="M_KEY_INPUT_COLUMN" class="java.lang.String"/>
+	<field name="M_KEY_MATCHING_FUNCTION" class="java.lang.String"/>
+	<field name="M_KEY_CUSTOM_MATCHER" class="java.lang.String"/>
+	<field name="M_KEY_THRESHOLD" class="java.lang.Double"/>
+	<field name="M_KEY_TOKENNIZED_MEASURE" class="java.lang.String"/>
+	<field name="M_KEY_HANDLE_NULL" class="java.lang.String"/>
+	<field name="M_KEY_CONFIDENCE_WEIGHT" class="java.lang.Integer"/>
+	<field name="M_KEY_MATCHRULE_THRESHOLD" class="java.lang.Double"/>
+	<field name="M_KEY_SURVIVORSHIP_FUNCTION" class="java.lang.String"/>
+	<field name="M_KEY_REFERENCE_COLUMN" class="java.lang.String"/>
+	<field name="M_KEY_PARAMETER" class="java.lang.String"/>
+	<field name="AN_MATCH_THRESHOLD" class="java.lang.Double"/>
+	<field name="AN_RECORD_LINKAGE_ALGORITHM" class="java.lang.String"/>
+	<columnHeader>
+		<band height="87">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Match rule Name" x="12" y="61" width="58" height="20" uuid="6bd1d27e-88b8-4c62-a1f2-d8a92ab89b66">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="0.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="7" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Match Rule Name"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+				<reportElement key="match key name" mode="Transparent" x="70" y="61" width="49" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="6476d5f7-88cd-4fb0-ba53-cfd10907d2ca">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="0.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="7" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Match Key Name"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+				<reportElement key="input column" mode="Transparent" x="119" y="61" width="75" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="b60ef2df-33b5-46c6-99d9-d7285c233f18">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="0.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Input Column"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="threshold" x="290" y="61" width="44" height="20" uuid="bb374b45-fb1b-4940-a83f-6f4d9bd5d661">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Threshold"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Matching Key title" x="12" y="37" width="510" height="20" uuid="6f552700-dd32-4b33-bb23-c507a8d86297"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["MATCHING KEY"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="matching function" x="194" y="61" width="96" height="20" uuid="aec6f8b3-07b8-436f-9e39-474839305271">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="0.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Matching Function"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="confidence weight" x="334" y="61" width="46" height="20" uuid="ef6a1d23-da52-4cec-8049-e909fe120e78">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="7" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Confidence weight"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="surviorship function" x="437" y="61" width="85" height="20" uuid="878ffa5d-e351-4345-b3ee-bd4699bc62ea">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Survivorship Function"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Match Rule Threshold" x="380" y="61" width="57" height="20" uuid="565608c0-ad16-4903-8494-f2c1b057588d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="7" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Match Rule Threshold"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Matching Alogirithm" x="12" y="9" width="250" height="20" uuid="bd8ae3df-a769-4650-8c17-ca88ad132874"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["MATCHING ALGORITHM: " + ("simpleVSRMatcher".equals($F{AN_RECORD_LINKAGE_ALGORITHM}) ? "Simple VSR":"T-Swoosh")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="confident match threshold" x="270" y="9" width="250" height="20" uuid="7a36da31-37a1-4420-8b13-82d754bb17e7"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CONFIDENT MATCH THRESHOLD: "+$F{AN_MATCH_THRESHOLD}.doubleValue()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="2" y="2" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="8c3d91a6-12fd-4fd3-9d2f-0beb46aa6720"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="2" y="2" width="1" height="85" forecolor="#AEB0B2" uuid="17adfc13-01d0-428a-b6ab-450f0658cff6"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="526" y="2" width="1" height="85" forecolor="#AEB0B2" uuid="45cf3153-7498-4893-a424-b47a938b5a43"/>
+			</line>
+			<line>
+				<reportElement x="11" y="83" width="512" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="bf67ecc6-aafa-4c36-a5f9-915ec1e8d7c9"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22">
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="12" y="0" width="58" height="20" uuid="02a02400-48ce-4746-b226-f6b77536e99a"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_MATCHRULE_NAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="70" y="0" width="49" height="20" uuid="0496fc69-d975-4ed1-bc94-1762a458e942"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_NAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="119" y="0" width="75" height="20" uuid="acb7e2b8-0608-43bd-b3a5-49cf22551597"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_INPUT_COLUMN}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="194" y="0" width="96" height="20" uuid="cb5ece25-63d2-4064-8074-aa21f99b8e98"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_MATCHING_FUNCTION} + 
+($F{M_KEY_CUSTOM_MATCHER} !=null && !"".equals($F{M_KEY_CUSTOM_MATCHER}) ? (": " +$F{M_KEY_CUSTOM_MATCHER}.substring(0, $F{M_KEY_CUSTOM_MATCHER}.indexOf("||")) ) : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="290" y="0" width="44" height="20" uuid="63b16648-ed6b-4884-8255-a84887b529d7"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_THRESHOLD}.doubleValue()]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="436" y="0" width="85" height="20" uuid="1352d508-36e0-4539-af47-aa860b3eb542"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_SURVIVORSHIP_FUNCTION}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="334" y="0" width="46" height="20" uuid="4ee0c533-7db3-4269-bebc-9a8fc718e645"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_CONFIDENCE_WEIGHT}.intValue()]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement mode="Transparent" x="380" y="0" width="56" height="20" uuid="84021bbc-8f2f-4cf1-b5ee-ce4dffbd494c"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{M_KEY_MATCHRULE_THRESHOLD}.doubleValue()]]></textFieldExpression>
+			</textField>
+			<line direction="BottomUp">
+				<reportElement x="2" y="-5" width="1" height="27" forecolor="#AEB0B2" uuid="d2a91958-14c4-4bfa-bf82-9bb95208ca4c"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement x="526" y="-4" width="1" height="26" forecolor="#AEB0B2" uuid="2b1f5017-453e-4273-bb02-5c5b94f79da4"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="522" y="-4" width="1" height="26" forecolor="#C1D82F" uuid="4b8b5759-73a9-4bad-8912-3f88432c70d6"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="11" y="-4" width="1" height="26" forecolor="#C1D82F" uuid="1cae4576-d20c-4372-a2f8-8fc2e8334aaa"/>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="12" y="20" width="510" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="398e2130-4704-4463-bfa2-b59a0246fa3d"/>
+			</line>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="4">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="3" y="2" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="3352824f-69d3-4d72-b97a-2a95870102bb"/>
+			</line>
+			<line>
+				<reportElement x="11" y="0" width="512" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="57a58337-4902-4766-b3a1-88c036e79a69"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="2" y="0" width="1" height="3" forecolor="#AEB0B2" uuid="03080588-d3ed-4137-8996-b0529ec5b93e"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="526" y="0" width="1" height="3" forecolor="#AEB0B2" uuid="012c09c9-6da1-46b7-95fc-a1efc95a5609"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

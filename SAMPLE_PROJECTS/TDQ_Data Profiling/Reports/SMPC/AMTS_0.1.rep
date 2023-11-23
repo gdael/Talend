@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_5z9sQIREEe6MKaVzKXwixQ" name="AMTS" creationDate="2023-11-16T13:56:36.735+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/AMTS_AssetCriticalityForms_0.1.ana#_tu6dcIQtEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/AMTS_EquipmentCardForms_0.1.ana#_tvMxUIQtEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_5z9sQYREEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_5z9sQoREEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_5z9sQ4REEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_5z9sRIREEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_5z9sRYREEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_5z9sRoREEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\AMTS"/>
+  <taggedValue xmi:id="_5z9sR4REEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_5z9sSIREEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_5z9sSYREEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_5z9sSoREEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_5z9sS4REEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_5z9sTIREEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_5z9sTYREEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_5z9sToREEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_5z9sT4REEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:a1o3G61ODMIIIHDZ079IN4xnqC4zsv2YAsMrBQ=="/>
+  <taggedValue xmi:id="_5z9sUIREEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_5z9sUYREEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_5z9sUoREEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_5z9sU4REEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_5z9sVIREEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="__x2nAIREEe6MKaVzKXwixQ" tag="OutputFileName" value="AMTS"/>
+  <taggedValue xmi:id="__x2nAYREEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="__x2nAoREEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="__x2nA4REEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="__x2nBYREEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="__x2nBoREEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/AMTS_AssetCriticalityForms_0.1.ana#_yE9NcIQpEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="__x2nB4REEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/AMTS_EquipmentCardForms_0.1.ana#_vnugkYQqEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_C0wXUIRFEe6MKaVzKXwixQ" executionDate="2023-11-16T14:00:37.346+0800" executionDuration="17601" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+  <context xmi:id="__x2nBIREEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

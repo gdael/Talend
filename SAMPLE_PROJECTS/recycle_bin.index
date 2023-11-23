@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/demo</deletedFolders>
-  <deletedItems id="_iLH9wEhvEe6UVM7nSwYNHA" path="Berka_Bank" type="PROCESS"/>
-  <deletedItems id="_P6YzcEuzEe6CRLSLK0eDIQ" path="Berka_Bank/Sample" type="PROCESS"/>
-  <deletedItems id="_QKNNUGZ8EeWm5YvsrIoYzQ" path="demo" type="PROCESS"/>
+  <deletedItems id="_qNWaIIdtEe6YGMwwrWOFyQ" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_4GSw0Id2Ee6bmYWQumyoFg" path="MTC/Retail_DB" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_I9G98IdsEe6YGMwwrWOFyQ" path="MTC/Retail_DB" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_iU9WAId3Ee6bmYWQumyoFg" path="MTC/Retail_DB" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_N5QhIIT2Ee6YGMwwrWOFyQ" path="" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_VJsB0IT2Ee6YGMwwrWOFyQ" path="" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_3k_nMIQsEe6MKaVzKXwixQ" path="SMPC" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_wuy1IIQQEe6MKaVzKXwixQ" path="SMPC" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_xmqIEIROEe6MKaVzKXwixQ" path="SMPC/Column_Analysis" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_gGAlgIQyEe6MKaVzKXwixQ" path="SMPC/Overview/Catalog_Overview" type="TDQ_ANALYSIS_ELEMENT"/>
+  <deletedItems id="_41UcEIQrEe6MKaVzKXwixQ" path="" type="TDQ_REPORT_ELEMENT"/>
 </recyclebin:RecycleBin>

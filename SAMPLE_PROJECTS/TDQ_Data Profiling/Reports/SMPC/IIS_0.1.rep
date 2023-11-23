@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_A_P08IRKEe6MKaVzKXwixQ" name="IIS" creationDate="2023-11-16T14:33:12.379+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/IIS_Outside_Inventories_0.1.ana#_ExCrkIRKEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/IIS_Running_Inventories_0.1.ana#_ExSjMIRKEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_A_P08YRKEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_A_P08oRKEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_A_P084RKEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_A_P09IRKEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_A_P09YRKEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_A_P09oRKEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\IIS"/>
+  <taggedValue xmi:id="_A_P094RKEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_A_P0-IRKEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_A_P0-YRKEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_A_P0-oRKEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_A_P0-4RKEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_A_P0_IRKEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_A_P0_YRKEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_A_P0_oRKEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_A_P0_4RKEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:MhhIx/fpBSsFfhlWV37JFDL4MIaAEiG/IKFK7w=="/>
+  <taggedValue xmi:id="_A_P1AIRKEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_A_P1AYRKEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_A_P1AoRKEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_A_P1A4RKEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_A_P1BIRKEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_Ew9MAIRKEe6MKaVzKXwixQ" tag="OutputFileName" value="IIS"/>
+  <taggedValue xmi:id="_Ew9MAYRKEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_Ew9MAoRKEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_Ew9MA4RKEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_Ew9zEYRKEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_Ew9zEoRKEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/IIS_Outside_Inventories_0.1.ana#_dbeMsIREEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_Ew9zE4RKEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/IIS_Running_Inventories_0.1.ana#_JxZ10IREEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_IKmBUIRKEe6MKaVzKXwixQ" executionDate="2023-11-16T14:40:09.514+0800" executionDuration="15978" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+  <context xmi:id="_Ew9zEIRKEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

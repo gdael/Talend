@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_fEotcIRFEe6MKaVzKXwixQ" name="CMS" creationDate="2023-11-16T14:00:46.785+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/CMS_Item_0.1.ana#_kQVWQIRFEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/CMS_ItemDetail_0.1.ana#_kRAEoIRFEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_fEpUgIRFEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_fEpUgYRFEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_fEpUgoRFEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_fEpUg4RFEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_fEpUhIRFEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_fEpUhYRFEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\CMS"/>
+  <taggedValue xmi:id="_fEpUhoRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_fEpUh4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_fEpUiIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_fEpUiYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_fEpUioRFEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_fEpUi4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_fEpUjIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_fEpUjYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_fEpUjoRFEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:WB3iTIiuZbEtDot+sCJQyksKVHhlzT6WwTZYtw=="/>
+  <taggedValue xmi:id="_fEpUj4RFEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_fEpUkIRFEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_fEpUkYRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_fEpUkoRFEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_fEpUk4RFEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_kQQdwIRFEe6MKaVzKXwixQ" tag="OutputFileName" value="CMS"/>
+  <taggedValue xmi:id="_kQQdwYRFEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_kQRE0IRFEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_kQRE0YRFEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_kQRE04RFEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_kQRE1IRFEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/CMS_Item_0.1.ana#_EF1B0IQ-Ee6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_kQRE1YRFEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/CMS_ItemDetail_0.1.ana#_d4hj0IQ-Ee6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_n8-AEIRFEe6MKaVzKXwixQ" executionDate="2023-11-16T14:02:50.053+0800" executionDuration="20233" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_kQRE0oRFEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

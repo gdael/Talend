@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_3lBcYIQsEe6MKaVzKXwixQ" name="Test" creationDate="2023-11-16T11:04:33.827+0800" defaultContext="Default">
+  <clientDependency href="../../../metadata/connections/SMPC_NAV_0.1.item#_wuwY4IQQEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_3lBcYYQsEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_3lBcYoQsEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_3lBcY4QsEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_3lBcZIQsEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_3lBcZYQsEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="__wPKUYQsEe6MKaVzKXwixQ" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="__wPxYoQsEe6MKaVzKXwixQ" tag="Ignore Null" value="false"/>
+  <taggedValue xmi:id="__wPxY4QsEe6MKaVzKXwixQ" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="_3lBcZoQsEe6MKaVzKXwixQ">
+    <connection href="../../../metadata/connections/SMPC_NAV_0.1.item#_o6i1sIQQEe6MKaVzKXwixQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/SMPC_NAV_0.1.item#_MDLE-IQUEe6MKaVzKXwixQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/SMPC_NAV_0.1.item#_P7CHcIQUEe6MKaVzKXwixQ"/>
+  </context>
+  <results xmi:id="_3lBcZ4QsEe6MKaVzKXwixQ">
+    <resultMetadata xmi:id="_3lBcaIQsEe6MKaVzKXwixQ" executionDate="2023-11-16T11:05:31.666+0800" executionDuration="97" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="__wPxYIQsEe6MKaVzKXwixQ" count="462" computed="true" matchingValueCount="20" notMatchingValueCount="442">
+      <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/SMPC_NAV_0.1.item#_uUrb8YQTEe6MKaVzKXwixQ"/>
+      <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_AMlvIIQtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;AssetCriticalityForms&quot; A LEFT JOIN &quot;AMTS&quot;.&quot;dbo&quot;.&quot;EquipmentCardForms&quot; B ON ( (A.&quot;SPIN&quot; = B.&quot;ParentName&quot;) ) WHERE (B.&quot;ParentName&quot; IS NULL )" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_AMY60IQtEe6MKaVzKXwixQ" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_AMY60YQtEe6MKaVzKXwixQ" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_AMY60oQtEe6MKaVzKXwixQ" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_AMY604QtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_AMY61IQtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../../metadata/connections/SMPC_NAV_0.1.item#_MDLE-IQUEe6MKaVzKXwixQ"/>
+      <columnSetB href="../../../metadata/connections/SMPC_NAV_0.1.item#_P7CHcIQUEe6MKaVzKXwixQ"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="__wPxYYQsEe6MKaVzKXwixQ" count="462" computed="true" matchingValueCount="51" notMatchingValueCount="411">
+      <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/SMPC_NAV_0.1.item#_uUrb94QTEe6MKaVzKXwixQ"/>
+      <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_AMlvIYQtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;EquipmentCardForms&quot; A LEFT JOIN &quot;AMTS&quot;.&quot;dbo&quot;.&quot;AssetCriticalityForms&quot; B ON ( (A.&quot;ParentName&quot; = B.&quot;SPIN&quot;) ) WHERE (B.&quot;SPIN&quot; IS NULL )" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_AMiEwIQtEe6MKaVzKXwixQ" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_AMiEwYQtEe6MKaVzKXwixQ" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_AMiEwoQtEe6MKaVzKXwixQ" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_AMiEw4QtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_AMiExIQtEe6MKaVzKXwixQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../../metadata/connections/SMPC_NAV_0.1.item#_P7CHcIQUEe6MKaVzKXwixQ"/>
+      <columnSetB href="../../../metadata/connections/SMPC_NAV_0.1.item#_MDLE-IQUEe6MKaVzKXwixQ"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_3lBcaYQsEe6MKaVzKXwixQ" analysisType="Columns Comparison Analysis"/>
+  <contextType xmi:id="__wPKUIQsEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

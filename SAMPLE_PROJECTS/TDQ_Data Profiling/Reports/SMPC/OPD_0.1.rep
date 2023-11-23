@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_vG5L8IRMEe6MKaVzKXwixQ" name="OPD" creationDate="2023-11-16T14:52:40.875+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/OPD_LogsheetHeader_0.1.ana#_zjONUIRMEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/OPD_StartupDetails_0.1.ana#_zjkLkIRMEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_vG5L8YRMEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_vG5L8oRMEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_vG5L84RMEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_vG5L9IRMEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_vG5L9YRMEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_vG5L9oRMEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\OPD"/>
+  <taggedValue xmi:id="_vG5L94RMEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_vG5L-IRMEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_vG5L-YRMEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_vG5L-oRMEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_vG5L-4RMEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_vG5L_IRMEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_vG5L_YRMEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_vG5L_oRMEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_vG5L_4RMEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:/TUMvBNmsAcv5E6lGJgI4IoQXJgt2Tm1JQdalg=="/>
+  <taggedValue xmi:id="_vG5MAIRMEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_vG5MAYRMEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_vG5MAoRMEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_vG5MA4RMEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_vG5MBIRMEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_zjJ74IRMEe6MKaVzKXwixQ" tag="OutputFileName" value="OPD"/>
+  <taggedValue xmi:id="_zjJ74YRMEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_zjJ74oRMEe6MKaVzKXwixQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_zjJ744RMEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_zjJ75YRMEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_zjJ75oRMEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/OPD_LogsheetHeader_0.1.ana#_Ik6wYIRLEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_zjKi8IRMEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/OPD_StartupDetails_0.1.ana#_wmAqwIRLEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_3cC5AIRMEe6MKaVzKXwixQ" executionDate="2023-11-16T14:53:19.956+0800" executionDuration="16828" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_zjJ75IRMEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

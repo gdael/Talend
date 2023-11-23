@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_VJt3AIT2Ee6YGMwwrWOFyQ" name="Test_Table" creationDate="2023-11-17T11:06:41.133+0800" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/SMPC_NAV_0.1.item#_wuwY4IQQEe6MKaVzKXwixQ"/>
+    <taggedValue xmi:id="_VJt3AYT2Ee6YGMwwrWOFyQ" tag="Status" value="development"/>
+    <taggedValue xmi:id="_VJt3AoT2Ee6YGMwwrWOFyQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+    <taggedValue xmi:id="_VJt3A4T2Ee6YGMwwrWOFyQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_VJt3BIT2Ee6YGMwwrWOFyQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_VJt3BYT2Ee6YGMwwrWOFyQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_VVRmwIT2Ee6YGMwwrWOFyQ" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_VVRmwYT2Ee6YGMwwrWOFyQ" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_VVUDAIT2Ee6YGMwwrWOFyQ" tag="Is Use Sample Data" value="false"/>
+    <taggedValue xmi:id="_VVUDAYT2Ee6YGMwwrWOFyQ" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_VJt3BoT2Ee6YGMwwrWOFyQ">
+      <connection href="../../metadata/connections/SMPC_NAV_0.1.item#_o6i1sIQQEe6MKaVzKXwixQ"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmnsIT2Ee6YGMwwrWOFyQ"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmntIT2Ee6YGMwwrWOFyQ"/>
+    </context>
+    <results xmi:id="_VJt3B4T2Ee6YGMwwrWOFyQ">
+      <resultMetadata xmi:id="_VJt3CIT2Ee6YGMwwrWOFyQ" executionDate="2023-11-17T11:06:50.701+0800" executionDuration="22" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_VJt3CYT2Ee6YGMwwrWOFyQ" count="69" computed="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A6578700000000077040000000078" uniqueCount="69" distinctCount="69">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk730IT2Ee6YGMwwrWOFyQ" body="SELECT &quot;MigrationId&quot;,&quot;ProductVersion&quot;,COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot;  GROUP BY &quot;MigrationId&quot;,&quot;ProductVersion&quot;" language="SQL"/>
+        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmnsIT2Ee6YGMwwrWOFyQ"/>
+        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmntIT2Ee6YGMwwrWOFyQ"/>
+        <rowCountIndicator xmi:id="_VJt3CoT2Ee6YGMwwrWOFyQ" count="69" computed="true">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk8e4IT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot; " language="SQL"/>
+          <builtInIndicatorDefinition xmi:id="_WkfL4IT2Ee6YGMwwrWOFyQ" name="Row Count" label="Row Count">
+            <taggedValue xmi:id="_WkfL4YT2Ee6YGMwwrWOFyQ" tag="Description" value="counts the number of rows"/>
+            <taggedValue xmi:id="_WkfL4oT2Ee6YGMwwrWOFyQ" tag="Purpose" value="evaluates the number of records"/>
+            <sqlGenericExpression xmi:id="_WkfL44T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+          </builtInIndicatorDefinition>
+        </rowCountIndicator>
+        <uniqueCountIndicator xmi:id="_VJt3C4T2Ee6YGMwwrWOFyQ" count="69" computed="true" uniqueValueCount="69">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk8e44T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &quot;MigrationId&quot;,&quot;ProductVersion&quot;, COUNT(*) mycount FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot;  GROUP BY &quot;MigrationId&quot;,&quot;ProductVersion&quot; HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_Wk2YQIT2Ee6YGMwwrWOFyQ" name="Unique Count" label="Unique Count">
+            <taggedValue xmi:id="_Wk2YQYT2Ee6YGMwwrWOFyQ" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+            <taggedValue xmi:id="_Wk2YQoT2Ee6YGMwwrWOFyQ" tag="Purpose" value="evaluates the number of unique records"/>
+            <sqlGenericExpression xmi:id="_Wk2YQ4T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+            <sqlGenericExpression xmi:id="_Wk2YRIT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+            <sqlGenericExpression xmi:id="_Wk2YRYT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Wk2YRoT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Wk2YR4T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Wk2YSIT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Wk2YSYT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+          </builtInIndicatorDefinition>
+        </uniqueCountIndicator>
+        <distinctCountIndicator xmi:id="_VJt3DIT2Ee6YGMwwrWOFyQ" count="69" computed="true" distinctValueCount="69">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk8e4YT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;MigrationId&quot;,&quot;ProductVersion&quot; FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot; ) A" language="SQL"/>
+          <builtInIndicatorDefinition xmi:id="_WksAMIT2Ee6YGMwwrWOFyQ" name="Distinct Count" label="Distinct Count">
+            <taggedValue xmi:id="_WksAMYT2Ee6YGMwwrWOFyQ" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+            <taggedValue xmi:id="_WksAMoT2Ee6YGMwwrWOFyQ" tag="Purpose" value="evaluates the number of distinct records"/>
+            <sqlGenericExpression xmi:id="_WksAM4T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+          </builtInIndicatorDefinition>
+        </distinctCountIndicator>
+        <duplicateCountIndicator xmi:id="_VJt3DYT2Ee6YGMwwrWOFyQ" count="69" computed="true" duplicateValueCount="0">
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk8e4oT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &quot;MigrationId&quot;,&quot;ProductVersion&quot;, COUNT(*) mycount FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot;  m  GROUP BY &quot;MigrationId&quot;,&quot;ProductVersion&quot; HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_WkxfwIT2Ee6YGMwwrWOFyQ" name="Duplicate Count" label="Duplicate Count">
+            <taggedValue xmi:id="_WkxfwYT2Ee6YGMwwrWOFyQ" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+            <taggedValue xmi:id="_WkxfwoT2Ee6YGMwwrWOFyQ" tag="Purpose" value="evaluates the number of duplicated records"/>
+            <sqlGenericExpression xmi:id="_Wkxfw4T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+            <sqlGenericExpression xmi:id="_WkxfxIT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+            <sqlGenericExpression xmi:id="_WkxfxYT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_WkxfxoT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Wkxfx4T2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_WkxfyIT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_WkxfyYT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+          </builtInIndicatorDefinition>
+        </duplicateCountIndicator>
+      </indicators>
+    </results>
+    <parameters xmi:id="_VJt3DoT2Ee6YGMwwrWOFyQ" dataFilter="_VVUqEIT2Ee6YGMwwrWOFyQ" analysisType="Column Set Analysis"/>
+    <contextType xmi:id="_VVQ_sIT2Ee6YGMwwrWOFyQ" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_VVUqEIT2Ee6YGMwwrWOFyQ" name="Test_Table">
+    <ranges xmi:id="_VVUqEYT2Ee6YGMwwrWOFyQ">
+      <expressions xmi:id="_VVUqEoT2Ee6YGMwwrWOFyQ">
+        <expression xsi:type="relational:TdExpression" xmi:id="_VVUqE4T2Ee6YGMwwrWOFyQ" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

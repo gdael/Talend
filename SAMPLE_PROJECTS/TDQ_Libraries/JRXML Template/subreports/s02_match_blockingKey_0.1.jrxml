@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="s02_match_blockingKey" pageWidth="528" pageHeight="81" whenNoDataType="AllSectionsNoDetail" columnWidth="528" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0f66b012-c9fb-40ee-8791-1d8f34b7a729">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="mysqlYue6"/>
+	<parameter name="RUN_TIME_FROM" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter from]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/1970").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="RUN_TIME_TO" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter to]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/2222").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="REP_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Report identifer]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_12sXABHnEeySNIcpVES4Fw"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ANA_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Analysis identifer]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_wPchQBFQEeymqeyQjpzCiA"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT 
+  TBK.ANALYSIS_PK ,
+  TBK.B_KEY_NAME,
+  TBK.B_KEY_INPUT_COLUMN,
+  TBK.B_KEY_ALGORITHM,
+  TBK.B_KEY_ALGORITHM_VALUE,
+  TBK.B_KEY_PRE_ALGORITHM ,
+  TBK.B_KEY_PRE_ALGORITHM_VALUE,
+  TBK.B_KEY_POST_ALGORITHM ,
+  TBK.B_KEY_POST_ALGORITHM_VALUE,
+  TBK.REP_RUNTIME 
+FROM TDQ_BLOCKING_KEY TBK
+INNER JOIN  TDQ_ANALYSIS ANA  ON TBK.ANALYSIS_PK=ANA.AN_PK
+and ANA.REP_UUID=$P{REP_UUID} AND ANA.AN_UUID=$P{ANA_UUID}
+INNER JOIN TDQ_MATCHING_INDVALUE VAL ON TBK.ANALYSIS_PK=VAL.ANALYSIS_PK 
+ and TBK.REP_RUNTIME = VAL.REP_RUNTIME 
+ and VAL.AN_RUNTIME>=$P{RUN_TIME_FROM} AND VAL.AN_RUNTIME <=$P{RUN_TIME_TO}
+ and TBK.REP_RUNTIME in (
+  select max(rep_runtime) from TDQ_MATCHING_INDVALUE
+  join TDQ_ANALYSIS ON TDQ_ANALYSIS.AN_PK=TDQ_MATCHING_INDVALUE.ANALYSIS_PK
+  AND TDQ_ANALYSIS.REP_UUID=$P{REP_UUID} AND TDQ_ANALYSIS.AN_UUID=$P{ANA_UUID})]]>
+	</queryString>
+	<field name="B_KEY_NAME" class="java.lang.String"/>
+	<field name="B_KEY_INPUT_COLUMN" class="java.lang.String"/>
+	<field name="B_KEY_PRE_ALGORITHM" class="java.lang.String"/>
+	<field name="B_KEY_PRE_ALGORITHM_VALUE" class="java.lang.String"/>
+	<field name="B_KEY_ALGORITHM" class="java.lang.String"/>
+	<field name="B_KEY_ALGORITHM_VALUE" class="java.lang.String"/>
+	<field name="B_KEY_POST_ALGORITHM" class="java.lang.String"/>
+	<field name="B_KEY_POST_ALGORITHM_VALUE" class="java.lang.String"/>
+	<columnHeader>
+		<band height="55">
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Blocking Key Name" x="12" y="29" width="95" height="20" uuid="6bd1d27e-88b8-4c62-a1f2-d8a92ab89b66">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Blocking Key Name"]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement key="Input Column" mode="Transparent" x="110" y="29" width="95" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="6476d5f7-88cd-4fb0-ba53-cfd10907d2ca">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Input Column"]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement key="Pre-Algorithm" mode="Transparent" x="209" y="29" width="95" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="b60ef2df-33b5-46c6-99d9-d7285c233f18">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pre-Algorithm"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement key="Post-Algorithm" x="407" y="29" width="98" height="20" uuid="bb374b45-fb1b-4940-a83f-6f4d9bd5d661">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Post-Algorithm"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Blocking Key title" x="12" y="5" width="492" height="20" uuid="6f552700-dd32-4b33-bb23-c507a8d86297"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["BLOCKING KEY"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement key="Algorithm" x="308" y="29" width="95" height="20" uuid="aec6f8b3-07b8-436f-9e39-474839305271">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineColor="#C1D82F"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#C1D82F"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Algorithm"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="2" y="1" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="9b681d51-dfe9-49d4-bffd-ece1605c9a49"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement x="526" y="1" width="1" height="54" forecolor="#AEB0B2" uuid="636912b3-7309-4372-9019-d0066deb408e"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement x="2" y="2" width="1" height="53" forecolor="#AEB0B2" uuid="32de18a9-054f-48b3-b245-2e72ccae538a"/>
+			</line>
+			<line>
+				<reportElement x="12" y="53" width="494" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="ae4114c6-f5c3-494b-846f-bde0309fccd1"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22">
+			<property name="com.jaspersoft.studio.layout"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="13" y="0" width="96" height="20" uuid="02a02400-48ce-4746-b226-f6b77536e99a"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{B_KEY_NAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="110" y="0" width="99" height="20" uuid="0496fc69-d975-4ed1-bc94-1762a458e942"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{B_KEY_INPUT_COLUMN}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="209" y="0" width="99" height="20" uuid="acb7e2b8-0608-43bd-b3a5-49cf22551597"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[("NON_ALGO".equals($F{B_KEY_PRE_ALGORITHM}) ? "-":  $F{B_KEY_PRE_ALGORITHM}) + 
+(($F{B_KEY_PRE_ALGORITHM_VALUE} ==null  || "".equals($F{B_KEY_PRE_ALGORITHM_VALUE}) )? "" : (", "+  $F{B_KEY_PRE_ALGORITHM_VALUE}))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="308" y="0" width="99" height="20" uuid="cb5ece25-63d2-4064-8074-aa21f99b8e98"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[("NON_ALGO".equals($F{B_KEY_ALGORITHM}) ? "-":  $F{B_KEY_ALGORITHM}) + 
+(($F{B_KEY_PRE_ALGORITHM_VALUE} ==null  || "".equals($F{B_KEY_ALGORITHM_VALUE}) )? "" : (", "+  $F{B_KEY_ALGORITHM_VALUE}))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="407" y="0" width="97" height="20" uuid="63b16648-ed6b-4884-8255-a84887b529d7"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[("NON_ALGO".equals($F{B_KEY_POST_ALGORITHM}) ? "-":  $F{B_KEY_POST_ALGORITHM}) + 
+(($F{B_KEY_POST_ALGORITHM_VALUE} ==null  || "".equals($F{B_KEY_POST_ALGORITHM_VALUE}) )? "" : (", "+  $F{B_KEY_POST_ALGORITHM_VALUE}))]]></textFieldExpression>
+			</textField>
+			<line direction="BottomUp">
+				<reportElement stretchType="ContainerBottom" x="526" y="0" width="1" height="22" forecolor="#AEB0B2" uuid="cc6e0b9f-7f5c-4b36-865e-216918d88474"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="ContainerHeight" x="2" y="0" width="1" height="22" forecolor="#AEB0B2" uuid="27ebfad0-9ea9-4d08-b076-063e6bfb8525"/>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="12" y="21" width="493" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="59b2da07-cb77-459b-bc77-893728636a7d"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="505" y="-1" width="1" height="23" forecolor="#C1D82F" uuid="1df6ecce-40ce-45cd-88f8-d13b03792cda"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="12" y="-2" width="1" height="24" forecolor="#C1D82F" uuid="d8ed5995-f136-45bc-bd24-2d08472b4373"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="4">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="3" y="2" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="3352824f-69d3-4d72-b97a-2a95870102bb"/>
+			</line>
+			<line>
+				<reportElement x="12" y="0" width="494" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="57a58337-4902-4766-b3a1-88c036e79a69"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="2" y="0" width="1" height="3" forecolor="#AEB0B2" uuid="03080588-d3ed-4137-8996-b0529ec5b93e"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="526" y="0" width="1" height="3" forecolor="#AEB0B2" uuid="012c09c9-6da1-46b7-95fc-a1efc95a5609"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

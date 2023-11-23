@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_zg5xwIRPEe6MKaVzKXwixQ" name="OLS" creationDate="2023-11-16T15:14:38.934+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/OLS_SwitchboardMasterFileUnit1_0.1.ana#_4w_LUIRPEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/OLS_TurbineMasterFileUnit1_0.1.ana#_4yMsQIRPEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_zg5xwYRPEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_zg5xwoRPEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_zg5xw4RPEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_zg5xxIRPEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_zg5xxYRPEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_zg5xxoRPEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\OLS"/>
+  <taggedValue xmi:id="_zg5xx4RPEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_zg5xyIRPEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_zg5xyYRPEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_zg5xyoRPEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_zg5xy4RPEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_zg5xzIRPEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_zg5xzYRPEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_zg5xzoRPEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_zg5xz4RPEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:zklC/wHsfllOZPb/rYgx6Y3K0ahqPQQDIR0HCw=="/>
+  <taggedValue xmi:id="_zg5x0IRPEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_zg5x0YRPEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_zg5x0oRPEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_zg5x04RPEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_zg5x1IRPEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_4w5EsIRPEe6MKaVzKXwixQ" tag="OutputFileName" value="OLS"/>
+  <taggedValue xmi:id="_4w5EsYRPEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_4w5EsoRPEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_4w5Es4RPEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_4w5rwYRPEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_4w5rwoRPEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/OLS_SwitchboardMasterFileUnit1_0.1.ana#_TMrccIRPEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_4w5rw4RPEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/OLS_TurbineMasterFileUnit1_0.1.ana#_6umO4IRMEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_AJVR4IRQEe6MKaVzKXwixQ" executionDate="2023-11-16T15:16:50.991+0800" executionDuration="36949" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_4w5rwIRPEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="b01_column_basic" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="30" rightMargin="30" topMargin="5" bottomMargin="5" uuid="c5fd4eff-1fec-4a99-80d2-13a3abddb51d">
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<property name="ireport.zoom" value="15.863092971715215"/>
+	<property name="ireport.x" value="437"/>
+	<property name="ireport.y" value="9952"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="java.util.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#66FF33"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#66FF33"/>
+			<bottomPen lineWidth="0.5" lineColor="#66FF33"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#66FF33"/>
+			<bottomPen lineWidth="0.5" lineColor="#66FF33"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#66FF33"/>
+			<bottomPen lineWidth="0.5" lineColor="#66FF33"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="duplicateRecord" uuid="a9bf13e0-319b-4c39-9bb6-a41533e6e399">
+		<parameter name="RUN_TIME_FROM" class="java.sql.Timestamp">
+			<parameterDescription><![CDATA[Analysis executed date filter from]]></parameterDescription>
+			<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/1970").getTime())]]></defaultValueExpression>
+		</parameter>
+		<parameter name="RUN_TIME_TO" class="java.sql.Timestamp">
+			<parameterDescription><![CDATA[Analysis executed date filter to]]></parameterDescription>
+			<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/2222").getTime())]]></defaultValueExpression>
+		</parameter>
+		<parameter name="REPORT_UUID" class="java.lang.String">
+			<parameterDescription><![CDATA[Report identifer
+_JTP_EBIoEd6pt-TgDw7oCA]]></parameterDescription>
+			<defaultValueExpression><![CDATA["_JTP_EBIoEd6pt-TgDw7oCA"]]></defaultValueExpression>
+		</parameter>
+		<parameter name="ANA_UUID" class="java.lang.String">
+			<parameterDescription><![CDATA[Analysis identifier
+_IpFnwBIoEd6pt-TgDw7oCA]]></parameterDescription>
+			<defaultValueExpression><![CDATA["_IpFnwBIoEd6pt-TgDw7oCA"]]></defaultValueExpression>
+		</parameter>
+		<queryString>
+			<![CDATA[SELECT
+  VAL.M_ROW_COUNT,
+  VAL.M_UNIQUE_COUNT,
+  VAL.M_MATCH_COUNT,
+  VAL.M_SUSPECT_COUNT
+FROM TDQ_MATCHING_INDVALUE VAL
+  INNER JOIN  TDQ_V_ANALYSIS ANA  ON ANA.AN_PK=VAL.ANALYSIS_PK
+WHERE ANA.REP_UUID=$P{REPORT_UUID} AND ANA.AN_UUID=$P{ANA_UUID}
+AND VAL.AN_RUNTIME>=$P{RUN_TIME_FROM} AND VAL.AN_RUNTIME <=$P{RUN_TIME_TO}
+AND VAL.REP_RUNTIME in (
+  select max(rep_runtime) from TDQ_MATCHING_INDVALUE
+  join TDQ_ANALYSIS ON TDQ_ANALYSIS.AN_PK=TDQ_MATCHING_INDVALUE.ANALYSIS_PK
+  AND TDQ_ANALYSIS.REP_UUID=$P{REPORT_UUID} AND TDQ_ANALYSIS.AN_UUID=$P{ANA_UUID}
+)]]>
+		</queryString>
+		<field name="M_ROW_COUNT" class="java.lang.Long"/>
+		<field name="M_UNIQUE_COUNT" class="java.lang.Long"/>
+		<field name="M_MATCH_COUNT" class="java.lang.Long"/>
+		<field name="M_SUSPECT_COUNT" class="java.lang.Long"/>
+	</subDataset>
+	<parameter name="NEED_TITLE" class="java.lang.Boolean">
+		<defaultValueExpression><![CDATA[new Boolean(true)]]></defaultValueExpression>
+	</parameter>
+	<parameter name="LOGO_FILE" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[logo file]]></parameterDescription>
+	</parameter>
+	<parameter name="REPORT_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Report identifer
+_JTP_EBIoEd6pt-TgDw7oCA]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_JTP_EBIoEd6pt-TgDw7oCA"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="RUN_TIME_FROM" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter from]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/1970").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="RUN_TIME_TO" class="java.sql.Timestamp">
+		<parameterDescription><![CDATA[Analysis executed date filter to]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new java.sql.Timestamp(new Date("01/01/2222").getTime())]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ANA_UUID" class="java.lang.String">
+		<parameterDescription><![CDATA[Analysis identifier
+_IpFnwBIoEd6pt-TgDw7oCA]]></parameterDescription>
+		<defaultValueExpression><![CDATA["_IpFnwBIoEd6pt-TgDw7oCA"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="TITLE_FILE" class="java.lang.String">
+		<parameterDescription><![CDATA[title file]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+    VERS.PR_NAME,
+    VERS.PR_DISPLAY_VERSION,
+	VAL.AN_RUNTIME,
+	ANA.REP_UUID,
+	ANA.REP_AUTHOR,
+	ANA.AN_UUID,
+	ANA.REP_LABEL,
+	ANA.AN_LABEL,
+	(CASE WHEN ANA.AN_AUTHOR LIKE 'NULL%' THEN ' ' ELSE ANA.AN_AUTHOR END) AS AN_AUTHOR ,
+	VAL.AN_DURATION/1000 AS AN_DURATION,
+	ELEMENT.ELT_CONNECTION_UUID,
+    (CASE WHEN ELEMENT.ELT_CATALOG_NAME='N/A (TDQ)' THEN ' ' ELSE  ELEMENT.ELT_CATALOG_NAME END) AS ELT_CATALOG_NAME,
+	(CASE WHEN ELEMENT.ELT_CONNECTION_NAME='N/A (TDQ)' THEN ' ' ELSE ELEMENT.ELT_CONNECTION_NAME END) AS  ELT_CONNECTION_NAME_1,
+	(CASE WHEN ELEMENT.ELT_SCHEMA_NAME='N/A (TDQ)' THEN ' ' ELSE  ELEMENT.ELT_SCHEMA_NAME END) AS ELT_SCHEMA_NAME_1,
+	ELEMENT.ELT_PROJECT_NAME,
+	ELEMENT.ELT_TABLE_NAME,
+	ELEMENT.ELT_COLUMN_NAME,
+	ELEMENT.ELT_UUID,
+    VAL.M_ROW_COUNT,
+    VAL.M_UNIQUE_COUNT,
+    VAL.M_MATCH_COUNT,
+    VAL.M_SUSPECT_COUNT,
+    VAL.REP_DURATION,
+    VAL.REP_RUNTIME,
+    TDQ_GROUP_STATISTICS.G_SIZE,
+    TDQ_GROUP_STATISTICS.G_GROUP_COUNT,
+    TDQ_GROUP_STATISTICS.G_RECORD_COUNT
+FROM TDQ_MATCHING_INDVALUE VAL
+  INNER JOIN TDQ_GROUP_STATISTICS ON VAL.M_PK=TDQ_GROUP_STATISTICS.M_PK
+         AND VAL.REP_RUNTIME = TDQ_GROUP_STATISTICS.REP_RUNTIME
+  INNER JOIN  TDQ_V_ANALYSIS ANA  ON ANA.AN_PK=VAL.ANALYSIS_PK
+  INNER JOIN  TDQ_V_ANALYZED_ELEMENT   ELEMENT ON  ELEMENT.ELT_PK=VAL.TABLE_PK
+  CROSS JOIN TDQ_PRODUCT VERS
+WHERE ANA.REP_UUID=$P{REPORT_UUID} AND ANA.AN_UUID=$P{ANA_UUID}
+AND VAL.AN_RUNTIME>=$P{RUN_TIME_FROM} AND VAL.AN_RUNTIME <=$P{RUN_TIME_TO}
+AND VAL.REP_RUNTIME in (
+  select max(rep_runtime) from TDQ_MATCHING_INDVALUE
+  join TDQ_ANALYSIS ON TDQ_ANALYSIS.AN_PK=TDQ_MATCHING_INDVALUE.ANALYSIS_PK
+  AND TDQ_ANALYSIS.REP_UUID=$P{REPORT_UUID} AND TDQ_ANALYSIS.AN_UUID=$P{ANA_UUID}
+)
+ORDER BY G_SIZE ASC]]>
+	</queryString>
+	<field name="PR_NAME" class="java.lang.String"/>
+	<field name="PR_DISPLAY_VERSION" class="java.lang.String"/>
+	<field name="AN_RUNTIME" class="java.sql.Timestamp"/>
+	<field name="REP_UUID" class="java.lang.String"/>
+	<field name="REP_AUTHOR" class="java.lang.String"/>
+	<field name="AN_UUID" class="java.lang.String"/>
+	<field name="REP_LABEL" class="java.lang.String"/>
+	<field name="AN_LABEL" class="java.lang.String"/>
+	<field name="AN_AUTHOR" class="java.lang.String"/>
+	<field name="ELT_CONNECTION_UUID" class="java.lang.String"/>
+	<field name="ELT_CATALOG_NAME" class="java.lang.String"/>
+	<field name="ELT_CONNECTION_NAME_1" class="java.lang.String"/>
+	<field name="ELT_SCHEMA_NAME_1" class="java.lang.String"/>
+	<field name="ELT_PROJECT_NAME" class="java.lang.String"/>
+	<field name="ELT_TABLE_NAME" class="java.lang.String"/>
+	<field name="ELT_COLUMN_NAME" class="java.lang.String"/>
+	<field name="ELT_UUID" class="java.lang.String"/>
+	<field name="AN_DURATION" class="java.math.BigDecimal"/>
+	<field name="M_ROW_COUNT" class="java.lang.Long"/>
+	<field name="M_UNIQUE_COUNT" class="java.lang.Long"/>
+	<field name="M_MATCH_COUNT" class="java.lang.Long"/>
+	<field name="M_SUSPECT_COUNT" class="java.lang.Long"/>
+	<field name="REP_DURATION" class="java.lang.Integer"/>
+	<field name="REP_RUNTIME" class="java.sql.Timestamp"/>
+	<field name="G_SIZE" class="java.lang.Long"/>
+	<field name="G_GROUP_COUNT" class="java.lang.Long"/>
+	<field name="G_RECORD_COUNT" class="java.lang.Long"/>
+	<variable name="maxIndValue" class="java.lang.Number" resetType="Group" resetGroup="indicatorCategory" calculation="Highest">
+		<variableExpression><![CDATA[$F{G_GROUP_COUNT}]]></variableExpression>
+	</variable>
+	<group name="CATALOG" isStartNewPage="true">
+		<groupExpression><![CDATA[]]></groupExpression>
+		<groupHeader>
+			<band height="487">
+				<subreport>
+					<reportElement x="7" y="0" width="524" height="180" uuid="a6ca7ee7-43a3-4d0f-ae12-d951f8775e00"/>
+					<subreportParameter name="AN_RUNTIME">
+						<subreportParameterExpression><![CDATA[$F{AN_RUNTIME}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="REP_LABEL">
+						<subreportParameterExpression><![CDATA[$F{REP_LABEL}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ELT_CONNECTION_NAME">
+						<subreportParameterExpression><![CDATA[$F{ELT_CONNECTION_NAME_1}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ELT_SCHEMA_NAME">
+						<subreportParameterExpression><![CDATA[$F{ELT_SCHEMA_NAME_1}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="AN_AUTHOR">
+						<subreportParameterExpression><![CDATA[$F{AN_AUTHOR}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ELT_CATALOG_NAME">
+						<subreportParameterExpression><![CDATA[$F{ELT_CATALOG_NAME}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="AN_DURATION">
+						<subreportParameterExpression><![CDATA[$F{AN_DURATION}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ELT_PROJECT_NAME">
+						<subreportParameterExpression><![CDATA[$F{ELT_PROJECT_NAME}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="AN_LABEL">
+						<subreportParameterExpression><![CDATA[$F{AN_LABEL}+" [Match Analysis]"]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="TABLE_COLUMN">
+						<subreportParameterExpression><![CDATA[": "+$F{ELT_TABLE_NAME}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="TITLE_FILE">
+						<subreportParameterExpression><![CDATA[$P{TITLE_FILE}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["subreports/s01_column_subreport.jasper"]]></subreportExpression>
+				</subreport>
+				<subreport>
+					<reportElement key="blockingKeyPart"  positionType="Float" stretchType="ElementGroupHeight" x="7" y="200" width="524" height="81" isRemoveLineWhenBlank="true" uuid="a6ca7ee7-43a3-4d0f-ae12-d951f8775e00"/>
+					<subreportParameter name="REP_UUID">
+						<subreportParameterExpression><![CDATA[$P{REPORT_UUID}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ANA_UUID">
+						<subreportParameterExpression><![CDATA[$P{ANA_UUID}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="RUN_TIME_FROM">
+						<subreportParameterExpression><![CDATA[$P{RUN_TIME_FROM}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="RUN_TIME_TO">
+						<subreportParameterExpression><![CDATA[$P{RUN_TIME_TO}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["subreports/s02_match_blockingKey.jasper"]]></subreportExpression>
+				</subreport>
+				<subreport>
+					<reportElement key="matchingKeyPart"  positionType="Float" stretchType="ElementGroupHeight" x="7" y="300" width="524" height="180" uuid="c6e6d4a1-2b25-4bcc-9a42-fccc580ff5c5"/>
+					<subreportParameter name="REP_UUID">
+						<subreportParameterExpression><![CDATA[$P{REPORT_UUID}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="ANA_UUID">
+						<subreportParameterExpression><![CDATA[$P{ANA_UUID}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="RUN_TIME_FROM">
+						<subreportParameterExpression><![CDATA[$P{RUN_TIME_FROM}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportParameter name="RUN_TIME_TO">
+						<subreportParameterExpression><![CDATA[$P{RUN_TIME_TO}]]></subreportParameterExpression>
+					</subreportParameter>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA["subreports/s02_match_matchingKey.jasper"]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<group name="ANALYSIS" isStartNewPage="true" keepTogether="true">
+		<groupExpression><![CDATA[$F{AN_UUID}]]></groupExpression>
+		<groupHeader>
+			<band height="363">
+				<pieChart>
+					<chart customizerClass="org.talend.dataquality.reporting.TalendChartCustomizer">
+						<reportElement key="PieStatisticsGraphs" x="7" y="112" width="524" height="242" backcolor="#FFFFFF" uuid="db4fdfc0-cae7-4b7b-aad6-948e82e5205e"/>
+						<box>
+							<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<topPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<leftPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<bottomPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<rightPen lineWidth="1.0" lineColor="#AEB0B2"/>
+						</box>
+						<chartTitle>
+							<titleExpression><![CDATA["Duplicate Record Statistics"]]></titleExpression>
+						</chartTitle>
+						<chartSubtitle/>
+						<chartLegend backgroundColor="#FFFFFF"/>
+					</chart>
+					<pieDataset>
+						<dataset>
+							<datasetRun subDataset="duplicateRecord" uuid="4171c79a-3f18-4425-9cae-7e88cf5a967e">
+								<datasetParameter name="REPORT_UUID">
+									<datasetParameterExpression><![CDATA[$P{REPORT_UUID}]]></datasetParameterExpression>
+								</datasetParameter>
+								<datasetParameter name="ANA_UUID">
+									<datasetParameterExpression><![CDATA[$P{ANA_UUID}]]></datasetParameterExpression>
+								</datasetParameter>
+								<datasetParameter name="RUN_TIME_FROM">
+									<datasetParameterExpression><![CDATA[$P{RUN_TIME_FROM}]]></datasetParameterExpression>
+								</datasetParameter>
+								<datasetParameter name="RUN_TIME_TO">
+									<datasetParameterExpression><![CDATA[$P{RUN_TIME_TO}]]></datasetParameterExpression>
+								</datasetParameter>
+							</datasetRun>
+						</dataset>
+						<pieSeries>
+							<keyExpression><![CDATA["Matched Records"]]></keyExpression>
+							<valueExpression><![CDATA[new BigDecimal($F{M_MATCH_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></valueExpression>
+						</pieSeries>
+						<pieSeries>
+							<keyExpression><![CDATA["Unique Records"]]></keyExpression>
+							<valueExpression><![CDATA[new BigDecimal($F{M_UNIQUE_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></valueExpression>
+						</pieSeries>
+						<pieSeries>
+							<keyExpression><![CDATA["Suspect Records"]]></keyExpression>
+							<valueExpression><![CDATA[new BigDecimal($F{M_SUSPECT_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></valueExpression>
+						</pieSeries>
+					</pieDataset>
+					<piePlot labelFormat="{0}:{2}">
+						<plot labelRotation="0.0">
+							<seriesColor seriesOrder="0" color="#F49320"/>
+							<seriesColor seriesOrder="1" color="#8077B2"/>
+							<seriesColor seriesOrder="2" color="#BED530"/>
+							<seriesColor seriesOrder="3" color="#239DBE"/>
+							<seriesColor seriesOrder="4" color="#FAD410"/>
+							<seriesColor seriesOrder="5" color="#EA1C24"/>
+							<seriesColor seriesOrder="6" color="#C0835B"/>
+							<seriesColor seriesOrder="7" color="#EC1785"/>
+							<seriesColor seriesOrder="8" color="#A49B64"/>
+							<seriesColor seriesOrder="9" color="#F4781E"/>
+							<seriesColor seriesOrder="10" color="#80A8C9"/>
+							<seriesColor seriesOrder="11" color="#BEA92A"/>
+							<seriesColor seriesOrder="12" color="#257EAF"/>
+							<seriesColor seriesOrder="13" color="#FAAE0F"/>
+							<seriesColor seriesOrder="14" color="#FAD410"/>
+							<seriesColor seriesOrder="15" color="#EB682F"/>
+							<seriesColor seriesOrder="16" color="#EA1C24"/>
+						</plot>
+						<itemLabel color="#000000" backgroundColor="#FFFFFF"/>
+					</piePlot>
+				</pieChart>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="7" y="96" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="16f81618-eb56-4f9e-92c0-c09883b5054c"/>
+				</line>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="7" y="12" width="524" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="781e4890-6178-4990-b04f-344c7a555a88"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement x="7" y="13" width="1" height="83" forecolor="#AEB0B2" uuid="faebf30e-805c-4538-a1b4-d38f9234a028"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement x="531" y="12" width="1" height="84" forecolor="#AEB0B2" uuid="fe724da8-4733-4a8a-b04c-78778db48a71"/>
+				</line>
+				<textField evaluationTime="Group" evaluationGroup="ANALYSIS" pattern="" isBlankWhenNull="false">
+					<reportElement key="CountLabel" mode="Transparent" x="118" y="15" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="b364b0af-992b-43ac-afb8-74ef97b1c6d2"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="DejaVu Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["COUNT"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement key="LabelLabel" x="18" y="15" width="94" height="14" uuid="74324087-07d6-419f-8c2e-afeadaf573d1"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["LABEL"]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Group" evaluationGroup="ANALYSIS" pattern="" isBlankWhenNull="false">
+					<reportElement key="PrecentageLabel" mode="Transparent" x="218" y="15" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="8ef4244e-ca9f-4b31-98eb-4711b9f62dc7"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="DejaVu Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["PERCENTAGE(%)"]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="17" y="94" width="295" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="40bcf3f4-038c-41bf-95eb-b86d9571603f"/>
+				</line>
+				<line>
+					<reportElement x="17" y="31" width="295" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="55259d81-f872-42cf-99f5-15a1238ac9e3"/>
+				</line>
+				<textField pattern="#,##0.00 %" isBlankWhenNull="false">
+					<reportElement key="percentage" x="218" y="34" width="94" height="14" uuid="1499a27a-ecab-419b-918a-349c3d711bf0"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new BigDecimal($F{M_ROW_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="false">
+					<reportElement key="rowcount_Value" x="117" y="34" width="94" height="14" uuid="ed9afe2d-4826-493b-82ce-4e2ec3ef29fe"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{M_ROW_COUNT}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="18" y="48" width="294" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="794fd7cb-1cb4-46e7-afa8-d6778f9b0247"/>
+				</line>
+				<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+					<reportElement key="RowCountLabel" mode="Transparent" x="18" y="34" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="9d26f577-6ea1-4f45-ad02-34c0d4f67b1b"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Source Han Sans" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Row Count"]]></textFieldExpression>
+				</textField>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" x="17" y="32" width="1" height="61" forecolor="#C1D82F" uuid="50296baa-aa7b-41c6-acd6-71f74e256ba2"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="312" y="32" width="1" height="62" forecolor="#C1D82F" uuid="a3b06624-01fc-4dee-929f-2f4d470f3620"/>
+				</line>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="18" y="63" width="294" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="27087567-6d1a-4e58-9cfa-97f62600b5fa"/>
+				</line>
+				<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+					<reportElement key="uniqueRecordsLabel" mode="Transparent" x="18" y="49" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="a964501c-a9f8-4a9a-b3ba-18184f9f785c"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Source Han Sans" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Unique Records"]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="18" y="78" width="294" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="51f1f263-9c8f-4f04-b933-dd8a5a9bb610"/>
+				</line>
+				<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+					<reportElement key="MatchedRecordsLabel" mode="Transparent" x="18" y="64" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="2ec6816a-283c-42e0-953c-c2bebe750480"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Source Han Sans" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Matched Records"]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement positionType="FixRelativeToBottom" x="18" y="93" width="293" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="0d4325fc-0012-4700-9622-3c65258d947b"/>
+				</line>
+				<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="false">
+					<reportElement key="suspectRecordsLabel" mode="Transparent" x="18" y="79" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="6f59ab92-36e4-46fb-a088-610ac5b7e216"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Source Han Sans" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Suspect Records"]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00 %" isBlankWhenNull="false">
+					<reportElement key="precentage2" x="218" y="49" width="94" height="14" uuid="1de54678-b100-48d2-9696-885d4bf3502c"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new BigDecimal($F{M_UNIQUE_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="false">
+					<reportElement key="MatchCountValue" x="117" y="64" width="94" height="14" uuid="9a9823da-2941-461a-b579-16f084a1e39d"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{M_MATCH_COUNT}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="#,##0.00 %" isBlankWhenNull="true">
+					<reportElement key="precentageValue3" x="218" y="64" width="94" height="14" uuid="353b9b2f-25d3-4ad8-9722-52071dc28ddc"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new BigDecimal($F{M_MATCH_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="false">
+					<reportElement key="uniqueCountValue" x="117" y="49" width="94" height="14" uuid="35c73dad-4c1f-4455-9439-0a918a6916cd"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{M_UNIQUE_COUNT}]]></textFieldExpression>
+				</textField>
+				<textField pattern="#,##0.00 %" isBlankWhenNull="true">
+					<reportElement key="precentageValue4" x="218" y="79" width="94" height="14" uuid="77b8f9e3-6c5c-40b7-9dd6-c76c3c04cbdd"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new BigDecimal($F{M_SUSPECT_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="false">
+					<reportElement key="SuspectCountValue" x="117" y="79" width="94" height="14" uuid="49b8185c-580b-46e1-9c72-1fc5c2c3f05e"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{M_SUSPECT_COUNT}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="COLUMNGroup" isStartNewPage="true">
+		<groupExpression><![CDATA[$F{ELT_CONNECTION_UUID}.concat(($F{ELT_SCHEMA_NAME_1}!=null?$F{ELT_SCHEMA_NAME_1}:$F{ELT_CATALOG_NAME}).concat($F{ELT_TABLE_NAME}.concat($F{ELT_COLUMN_NAME})))]]></groupExpression>
+	</group>
+	<group name="indicatorCategory">
+		<groupHeader>
+			<band height="23">
+				<line>
+					<reportElement x="7" y="1" width="524" height="1" forecolor="#AEB0B2" uuid="6ec62fff-462b-4822-b578-cdc0e010c07f"/>
+				</line>
+				<line>
+					<reportElement x="17" y="21" width="395" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="92db8435-0730-4a6e-a1a2-d913802ff386"/>
+				</line>
+				<textField evaluationTime="Group" evaluationGroup="ANALYSIS" pattern="" isBlankWhenNull="false">
+					<reportElement key="GroupCountLabel" mode="Transparent" x="118" y="5" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="4a599c11-41cf-458e-a88c-eb1a30fa1c19"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="DejaVu Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Group Count"]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Group" evaluationGroup="ANALYSIS" pattern="" isBlankWhenNull="false">
+					<reportElement key="RecordCountLabel" mode="Transparent" x="218" y="5" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="a83dcee3-f219-46a7-a022-c240dcb3c92a"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" markup="none">
+						<font fontName="DejaVu Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Record Count"]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement key="GroupSizeLabel" x="18" y="5" width="94" height="14" uuid="dd740a0f-1999-4d25-9777-dee1b8ba6ec5"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Group Size"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement key="recordsPrecentageLabel" x="318" y="5" width="94" height="14" uuid="7e903c09-ea6e-4527-a0af-989341fae914"/>
+					<box>
+						<pen lineWidth="1.0" lineColor="#C1D82F"/>
+						<topPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<leftPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<bottomPen lineWidth="1.0" lineColor="#C1D82F"/>
+						<rightPen lineWidth="1.0" lineColor="#C1D82F"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["% Records"]]></textFieldExpression>
+				</textField>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="412" y="21" width="1" height="2" forecolor="#C1D82F" uuid="271d839d-77ee-44a9-af7a-04e33c1ebfa3"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" x="7" y="1" width="1" height="22" forecolor="#AEB0B2" uuid="645186f2-8527-417a-b257-40fb22bb1e52"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement x="17" y="22" width="1" height="1" forecolor="#C1D82F" uuid="0b0d0bc9-7980-464b-81f3-1850e92e8243"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" x="531" y="1" width="1" height="22" forecolor="#AEB0B2" uuid="0af746ec-7bff-4dbd-be9b-aa3b6a74dde4"/>
+				</line>
+				<line direction="BottomUp">
+					<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="17" y="21" width="1" height="2" forecolor="#C1D82F" uuid="df0c419f-6856-47f2-9b7a-afc84bd6f224"/>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="315">
+				<barChart>
+					<chart isShowLegend="false" customizerClass="org.talend.dataquality.reporting.TalendChartCustomizer">
+						<reportElement key="matchAnaGroupStatistics" mode="Transparent" x="7" y="11" width="524" height="290" uuid="e6e5fee3-41ca-4a5b-b738-56c5c86aa895"/>
+						<box>
+							<pen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<topPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<leftPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<bottomPen lineWidth="1.0" lineColor="#AEB0B2"/>
+							<rightPen lineWidth="1.0" lineColor="#AEB0B2"/>
+						</box>
+						<chartTitle position="Top">
+							<titleExpression><![CDATA["Group Statistics"]]></titleExpression>
+						</chartTitle>
+						<chartSubtitle/>
+						<chartLegend/>
+					</chart>
+					<categoryDataset>
+						<dataset resetType="Group" resetGroup="indicatorCategory">
+							<incrementWhenExpression><![CDATA[$F{G_SIZE}>1]]></incrementWhenExpression>
+						</dataset>
+						<categorySeries>
+							<seriesExpression><![CDATA[String.valueOf($F{G_SIZE})]]></seriesExpression>
+							<categoryExpression><![CDATA[String.valueOf($F{G_SIZE})]]></categoryExpression>
+							<valueExpression><![CDATA[$F{G_GROUP_COUNT}]]></valueExpression>
+						</categorySeries>
+					</categoryDataset>
+					<barPlot isShowLabels="true" isShowTickLabels="true" isShowTickMarks="true">
+						<plot labelRotation="0.0">
+							<seriesColor seriesOrder="0" color="#F49320"/>
+							<seriesColor seriesOrder="1" color="#8077B2"/>
+							<seriesColor seriesOrder="2" color="#BED530"/>
+							<seriesColor seriesOrder="3" color="#239DBE"/>
+							<seriesColor seriesOrder="4" color="#FAD410"/>
+							<seriesColor seriesOrder="5" color="#EA1C24"/>
+							<seriesColor seriesOrder="6" color="#C0835B"/>
+							<seriesColor seriesOrder="7" color="#EC1785"/>
+							<seriesColor seriesOrder="8" color="#A49B64"/>
+							<seriesColor seriesOrder="9" color="#F4781E"/>
+							<seriesColor seriesOrder="10" color="#80A8C9"/>
+							<seriesColor seriesOrder="11" color="#BEA92A"/>
+							<seriesColor seriesOrder="12" color="#257EAF"/>
+							<seriesColor seriesOrder="13" color="#FAAE0F"/>
+							<seriesColor seriesOrder="14" color="#FAD410"/>
+							<seriesColor seriesOrder="15" color="#EB682F"/>
+							<seriesColor seriesOrder="16" color="#EA1C24"/>
+						</plot>
+						<itemLabel color="#000000" backgroundColor="#FFFFFF"/>
+						<categoryAxisLabelExpression><![CDATA["Group Size"]]></categoryAxisLabelExpression>
+						<categoryAxisFormat labelRotation="0.0">
+							<axisFormat verticalTickLabels="false">
+								<labelFont>
+									<font fontName="SansSerif" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+								</labelFont>
+								<tickLabelFont>
+									<font fontName="SansSerif" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+								</tickLabelFont>
+							</axisFormat>
+						</categoryAxisFormat>
+						<valueAxisLabelExpression><![CDATA["Group Count"]]></valueAxisLabelExpression>
+						<valueAxisFormat>
+							<axisFormat verticalTickLabels="false">
+								<labelFont>
+									<font fontName="SansSerif" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+								</labelFont>
+								<tickLabelFont>
+									<font fontName="SansSerif" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+								</tickLabelFont>
+							</axisFormat>
+						</valueAxisFormat>
+						<rangeAxisMaxValueExpression><![CDATA[$V{maxIndValue}.intValue() > 1 ? $V{maxIndValue}.intValue()+($V{maxIndValue}.intValue()*0.15) : 1]]></rangeAxisMaxValueExpression>
+					</barPlot>
+				</barChart>
+				<line>
+					<reportElement x="7" y="1" width="525" height="1" forecolor="#AEB0B2" uuid="15e9f1f4-de66-452a-9db9-a12c488a35b4"/>
+				</line>
+				<line>
+					<reportElement x="17" y="0" width="396" height="1" forecolor="#C1D82F" backcolor="#C1D82F" uuid="958cd4b6-6e3a-4444-b36b-c5763a26de21"/>
+				</line>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="48">
+			<printWhenExpression><![CDATA[$P{NEED_TITLE}]]></printWhenExpression>
+			<image>
+				<reportElement key="image-1" stretchType="RelativeToBandHeight" mode="Transparent" x="7" y="8" width="97" height="30" uuid="622cd608-77d2-4556-b899-d3d4997abaca"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA[new File($P{LOGO_FILE} )]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="16">
+			<textField isBlankWhenNull="false">
+				<reportElement key="TOP_LEFT_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="7" y="0" width="92" height="15" uuid="91394c30-ec47-469e-9fab-415e81f83ef6"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="TOP_MIDDLE_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="222" y="0" width="92" height="15" uuid="93268544-9d88-4853-8a85-2b90c16719e9"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="TOP_RIGHT_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="437" y="0" width="92" height="15" uuid="d3e4cd6f-4d34-4d30-8a62-b83e8e3d7288"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band/>
+	</columnHeader>
+	<detail>
+		<band height="16">
+			<textField isStretchWithOverflow="true" pattern="###0" isBlankWhenNull="false">
+				<reportElement key="groupsizeValue" mode="Transparent" x="19" y="0" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="22858774-736f-4062-8c60-712c1f06fc8e"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="None" markup="none">
+					<font fontName="Source Han Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Source Han Sans" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{G_SIZE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="###0.00 %" isBlankWhenNull="false">
+				<reportElement key="recordsPercentage" mode="Transparent" x="318" y="0" width="94" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="b5cb7ec0-b48f-426c-911b-1f9b67b4ec12"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Bottom" rotation="None" markup="none">
+					<font fontName="DejaVu Sans" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new BigDecimal($F{G_RECORD_COUNT}).divide(new BigDecimal($F{M_ROW_COUNT}),4, BigDecimal.ROUND_HALF_EVEN).doubleValue()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="18" y="14" width="394" height="1" forecolor="#AEB0B2" backcolor="#FFFFFF" uuid="6d284cb0-acd3-4f3f-82c7-64d459399456"/>
+			</line>
+			<textField pattern="###0" isBlankWhenNull="false">
+				<reportElement key="groupCountValue" x="118" y="0" width="94" height="14" uuid="4f99757c-bf2a-470c-bd00-6b3fd1ee647f"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{G_GROUP_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField pattern="###0" isBlankWhenNull="false">
+				<reportElement key="recordCountValue" x="218" y="0" width="94" height="14" uuid="26f485a3-1d96-4970-b11b-32014422fa42"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{G_RECORD_COUNT}]]></textFieldExpression>
+			</textField>
+			<line direction="BottomUp">
+				<reportElement x="17" y="0" width="1" height="16" forecolor="#C1D82F" uuid="43dc42e5-4bb3-4bec-a0f9-6ccd9101d8f7"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement x="412" y="0" width="1" height="16" forecolor="#C1D82F" uuid="d99d8a85-b187-4011-b53a-39f452e947f9"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="7" y="0" width="1" height="16" forecolor="#AEB0B2" uuid="8c6f1b2c-ed0e-4c80-ba34-30e9abf0b801"/>
+			</line>
+			<line direction="BottomUp">
+				<reportElement stretchType="RelativeToBandHeight" x="531" y="0" width="1" height="16" forecolor="#AEB0B2" uuid="8d746533-009d-46d6-b232-47e34530413d"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="28">
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="312" y="18" width="222" height="9" uuid="d47bb8de-1e24-44a7-868a-ad1ddb922355"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PR_NAME}+" @V"+$F{PR_DISPLAY_VERSION}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="BOTTOM_LEFT_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="7" y="0" width="95" height="15" uuid="dec7ade0-f7fa-4a61-ba5b-0b178842eec5"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="BOTTOM_MIDDLE_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="222" y="0" width="95" height="15" uuid="f39bca99-90a9-4236-ba4a-b9b4a3cd7f27"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="BOTTOM_RIGHT_PRESENTATIONKEY" stretchType="RelativeToTallestObject" x="437" y="0" width="95" height="15" uuid="78f15de0-40fe-428a-b252-9435cf9d596a"/>
+				<box>
+					<topPen lineWidth="0.0" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

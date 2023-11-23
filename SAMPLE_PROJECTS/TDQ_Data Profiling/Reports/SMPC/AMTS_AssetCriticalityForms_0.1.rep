@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_pUEX4IQvEe6MKaVzKXwixQ" name="AMTS_AssetCriticalityForms" creationDate="2023-11-16T11:24:26.588+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/AMTS_AssetCriticalityForms_0.1.ana#_tu6dcIQtEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_pUEX4YQvEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report"/>
+  <taggedValue xmi:id="_pUEX4oQvEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_pUEX44QvEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_pUEX5IQvEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_pUEX5YQvEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_pUEX5oQvEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_pUEX54QvEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_pUEX6IQvEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_pUEX6YQvEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_pUEX6oQvEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:HhkdoPYqgJmr6YpGOdV5ikO46ahEEHkGOqghRQ=="/>
+  <taggedValue xmi:id="_pUEX64QvEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_pUEX7IQvEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_pUEX7YQvEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_pUEX7oQvEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_pUEX74QvEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_pUEX8IQvEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_tgTHwIQvEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_tgTHwYQvEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_tgTHwoQvEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_tgTu0IQvEe6MKaVzKXwixQ" tag="OutputFileName" value="Asset"/>
+  <taggedValue xmi:id="_tgTu0YQvEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_tgTu0oQvEe6MKaVzKXwixQ" tag="OutputType" value="xml"/>
+  <taggedValue xmi:id="_tgTu04QvEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_tgTu1YQvEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_pUEX8YQvEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/AMTS_AssetCriticalityForms_0.1.ana#_yE9NcIQpEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_yRNSAIQvEe6MKaVzKXwixQ" executionDate="2023-11-17T10:57:03.956+0800" executionDuration="4103" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_tgTu1IQvEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

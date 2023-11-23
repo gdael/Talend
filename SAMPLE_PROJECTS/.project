@@ -10,4 +10,106 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.AMTS-20231116-1357-00040.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/AMTS/AMTS-20231116-1357-00040.pdf</location>
+		</link>
+		<link>
+			<name>.AMTS-20231116-1359-00020.xml</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/AMTS/AMTS-20231116-1359-00020.xml</location>
+		</link>
+		<link>
+			<name>.AMTS-20231116-1400-00058.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/AMTS/AMTS-20231116-1400-00058.xls</location>
+		</link>
+		<link>
+			<name>.Asset-20231116-1125-00027.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/Asset-20231116-1125-00027.xls</location>
+		</link>
+		<link>
+			<name>.Asset-20231117-1057-00009.xml</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/Asset-20231117-1057-00009.xml</location>
+		</link>
+		<link>
+			<name>.CMS-20231116-1401-00049.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/CMS/CMS-20231116-1401-00049.pdf</location>
+		</link>
+		<link>
+			<name>.CMS-20231116-1403-00013.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/CMS/CMS-20231116-1403-00013.xls</location>
+		</link>
+		<link>
+			<name>.COCA-20231116-1404-00006.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/COCA/COCA-20231116-1404-00006.pdf</location>
+		</link>
+		<link>
+			<name>.COCA-20231116-1404-00039.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/COCA/COCA-20231116-1404-00039.xls</location>
+		</link>
+		<link>
+			<name>.IIS-20231116-1434-00007.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/IIS/IIS-20231116-1434-00007.pdf</location>
+		</link>
+		<link>
+			<name>.IIS-20231116-1436-00026.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/IIS/IIS-20231116-1436-00026.pdf</location>
+		</link>
+		<link>
+			<name>.IIS-20231116-1440-00033.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/IIS/IIS-20231116-1440-00033.xls</location>
+		</link>
+		<link>
+			<name>.MSSQL-20231116-1301-00050.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/MSSQL-20231116-1301-00050.pdf</location>
+		</link>
+		<link>
+			<name>.MSSQL-20231116-1324-00055.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/MSSQL-20231116-1324-00055.pdf</location>
+		</link>
+		<link>
+			<name>.MSSQL-20231117-1424-00014.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/MSSQL-20231117-1424-00014.pdf</location>
+		</link>
+		<link>
+			<name>.NAV_AMM-20231116-1418-00003.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/NAV_AMM/NAV_AMM-20231116-1418-00003.pdf</location>
+		</link>
+		<link>
+			<name>.NAV_AMM-20231116-1421-00033.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/NAV_AMM/NAV_AMM-20231116-1421-00033.xls</location>
+		</link>
+		<link>
+			<name>.OLS-20231116-1516-00010.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/OLS/OLS-20231116-1516-00010.pdf</location>
+		</link>
+		<link>
+			<name>.OLS-20231116-1517-00034.xls</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/OLS/OLS-20231116-1517-00034.xls</location>
+		</link>
+		<link>
+			<name>.OPD-20231116-1453-00041.pdf</name>
+			<type>1</type>
+			<location>D:/01. Data Integration/Talend/Client/SMPC/Report/OPD/OPD-20231116-1453-00041.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

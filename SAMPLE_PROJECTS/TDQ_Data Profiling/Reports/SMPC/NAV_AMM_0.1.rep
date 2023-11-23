@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_eeiE0IRHEe6MKaVzKXwixQ" name="NAV_AMM" creationDate="2023-11-16T14:15:01.786+0800" defaultContext="Default">
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/NAV_AMM_SCPC_PM_Job_Header_0.1.ana#_lLK78IRHEe6MKaVzKXwixQ"/>
+  <clientDependency href="../../Analyses/SMPC/Column_Analysis/NAV_AMM_SCPC_PM_Job_Line_0.1.ana#_lLynAIRHEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="_eeiE0YRHEe6MKaVzKXwixQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_eeiE0oRHEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="_eeiE04RHEe6MKaVzKXwixQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_eeiE1IRHEe6MKaVzKXwixQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_eeiE1YRHEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_eeiE1oRHEe6MKaVzKXwixQ" tag="OutputFolder" value="D:\01. Data Integration\Talend\Client\SMPC\Report\NAV_AMM"/>
+  <taggedValue xmi:id="_eeiE14RHEe6MKaVzKXwixQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_eeiE2IRHEe6MKaVzKXwixQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_eeiE2YRHEe6MKaVzKXwixQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_eeiE2oRHEe6MKaVzKXwixQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_eeiE24RHEe6MKaVzKXwixQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_eeiE3IRHEe6MKaVzKXwixQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_eeiE3YRHEe6MKaVzKXwixQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_eeiE3oRHEe6MKaVzKXwixQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_eeiE34RHEe6MKaVzKXwixQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:hQUN9+KM/p0GhC5VXtC46Kx/ha2d0f/xO7dPYA=="/>
+  <taggedValue xmi:id="_eeiE4IRHEe6MKaVzKXwixQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_eeiE4YRHEe6MKaVzKXwixQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/D:\01. Data Integration\Talend\Talend-Studio-20230428_0423-V8.0.1\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_eeiE4oRHEe6MKaVzKXwixQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_eeiE44RHEe6MKaVzKXwixQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_eeiE5IRHEe6MKaVzKXwixQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_lLGDcIRHEe6MKaVzKXwixQ" tag="OutputFileName" value="NAV_AMM"/>
+  <taggedValue xmi:id="_lLGDcYRHEe6MKaVzKXwixQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_lLGDcoRHEe6MKaVzKXwixQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_lLGDc4RHEe6MKaVzKXwixQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_lLGqgIRHEe6MKaVzKXwixQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_lLGqgYRHEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/NAV_AMM_SCPC_PM_Job_Header_0.1.ana#_FFQk4IRGEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <analysisMap xmi:id="_lLGqgoRHEe6MKaVzKXwixQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../../Analyses/SMPC/Column_Analysis/NAV_AMM_SCPC_PM_Job_Line_0.1.ana#_zg0oUIRGEe6MKaVzKXwixQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_44cX0IRHEe6MKaVzKXwixQ" executionDate="2023-11-16T14:18:56.620+0800" executionDuration="152247" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_lLGDdIRHEe6MKaVzKXwixQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>
