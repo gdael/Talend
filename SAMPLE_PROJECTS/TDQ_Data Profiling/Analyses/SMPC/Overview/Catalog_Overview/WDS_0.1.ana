@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_gGBMkIQyEe6MKaVzKXwixQ" name="WDS" creationDate="2023-11-16T11:44:53.207+0800">
-  <clientDependency href="../../../../../metadata/connections/SMPC_NAV_0.1.item#_wuwY4IQQEe6MKaVzKXwixQ"/>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_gGBMkIQyEe6MKaVzKXwixQ" name="WDS" creationDate="2023-11-16T11:44:53.207+0800">
   <taggedValue xmi:id="_gGBMkYQyEe6MKaVzKXwixQ" tag="Status" value="development"/>
   <taggedValue xmi:id="_gGBMkoQyEe6MKaVzKXwixQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
   <taggedValue xmi:id="_gGBMk4QyEe6MKaVzKXwixQ" tag="Purpose"/>
   <taggedValue xmi:id="_gGBMlIQyEe6MKaVzKXwixQ" tag="Description"/>
   <taggedValue xmi:id="_gGBMlYQyEe6MKaVzKXwixQ" tag="Version" value="0.1"/>
-  <context xmi:id="_gGBMloQyEe6MKaVzKXwixQ">
-    <connection href="../../../../../metadata/connections/SMPC_NAV_0.1.item#_o6i1sIQQEe6MKaVzKXwixQ"/>
-    <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../../../metadata/connections/SMPC_NAV_0.1.item#_pVTgTYQQEe6MKaVzKXwixQ"/>
-  </context>
+  <context xmi:id="_gGBMloQyEe6MKaVzKXwixQ"/>
   <results xmi:id="_gGBMl4QyEe6MKaVzKXwixQ">
     <resultMetadata xmi:id="_gGBMmIQyEe6MKaVzKXwixQ"/>
-    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_gGBMmYQyEe6MKaVzKXwixQ">
-      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../../../metadata/connections/SMPC_NAV_0.1.item#_pVTgTYQQEe6MKaVzKXwixQ"/>
-      <indicatorDefinition href="../../../../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
-    </indicators>
   </results>
   <parameters xmi:id="_gGBMmoQyEe6MKaVzKXwixQ" analysisType="Catalog Analysis"/>
 </dataquality.analysis:Analysis>

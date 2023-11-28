@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_VJt3AIT2Ee6YGMwwrWOFyQ" name="Test_Table" creationDate="2023-11-17T11:06:41.133+0800" defaultContext="Default">
-    <clientDependency href="../../metadata/connections/SMPC_NAV_0.1.item#_wuwY4IQQEe6MKaVzKXwixQ"/>
     <taggedValue xmi:id="_VJt3AYT2Ee6YGMwwrWOFyQ" tag="Status" value="development"/>
     <taggedValue xmi:id="_VJt3AoT2Ee6YGMwwrWOFyQ" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
     <taggedValue xmi:id="_VJt3A4T2Ee6YGMwwrWOFyQ" tag="Purpose" value=""/>
@@ -11,18 +10,12 @@
     <taggedValue xmi:id="_VVRmwYT2Ee6YGMwwrWOFyQ" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_VVUDAIT2Ee6YGMwwrWOFyQ" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_VVUDAYT2Ee6YGMwwrWOFyQ" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-    <context xmi:id="_VJt3BoT2Ee6YGMwwrWOFyQ">
-      <connection href="../../metadata/connections/SMPC_NAV_0.1.item#_o6i1sIQQEe6MKaVzKXwixQ"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmnsIT2Ee6YGMwwrWOFyQ"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmntIT2Ee6YGMwwrWOFyQ"/>
-    </context>
+    <context xmi:id="_VJt3BoT2Ee6YGMwwrWOFyQ"/>
     <results xmi:id="_VJt3B4T2Ee6YGMwwrWOFyQ">
       <resultMetadata xmi:id="_VJt3CIT2Ee6YGMwwrWOFyQ" executionDate="2023-11-17T11:06:50.701+0800" executionDuration="22" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
       <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_VJt3CYT2Ee6YGMwwrWOFyQ" count="69" computed="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A6578700000000077040000000078" uniqueCount="69" distinctCount="69">
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk730IT2Ee6YGMwwrWOFyQ" body="SELECT &quot;MigrationId&quot;,&quot;ProductVersion&quot;,COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot;  GROUP BY &quot;MigrationId&quot;,&quot;ProductVersion&quot;" language="SQL"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmnsIT2Ee6YGMwwrWOFyQ"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VRmntIT2Ee6YGMwwrWOFyQ"/>
         <rowCountIndicator xmi:id="_VJt3CoT2Ee6YGMwwrWOFyQ" count="69" computed="true">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Wk8e4IT2Ee6YGMwwrWOFyQ" body="SELECT COUNT(*) FROM &quot;AMTS&quot;.&quot;dbo&quot;.&quot;__EFMigrationsHistory&quot; " language="SQL"/>

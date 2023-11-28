@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_aHnL0YnBEe6h-cXgx-wjyw" name="repository.metadataGenericSchema" xmi:id="_aHnL0InBEe6h-cXgx-wjyw"/>
+  <TalendMetadata:GenericPackage dataManager="_aHnL0InBEe6h-cXgx-wjyw" name="repository.metadataGenericSchema" xmi:id="_aHnL0YnBEe6h-cXgx-wjyw">
+    <ownedElement id="_UUPfAInBEe6h-cXgx-wjyw" label="metadata" xmi:id="_aHnL0onBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="timestamp" length="8" name="timestamp" nullable="false" sourceType="TIMESTAMP" talendType="id_String" xmi:id="_aHnL04nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL1InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="No_" length="30" name="No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL1YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL1onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Machine_ID" length="20" name="Machine_ID" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL14nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL2InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Machine_Name" length="90" name="Machine_Name" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL2YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL2onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Frequency_Name" length="30" name="Frequency_Name" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL24nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL3InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="No__Series" length="20" name="No__Series" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL3YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL3onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Type" length="10" name="Type" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnL34nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL4InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Posting_Date" length="23" name="Posting_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnL4YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL4onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Posted" length="3" name="Posted" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnL44nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL5InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Created_Date" length="23" name="Created_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnL5YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL5onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Created_By" length="50" name="Created_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL54nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL6InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Posted_Date" length="23" name="Posted_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnL6YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL6onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Posted_By" length="50" name="Posted_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL64nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL7InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Complaint_No_" length="20" name="Complaint_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL7YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL7onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Start_Date_Time" length="23" name="Start_Date_Time" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnL74nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL8InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="End_Date_Time" length="23" name="End_Date_Time" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnL8YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL8onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Total_Minutes" length="38" name="Total_Minutes" nullable="false" precision="20" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aHnL84nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL9InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Time_Duration" length="19" name="Time_Duration" nullable="false" sourceType="BIGINT" talendType="id_Long" xmi:id="_aHnL9YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL9onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Total_Cost" length="38" name="Total_Cost" nullable="false" precision="20" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aHnL94nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL-InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="UOM" length="10" name="UOM" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL-YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL-onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Time_Hrs" length="38" name="Time_Hrs" nullable="false" precision="20" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aHnL-4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL_InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Consumed" length="3" name="Consumed" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnL_YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnL_onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Failure_Code" length="20" name="Failure_Code" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnL_4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMAInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Failure_Description" length="50" name="Failure_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMAYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMAonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Created_Time" length="23" name="Created_Time" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnMA4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMBInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Shortcut_Dimension_1_Code" length="20" name="Shortcut_Dimension_1_Code" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMBYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMBonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Shortcut_Dimension_2_Code" length="20" name="Shortcut_Dimension_2_Code" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMB4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMCInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Comment" length="3" name="Comment" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnMCYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMConBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Status" length="10" name="Status" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMC4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMDInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Maintenance_Type" length="10" name="Maintenance_Type" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMDYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMDonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Dimension_Set_ID" length="10" name="Dimension_Set_ID" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMD4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMEInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="External" length="3" name="External" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnMEYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMEonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Vendor_No_" length="10" name="Vendor_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnME4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMFInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Vendor_Name" length="50" name="Vendor_Name" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMFYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMFonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Purchase_Order_No_" length="20" name="Purchase_Order_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMF4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMGInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Purchase_Invoice_No_" length="20" name="Purchase_Invoice_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMGYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMGonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="P_O__Date" length="23" name="P_O__Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnMG4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMHInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Work_Center" length="20" name="Work_Center" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMHYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMHonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Maintenance_Date" length="23" name="Maintenance_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnMH4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMIInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Maintenance_Unit" length="20" name="Maintenance_Unit" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMIYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMIonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Deferred_Status" length="10" name="Deferred_Status" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMI4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMJInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Deferred_Reason" length="10" name="Deferred_Reason" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMJYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMJonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Deferred" length="23" name="Date_Deferred" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnMJ4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMKInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Deferred_By" length="50" name="Deferred_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMKYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMKonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Lifted" length="23" name="Date_Lifted" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnMK4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMLInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Lifted_By" length="50" name="Lifted_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMLYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMLonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="ECO_No_" length="15" name="ECO_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnML4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMMInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="CHP_HWP_No_" length="20" name="CHP_HWP_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMMYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMMonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Plant_ID" length="20" name="Plant_ID" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMM4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMNInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Other_Description" length="250" name="Other_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMNYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMNonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Test_Description" length="250" name="Test_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMN4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMOInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Originator" length="50" name="Originator" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMOYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMOonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Contact_Man" length="90" name="Contact_Man" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMO4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMPInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Problem_Description" length="250" name="Problem_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMPYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMPonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Superintendent" length="50" name="Superintendent" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMP4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMQInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="A_M_C" length="10" name="A_M_C" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMQYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMQonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Equipment_Type" length="20" name="Equipment_Type" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMQ4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMRInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Criticality" length="30" name="Criticality" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMRYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMRonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Warranty" length="10" name="Warranty" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnMR4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMSInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Access_Group" length="50" name="Access_Group" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMSYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMSonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Parent_Job_Card" length="30" name="Parent_Job_Card" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMS4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMTInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Work_Order_Type" length="10" name="Work_Order_Type" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMTYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnMTonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Follow_up_No__Series" length="30" name="Follow_up_No__Series" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnMT4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny4InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Child_No__Series" length="30" name="Child_No__Series" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny4YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny4onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Priority" length="10" name="Priority" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHny44nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny5InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Estimated_Start_Date" length="23" name="Estimated_Start_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny5YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny5onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="MWO_No_" length="30" name="MWO_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny54nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny6InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="MWO_Title" length="30" name="MWO_Title" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny6YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny6onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Issued" length="23" name="Date_Issued" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny64nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny7InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Required_Date" length="23" name="Required_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny7YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny7onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Equipment_Status" length="30" name="Equipment_Status" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny74nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny8InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Equipment_Requirement" length="30" name="Equipment_Requirement" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny8YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny8onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Reported" length="23" name="Reported" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny84nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny9InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Transmittal_Date" length="23" name="Transmittal_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny9YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny9onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Received_by_WC" length="23" name="Received_by_WC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny94nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny-InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Phone__CCR_Local" length="50" name="Phone__CCR_Local" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHny-YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny-onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Safety_Approval_Date" length="23" name="Safety_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny-4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny_InBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Estimated_Duration" length="38" name="Estimated_Duration" nullable="false" precision="20" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aHny_YnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHny_onBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Completed" length="23" name="Date_Completed" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHny_4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzAInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Completed_By" length="30" name="Completed_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzAYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzAonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Cause_of_Fault" length="10" name="Cause_of_Fault" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzA4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzBInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Location" length="30" name="Location" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzBYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzBonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Cancelled_By" length="20" name="Cancelled_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzB4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzCInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Cancelled" length="23" name="Date_Cancelled" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzCYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzConBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Reason_for_Cancellation" length="80" name="Reason_for_Cancellation" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzC4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzDInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Forecasting" length="3" name="Forecasting" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnzDYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzDonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Posted_Forecasting" length="3" name="Posted_Forecasting" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnzD4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzEInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Forecast_No_" length="30" name="Forecast_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzEYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzEonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Work_Done" length="2147483647" name="Work_Done" sourceType="IMAGE" talendType="id_Object" xmi:id="_aHnzE4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzFInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Modified_By" length="80" name="Modified_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzFYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzFonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Modified" length="23" name="Date_Modified" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzF4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzGInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Work_Done_2" length="200" name="Work_Done_2" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzGYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzGonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Equipment_No_" length="20" name="Equipment_No_" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzG4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzHInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Responsible_Person" length="20" name="Responsible_Person" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzHYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzHonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Responsible_Person_Name" length="130" name="Responsible_Person_Name" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzH4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzIInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="WO_Res__Person_Name" length="130" name="WO_Res__Person_Name" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzIYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzIonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="WO_Res__Person" length="20" name="WO_Res__Person" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzI4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzJInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="WO_Online_Approval_Status" length="100" name="WO_Online_Approval_Status" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzJYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzJonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Approval_Type" length="10" name="Approval_Type" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnzJ4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzKInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Reason_to_disapproved" length="50" name="Reason_to_disapproved" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzKYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzKonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Prepared_By_Approval" length="50" name="Prepared_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzK4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzLInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Recommended_By_Approval" length="50" name="Recommended_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzLYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzLonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Safety_Officer_Approval" length="50" name="Safety_Officer_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzL4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzMInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Shift_Sup_Approval" length="50" name="Shift_Sup_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzMYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzMonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Verified___Approval" length="50" name="Verified___Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzM4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzNInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Performed_By_Approval" length="50" name="Performed_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzNYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzNonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Approved_By_Approval" length="50" name="Approved_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzN4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzOInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Post_Test_Completed_Approval" length="50" name="Post_Test_Completed_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzOYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzOonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Accepted_By_Approval" length="50" name="Accepted_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzO4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzPInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Verified_By_Approval" length="50" name="Verified_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzPYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzPonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Closed_By_Approval" length="50" name="Closed_By_Approval" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzP4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzQInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Prepared_By_Approval_Date" length="23" name="Prepared_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzQYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzQonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Recommended_By_Approval_Date" length="23" name="Recommended_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzQ4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzRInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Safety_Officer_Approval_Date" length="23" name="Safety_Officer_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzRYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzRonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Shift_Sup_Approval_Date" length="23" name="Shift_Sup_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzR4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzSInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Verified___Approval_Date" length="23" name="Verified___Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzSYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzSonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Performed_By_Approval_Date" length="23" name="Performed_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzS4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzTInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Approved_By_Approval_Date" length="23" name="Approved_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzTYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzTonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Post_Test_Completed__Date" length="23" name="Post_Test_Completed__Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzT4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzUInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Accepted_By_Approval_Date" length="23" name="Accepted_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzUYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzUonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Verified_By_Approval_Date" length="23" name="Verified_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzU4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzVInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Closed_By_Approval_Date" length="23" name="Closed_By_Approval_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzVYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzVonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Total_Run_Time_Hours" length="38" name="Total_Run_Time_Hours" nullable="false" precision="20" sourceType="DECIMAL" talendType="id_BigDecimal" xmi:id="_aHnzV4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzWInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Is_Deleted" length="3" name="Is_Deleted" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_aHnzWYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzWonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Date_Deleted" length="23" name="Date_Deleted" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_aHnzW4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzXInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Deleted_By" length="25" name="Deleted_By" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzXYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzXonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Equipment_Availability" length="10" name="Equipment_Availability" nullable="false" sourceType="INT" talendType="id_Integer" xmi:id="_aHnzX4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzYInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Cause_of_Fault_Description" length="40" name="Cause_of_Fault_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzYYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzYonBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Cause_of_Fault_2" length="15" name="Cause_of_Fault_2" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzY4nBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzZInBEe6h-cXgx-wjyw"/>
+      </feature>
+      <feature label="Cause_of_Fault_2_Description" length="70" name="Cause_of_Fault_2_Description" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_aHnzZYnBEe6h-cXgx-wjyw" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aHnzZonBEe6h-cXgx-wjyw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_be3ece5e-d36d-440d-ac75-bf801a73f8be"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zrEegRwRrUJP/Iqy1vu0Vl+LRRYLBfK7vjFZNepSI/gd0TGqfsHnZ62zErQnfL6I3Pea8LVIDHmS&#13;
+UdyCjYimlw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9f162adf-5fe5-4ac5-a09e-dcbdb7541a20"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1PT0+l7e888AziRFTVqbcx9ZVWMtXKAZtueKa6UT5E0NpZqyCr+JNusoh+oxTAmfXM+NQDvLGsPq&#13;
+1jtJ5LWvsw==</DigestValue></Reference></SignedInfo><SignatureValue>gy504nJcwswec7JzJqgilF80ZMEp2scOt2hy5HFPOhWPgoyfDOnUw/Eo4CGSyhi06Lr/aImR8VKp&#13;
+GQDfqb/HWWmM4rzKGSif8idaMIuNRhq27Swxe3XUe6Ib5Qf9EsjrLUk4gGYqDj4BbFvjlRPBjbBn&#13;
+rnPj2yzqUWhle2uP4VieB0X3LYZlJqUA8ebNhqjrQh8QjBouUsFwYQwOW09Yt5Ce6Y3+bghPhYlC&#13;
+apAcbPYhpq1gJfOeJNYq3IlCwiDGbh6DxJ074O8nuq0X3AKHuEQxpaPQfcpcVRbQkVqMUxqHxC81&#13;
+oWYVhGhT/y+r85p0nngSYlspioRnTLIQz5kWKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9f162adf-5fe5-4ac5-a09e-dcbdb7541a20" Target="#_be3ece5e-d36d-440d-ac75-bf801a73f8be"><Timestamp>2023-11-23 05:32:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
