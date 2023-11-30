@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="__-RPgI8SEe6P7_rX6eDGbw" name="Item" creationDate="2023-11-30T07:57:06.000+0800" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/SMPC_NAV_0.1.item#_wuwY4IQQEe6MKaVzKXwixQ"/>
+  <taggedValue xmi:id="__-RPgY8SEe6P7_rX6eDGbw" tag="Status" value="development"/>
+  <taggedValue xmi:id="__-RPgo8SEe6P7_rX6eDGbw" tag="Author" value="glenn.dael@nfr.mtc.com.ph"/>
+  <taggedValue xmi:id="__-RPg48SEe6P7_rX6eDGbw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="__-RPhI8SEe6P7_rX6eDGbw" tag="Description" value=""/>
+  <taggedValue xmi:id="__-RPhY8SEe6P7_rX6eDGbw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_ISYawY8TEe6P7_rX6eDGbw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_ISa3Ao8TEe6P7_rX6eDGbw" tag="Ignore Null" value="false"/>
+  <taggedValue xmi:id="_ISa3A48TEe6P7_rX6eDGbw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="__-RPho8SEe6P7_rX6eDGbw">
+    <connection href="../../metadata/connections/SMPC_NAV_0.1.item#_o6i1sIQQEe6MKaVzKXwixQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo80YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo81YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo82YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo83YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo84YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo85YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo86YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo87YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo88YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo89YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8-YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8_YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9AYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9BYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9CYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9DYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9EYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9FYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9GYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9HYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9IYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9JYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9KYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9LYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9MYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9NYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9OYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9PYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9QYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9RYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9SYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9TYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9UYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9VYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9WYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9XYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9YYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9ZYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9aYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9bYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9cYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9dYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9eYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9fYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9gYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9hYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9iYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9jYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9kYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9lYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9mYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9nYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9oYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9pYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9qYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9rYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9sYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9tYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9uYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9vYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9wYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9xYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9yYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9zYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo90YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo91YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo92YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo93YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo94YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo95YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo96YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo97YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo98YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo99YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9-YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9_YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-AYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-BYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-CYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-DYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-EYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-FYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-GYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-HYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-IYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-JYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-KYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-LYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-MYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-NYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-OYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-PYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-QYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-RYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-SYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-TYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-UYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-VYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-WYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-XYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-YYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-ZYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-aYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-bYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-cYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-dYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-eYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-fYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-gYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-hYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-iYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-jYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-kYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-lYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-mYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-nYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-oYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-pYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-qYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-rYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-sYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-tYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-uYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-vYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-wYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-xYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-yYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-zYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-0YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-1YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-2YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-3YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-4YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-5YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-6YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-7YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-8YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-9YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo--YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-_YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_AYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_BYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_CYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_DYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_EYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_FYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_GYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_HYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_IYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_JYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_KYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_LYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_MYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_NYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_OYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_PYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_QYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_RYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_SYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_TYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_UYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_VYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_WYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_wYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_xYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_yYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_zYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_0YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_1YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_2YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_3YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_4YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_5YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_6YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_7YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_8YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_9YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_-YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg__YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAAYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhABYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhACYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhADYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAEYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAFYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAGYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAHYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAIYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAJYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAKYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhALYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAMYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhANYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAOYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAPYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAQYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhARYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhASYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhATYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAUYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAVYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAWYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAXYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAYYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAZYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAaYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAbYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAcYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAdYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAeYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAfYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAgYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAhYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAiYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAjYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAkYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAlYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAmYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAnYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAoYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhApYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAqYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhArYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAsYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAtYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAuYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm0YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm1YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm2YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm3YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm4YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm5YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm6YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm7YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm8YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm9YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm-YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm_YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnAYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnBYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnCYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnDYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnEYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnFYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnGYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnHYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnIYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnJYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnKYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnLYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnMYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnNYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnOYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnPYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnQYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnRYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnSYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnTYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnUYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnVYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnWYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnXYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnYYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnZYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnaYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnbYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhncYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhndYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhneYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnfYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhngYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnhYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhniYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnjYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnkYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnlYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnmYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnnYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnoYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnpYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnqYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnrYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnsYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhntYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnuYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnvYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnwYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnxYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnyYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnzYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn0YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn1YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn2YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn3YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn4YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn5YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn6YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn7YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn8YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn9YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn-YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn_YmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoAYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoBYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoCYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoDYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoEYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoFYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoGYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoHYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoIYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoJYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoKYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoLYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoMYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoNYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoOYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoPYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoQYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoRYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoSYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoTYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoUYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoVYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoWYmjEe6BzsJ0NRoj3Q"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoXYmjEe6BzsJ0NRoj3Q"/>
+  </context>
+  <results xmi:id="__-RPh48SEe6P7_rX6eDGbw">
+    <resultMetadata xmi:id="__-RPiI8SEe6P7_rX6eDGbw" executionDate="2023-11-30T08:01:44.813+0800" executionDuration="5735" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_ISa3AI8TEe6P7_rX6eDGbw" count="53733" computed="true" notMatchingValueCount="53733">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo80ImjEe6BzsJ0NRoj3Q"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_phC_EI8TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &quot;dbo&quot;.&quot;Sem Calaca Power Corporation$Item&quot; A LEFT JOIN &quot;dbo&quot;.&quot;Southwest Luzon Power Gen Corp$Item&quot; B ON ( (A.&quot;timestamp&quot; = B.&quot;timestamp&quot;)  AND  (A.&quot;No_&quot; = B.&quot;No_&quot;)  AND  (A.&quot;No_ 2&quot; = B.&quot;No_ 2&quot;)  AND  (A.&quot;Description&quot; = B.&quot;Description&quot;)  AND  (A.&quot;Search Description&quot; = B.&quot;Search Description&quot;)  AND  (A.&quot;Description 2&quot; = B.&quot;Description 2&quot;)  AND  (A.&quot;Base Unit of Measure&quot; = B.&quot;Base Unit of Measure&quot;)  AND  (A.&quot;Price Unit Conversion&quot; = B.&quot;Price Unit Conversion&quot;)  AND  (A.&quot;Type&quot; = B.&quot;Type&quot;)  AND  (A.&quot;Inventory Posting Group&quot; = B.&quot;Inventory Posting Group&quot;)  AND  (A.&quot;Shelf No_&quot; = B.&quot;Shelf No_&quot;)  AND  (A.&quot;Item Disc_ Group&quot; = B.&quot;Item Disc_ Group&quot;)  AND  (A.&quot;Allow Invoice Disc_&quot; = B.&quot;Allow Invoice Disc_&quot;)  AND  (A.&quot;Statistics Group&quot; = B.&quot;Statistics Group&quot;)  AND  (A.&quot;Commission Group&quot; = B.&quot;Commission Group&quot;)  AND  (A.&quot;Unit Price&quot; = B.&quot;Unit Price&quot;)  AND  (A.&quot;Price_Profit Calculation&quot; = B.&quot;Price_Profit Calculation&quot;)  AND  (A.&quot;Profit _&quot; = B.&quot;Profit _&quot;)  AND  (A.&quot;Costing Method&quot; = B.&quot;Costing Method&quot;)  AND  (A.&quot;Unit Cost&quot; = B.&quot;Unit Cost&quot;)  AND  (A.&quot;Standard Cost&quot; = B.&quot;Standard Cost&quot;)  AND  (A.&quot;Last Direct Cost&quot; = B.&quot;Last Direct Cost&quot;)  AND  (A.&quot;Indirect Cost _&quot; = B.&quot;Indirect Cost _&quot;)  AND  (A.&quot;Cost is Adjusted&quot; = B.&quot;Cost is Adjusted&quot;)  AND  (A.&quot;Allow Online Adjustment&quot; = B.&quot;Allow Online Adjustment&quot;)  AND  (A.&quot;Vendor No_&quot; = B.&quot;Vendor No_&quot;)  AND  (A.&quot;Vendor Item No_&quot; = B.&quot;Vendor Item No_&quot;)  AND  (A.&quot;Lead Time Calculation&quot; = B.&quot;Lead Time Calculation&quot;)  AND  (A.&quot;Reorder Point&quot; = B.&quot;Reorder Point&quot;)  AND  (A.&quot;Maximum Inventory&quot; = B.&quot;Maximum Inventory&quot;)  AND  (A.&quot;Reorder Quantity&quot; = B.&quot;Reorder Quantity&quot;)  AND  (A.&quot;Alternative Item No_&quot; = B.&quot;Alternative Item No_&quot;)  AND  (A.&quot;Unit List Price&quot; = B.&quot;Unit List Price&quot;)  AND  (A.&quot;Duty Due _&quot; = B.&quot;Duty Due _&quot;)  AND  (A.&quot;Duty Code&quot; = B.&quot;Duty Code&quot;)  AND  (A.&quot;Gross Weight&quot; = B.&quot;Gross Weight&quot;)  AND  (A.&quot;Net Weight&quot; = B.&quot;Net Weight&quot;)  AND  (A.&quot;Units per Parcel&quot; = B.&quot;Units per Parcel&quot;)  AND  (A.&quot;Unit Volume&quot; = B.&quot;Unit Volume&quot;)  AND  (A.&quot;Durability&quot; = B.&quot;Durability&quot;)  AND  (A.&quot;Freight Type&quot; = B.&quot;Freight Type&quot;)  AND  (A.&quot;Tariff No_&quot; = B.&quot;Tariff No_&quot;)  AND  (A.&quot;Duty Unit Conversion&quot; = B.&quot;Duty Unit Conversion&quot;)  AND  (A.&quot;Country_Region Purchased Code&quot; = B.&quot;Country_Region Purchased Code&quot;)  AND  (A.&quot;Budget Quantity&quot; = B.&quot;Budget Quantity&quot;)  AND  (A.&quot;Budgeted Amount&quot; = B.&quot;Budgeted Amount&quot;)  AND  (A.&quot;Budget Profit&quot; = B.&quot;Budget Profit&quot;)  AND  (A.&quot;Blocked&quot; = B.&quot;Blocked&quot;)  AND  (A.&quot;Block Reason&quot; = B.&quot;Block Reason&quot;)  AND  (A.&quot;Last DateTime Modified&quot; = B.&quot;Last DateTime Modified&quot;)  AND  (A.&quot;Last Date Modified&quot; = B.&quot;Last Date Modified&quot;)  AND  (A.&quot;Last Time Modified&quot; = B.&quot;Last Time Modified&quot;)  AND  (A.&quot;Price Includes VAT&quot; = B.&quot;Price Includes VAT&quot;)  AND  (A.&quot;VAT Bus_ Posting Gr_ (Price)&quot; = B.&quot;VAT Bus_ Posting Gr_ (Price)&quot;)  AND  (A.&quot;Gen_ Prod_ Posting Group&quot; = B.&quot;Gen_ Prod_ Posting Group&quot;)  AND  (A.&quot;Picture&quot; = B.&quot;Picture&quot;)  AND  (A.&quot;Country_Region of Origin Code&quot; = B.&quot;Country_Region of Origin Code&quot;)  AND  (A.&quot;Automatic Ext_ Texts&quot; = B.&quot;Automatic Ext_ Texts&quot;)  AND  (A.&quot;No_ Series&quot; = B.&quot;No_ Series&quot;)  AND  (A.&quot;Tax Group Code&quot; = B.&quot;Tax Group Code&quot;)  AND  (A.&quot;VAT Prod_ Posting Group&quot; = B.&quot;VAT Prod_ Posting Group&quot;)  AND  (A.&quot;Reserve&quot; = B.&quot;Reserve&quot;)  AND  (A.&quot;Global Dimension 1 Code&quot; = B.&quot;Global Dimension 1 Code&quot;)  AND  (A.&quot;Global Dimension 2 Code&quot; = B.&quot;Global Dimension 2 Code&quot;)  AND  (A.&quot;Stockout Warning&quot; = B.&quot;Stockout Warning&quot;)  AND  (A.&quot;Prevent Negative Inventory&quot; = B.&quot;Prevent Negative Inventory&quot;)  AND  (A.&quot;Application Wksh_ User ID&quot; = B.&quot;Application Wksh_ User ID&quot;)  AND  (A.&quot;Assembly Policy&quot; = B.&quot;Assembly Policy&quot;)  AND  (A.&quot;GTIN&quot; = B.&quot;GTIN&quot;)  AND  (A.&quot;Default Deferral Template Code&quot; = B.&quot;Default Deferral Template Code&quot;)  AND  (A.&quot;Low-Level Code&quot; = B.&quot;Low-Level Code&quot;)  AND  (A.&quot;Lot Size&quot; = B.&quot;Lot Size&quot;)  AND  (A.&quot;Serial Nos_&quot; = B.&quot;Serial Nos_&quot;)  AND  (A.&quot;Last Unit Cost Calc_ Date&quot; = B.&quot;Last Unit Cost Calc_ Date&quot;)  AND  (A.&quot;Rolled-up Material Cost&quot; = B.&quot;Rolled-up Material Cost&quot;)  AND  (A.&quot;Rolled-up Capacity Cost&quot; = B.&quot;Rolled-up Capacity Cost&quot;)  AND  (A.&quot;Scrap _&quot; = B.&quot;Scrap _&quot;)  AND  (A.&quot;Inventory Value Zero&quot; = B.&quot;Inventory Value Zero&quot;)  AND  (A.&quot;Discrete Order Quantity&quot; = B.&quot;Discrete Order Quantity&quot;)  AND  (A.&quot;Minimum Order Quantity&quot; = B.&quot;Minimum Order Quantity&quot;)  AND  (A.&quot;Maximum Order Quantity&quot; = B.&quot;Maximum Order Quantity&quot;)  AND  (A.&quot;Safety Stock Quantity&quot; = B.&quot;Safety Stock Quantity&quot;)  AND  (A.&quot;Order Multiple&quot; = B.&quot;Order Multiple&quot;)  AND  (A.&quot;Safety Lead Time&quot; = B.&quot;Safety Lead Time&quot;)  AND  (A.&quot;Flushing Method&quot; = B.&quot;Flushing Method&quot;)  AND  (A.&quot;Replenishment System&quot; = B.&quot;Replenishment System&quot;)  AND  (A.&quot;Rounding Precision&quot; = B.&quot;Rounding Precision&quot;)  AND  (A.&quot;Sales Unit of Measure&quot; = B.&quot;Sales Unit of Measure&quot;)  AND  (A.&quot;Purch_ Unit of Measure&quot; = B.&quot;Purch_ Unit of Measure&quot;)  AND  (A.&quot;Time Bucket&quot; = B.&quot;Time Bucket&quot;)  AND  (A.&quot;Reordering Policy&quot; = B.&quot;Reordering Policy&quot;)  AND  (A.&quot;Include Inventory&quot; = B.&quot;Include Inventory&quot;)  AND  (A.&quot;Manufacturing Policy&quot; = B.&quot;Manufacturing Policy&quot;)  AND  (A.&quot;Rescheduling Period&quot; = B.&quot;Rescheduling Period&quot;)  AND  (A.&quot;Lot Accumulation Period&quot; = B.&quot;Lot Accumulation Period&quot;)  AND  (A.&quot;Dampener Period&quot; = B.&quot;Dampener Period&quot;)  AND  (A.&quot;Dampener Quantity&quot; = B.&quot;Dampener Quantity&quot;)  AND  (A.&quot;Overflow Level&quot; = B.&quot;Overflow Level&quot;)  AND  (A.&quot;Manufacturer Code&quot; = B.&quot;Manufacturer Code&quot;)  AND  (A.&quot;Item Category Code&quot; = B.&quot;Item Category Code&quot;)  AND  (A.&quot;Created From Nonstock Item&quot; = B.&quot;Created From Nonstock Item&quot;)  AND  (A.&quot;Product Group Code&quot; = B.&quot;Product Group Code&quot;)  AND  (A.&quot;Service Item Group&quot; = B.&quot;Service Item Group&quot;)  AND  (A.&quot;Item Tracking Code&quot; = B.&quot;Item Tracking Code&quot;)  AND  (A.&quot;Lot Nos_&quot; = B.&quot;Lot Nos_&quot;)  AND  (A.&quot;Expiration Calculation&quot; = B.&quot;Expiration Calculation&quot;)  AND  (A.&quot;Warehouse Class Code&quot; = B.&quot;Warehouse Class Code&quot;)  AND  (A.&quot;Special Equipment Code&quot; = B.&quot;Special Equipment Code&quot;)  AND  (A.&quot;Put-away Template Code&quot; = B.&quot;Put-away Template Code&quot;)  AND  (A.&quot;Put-away Unit of Measure Code&quot; = B.&quot;Put-away Unit of Measure Code&quot;)  AND  (A.&quot;Phys Invt Counting Period Code&quot; = B.&quot;Phys Invt Counting Period Code&quot;)  AND  (A.&quot;Last Counting Period Update&quot; = B.&quot;Last Counting Period Update&quot;)  AND  (A.&quot;Use Cross-Docking&quot; = B.&quot;Use Cross-Docking&quot;)  AND  (A.&quot;Next Counting Start Date&quot; = B.&quot;Next Counting Start Date&quot;)  AND  (A.&quot;Next Counting End Date&quot; = B.&quot;Next Counting End Date&quot;)  AND  (A.&quot;Id&quot; = B.&quot;Id&quot;)  AND  (A.&quot;Unit of Measure Id&quot; = B.&quot;Unit of Measure Id&quot;)  AND  (A.&quot;Tax Group Id&quot; = B.&quot;Tax Group Id&quot;)  AND  (A.&quot;Sales Blocked&quot; = B.&quot;Sales Blocked&quot;)  AND  (A.&quot;Purchasing Blocked&quot; = B.&quot;Purchasing Blocked&quot;)  AND  (A.&quot;Item Category Id&quot; = B.&quot;Item Category Id&quot;)  AND  (A.&quot;Temp&quot; = B.&quot;Temp&quot;)  AND  (A.&quot;Department Code&quot; = B.&quot;Department Code&quot;)  AND  (A.&quot;Office Location Code&quot; = B.&quot;Office Location Code&quot;)  AND  (A.&quot;Equipment Type&quot; = B.&quot;Equipment Type&quot;)  AND  (A.&quot;Make Model&quot; = B.&quot;Make Model&quot;)  AND  (A.&quot;Date Created&quot; = B.&quot;Date Created&quot;)  AND  (A.&quot;Category&quot; = B.&quot;Category&quot;)  AND  (A.&quot;Equipment Code&quot; = B.&quot;Equipment Code&quot;)  AND  (A.&quot;System Code&quot; = B.&quot;System Code&quot;)  AND  (A.&quot;Plant No_&quot; = B.&quot;Plant No_&quot;)  AND  (A.&quot;Description 3&quot; = B.&quot;Description 3&quot;)  AND  (A.&quot;Old Item No_&quot; = B.&quot;Old Item No_&quot;)  AND  (A.&quot;SPIN&quot; = B.&quot;SPIN&quot;)  AND  (A.&quot;Bin&quot; = B.&quot;Bin&quot;)  AND  (A.&quot;Item Type&quot; = B.&quot;Item Type&quot;)  AND  (A.&quot;Item Category&quot; = B.&quot;Item Category&quot;)  AND  (A.&quot;Average Consumption per Year&quot; = B.&quot;Average Consumption per Year&quot;)  AND  (A.&quot;Item Movement&quot; = B.&quot;Item Movement&quot;)  AND  (A.&quot;Delivery Lead Time (Days)&quot; = B.&quot;Delivery Lead Time (Days)&quot;)  AND  (A.&quot;No_ Transaction per year&quot; = B.&quot;No_ Transaction per year&quot;)  AND  (A.&quot;Item Recomendation&quot; = B.&quot;Item Recomendation&quot;)  AND  (A.&quot;Item Recomendation Remarks&quot; = B.&quot;Item Recomendation Remarks&quot;)  AND  (A.&quot;Category Code&quot; = B.&quot;Category Code&quot;)  AND  (A.&quot;WHT Product Posting Group&quot; = B.&quot;WHT Product Posting Group&quot;)  AND  (A.&quot;Routing No_&quot; = B.&quot;Routing No_&quot;)  AND  (A.&quot;Production BOM No_&quot; = B.&quot;Production BOM No_&quot;)  AND  (A.&quot;Single-Level Material Cost&quot; = B.&quot;Single-Level Material Cost&quot;)  AND  (A.&quot;Single-Level Capacity Cost&quot; = B.&quot;Single-Level Capacity Cost&quot;)  AND  (A.&quot;Single-Level Subcontrd_ Cost&quot; = B.&quot;Single-Level Subcontrd_ Cost&quot;)  AND  (A.&quot;Single-Level Cap_ Ovhd Cost&quot; = B.&quot;Single-Level Cap_ Ovhd Cost&quot;)  AND  (A.&quot;Single-Level Mfg_ Ovhd Cost&quot; = B.&quot;Single-Level Mfg_ Ovhd Cost&quot;)  AND  (A.&quot;Overhead Rate&quot; = B.&quot;Overhead Rate&quot;)  AND  (A.&quot;Rolled-up Subcontracted Cost&quot; = B.&quot;Rolled-up Subcontracted Cost&quot;)  AND  (A.&quot;Rolled-up Mfg_ Ovhd Cost&quot; = B.&quot;Rolled-up Mfg_ Ovhd Cost&quot;)  AND  (A.&quot;Rolled-up Cap_ Overhead Cost&quot; = B.&quot;Rolled-up Cap_ Overhead Cost&quot;)  AND  (A.&quot;Order Tracking Policy&quot; = B.&quot;Order Tracking Policy&quot;)  AND  (A.&quot;Critical&quot; = B.&quot;Critical&quot;)  AND  (A.&quot;Common Item No_&quot; = B.&quot;Common Item No_&quot;)  AND  (A.&quot;Shelf No_ 1&quot; = B.&quot;Shelf No_ 1&quot;)  AND  (A.&quot;Shelf No_ 2&quot; = B.&quot;Shelf No_ 2&quot;)  AND  (A.&quot;Shelf No_ 3&quot; = B.&quot;Shelf No_ 3&quot;)  AND  (A.&quot;Expenditure Type&quot; = B.&quot;Expenditure Type&quot;) ) WHERE (B.&quot;timestamp&quot; IS NULL  AND B.&quot;No_&quot; IS NULL  AND B.&quot;No_ 2&quot; IS NULL  AND B.&quot;Description&quot; IS NULL  AND B.&quot;Search Description&quot; IS NULL  AND B.&quot;Description 2&quot; IS NULL  AND B.&quot;Base Unit of Measure&quot; IS NULL  AND B.&quot;Price Unit Conversion&quot; IS NULL  AND B.&quot;Type&quot; IS NULL  AND B.&quot;Inventory Posting Group&quot; IS NULL  AND B.&quot;Shelf No_&quot; IS NULL  AND B.&quot;Item Disc_ Group&quot; IS NULL  AND B.&quot;Allow Invoice Disc_&quot; IS NULL  AND B.&quot;Statistics Group&quot; IS NULL  AND B.&quot;Commission Group&quot; IS NULL  AND B.&quot;Unit Price&quot; IS NULL  AND B.&quot;Price_Profit Calculation&quot; IS NULL  AND B.&quot;Profit _&quot; IS NULL  AND B.&quot;Costing Method&quot; IS NULL  AND B.&quot;Unit Cost&quot; IS NULL  AND B.&quot;Standard Cost&quot; IS NULL  AND B.&quot;Last Direct Cost&quot; IS NULL  AND B.&quot;Indirect Cost _&quot; IS NULL  AND B.&quot;Cost is Adjusted&quot; IS NULL  AND B.&quot;Allow Online Adjustment&quot; IS NULL  AND B.&quot;Vendor No_&quot; IS NULL  AND B.&quot;Vendor Item No_&quot; IS NULL  AND B.&quot;Lead Time Calculation&quot; IS NULL  AND B.&quot;Reorder Point&quot; IS NULL  AND B.&quot;Maximum Inventory&quot; IS NULL  AND B.&quot;Reorder Quantity&quot; IS NULL  AND B.&quot;Alternative Item No_&quot; IS NULL  AND B.&quot;Unit List Price&quot; IS NULL  AND B.&quot;Duty Due _&quot; IS NULL  AND B.&quot;Duty Code&quot; IS NULL  AND B.&quot;Gross Weight&quot; IS NULL  AND B.&quot;Net Weight&quot; IS NULL  AND B.&quot;Units per Parcel&quot; IS NULL  AND B.&quot;Unit Volume&quot; IS NULL  AND B.&quot;Durability&quot; IS NULL  AND B.&quot;Freight Type&quot; IS NULL  AND B.&quot;Tariff No_&quot; IS NULL  AND B.&quot;Duty Unit Conversion&quot; IS NULL  AND B.&quot;Country_Region Purchased Code&quot; IS NULL  AND B.&quot;Budget Quantity&quot; IS NULL  AND B.&quot;Budgeted Amount&quot; IS NULL  AND B.&quot;Budget Profit&quot; IS NULL  AND B.&quot;Blocked&quot; IS NULL  AND B.&quot;Block Reason&quot; IS NULL  AND B.&quot;Last DateTime Modified&quot; IS NULL  AND B.&quot;Last Date Modified&quot; IS NULL  AND B.&quot;Last Time Modified&quot; IS NULL  AND B.&quot;Price Includes VAT&quot; IS NULL  AND B.&quot;VAT Bus_ Posting Gr_ (Price)&quot; IS NULL  AND B.&quot;Gen_ Prod_ Posting Group&quot; IS NULL  AND B.&quot;Picture&quot; IS NULL  AND B.&quot;Country_Region of Origin Code&quot; IS NULL  AND B.&quot;Automatic Ext_ Texts&quot; IS NULL  AND B.&quot;No_ Series&quot; IS NULL  AND B.&quot;Tax Group Code&quot; IS NULL  AND B.&quot;VAT Prod_ Posting Group&quot; IS NULL  AND B.&quot;Reserve&quot; IS NULL  AND B.&quot;Global Dimension 1 Code&quot; IS NULL  AND B.&quot;Global Dimension 2 Code&quot; IS NULL  AND B.&quot;Stockout Warning&quot; IS NULL  AND B.&quot;Prevent Negative Inventory&quot; IS NULL  AND B.&quot;Application Wksh_ User ID&quot; IS NULL  AND B.&quot;Assembly Policy&quot; IS NULL  AND B.&quot;GTIN&quot; IS NULL  AND B.&quot;Default Deferral Template Code&quot; IS NULL  AND B.&quot;Low-Level Code&quot; IS NULL  AND B.&quot;Lot Size&quot; IS NULL  AND B.&quot;Serial Nos_&quot; IS NULL  AND B.&quot;Last Unit Cost Calc_ Date&quot; IS NULL  AND B.&quot;Rolled-up Material Cost&quot; IS NULL  AND B.&quot;Rolled-up Capacity Cost&quot; IS NULL  AND B.&quot;Scrap _&quot; IS NULL  AND B.&quot;Inventory Value Zero&quot; IS NULL  AND B.&quot;Discrete Order Quantity&quot; IS NULL  AND B.&quot;Minimum Order Quantity&quot; IS NULL  AND B.&quot;Maximum Order Quantity&quot; IS NULL  AND B.&quot;Safety Stock Quantity&quot; IS NULL  AND B.&quot;Order Multiple&quot; IS NULL  AND B.&quot;Safety Lead Time&quot; IS NULL  AND B.&quot;Flushing Method&quot; IS NULL  AND B.&quot;Replenishment System&quot; IS NULL  AND B.&quot;Rounding Precision&quot; IS NULL  AND B.&quot;Sales Unit of Measure&quot; IS NULL  AND B.&quot;Purch_ Unit of Measure&quot; IS NULL  AND B.&quot;Time Bucket&quot; IS NULL  AND B.&quot;Reordering Policy&quot; IS NULL  AND B.&quot;Include Inventory&quot; IS NULL  AND B.&quot;Manufacturing Policy&quot; IS NULL  AND B.&quot;Rescheduling Period&quot; IS NULL  AND B.&quot;Lot Accumulation Period&quot; IS NULL  AND B.&quot;Dampener Period&quot; IS NULL  AND B.&quot;Dampener Quantity&quot; IS NULL  AND B.&quot;Overflow Level&quot; IS NULL  AND B.&quot;Manufacturer Code&quot; IS NULL  AND B.&quot;Item Category Code&quot; IS NULL  AND B.&quot;Created From Nonstock Item&quot; IS NULL  AND B.&quot;Product Group Code&quot; IS NULL  AND B.&quot;Service Item Group&quot; IS NULL  AND B.&quot;Item Tracking Code&quot; IS NULL  AND B.&quot;Lot Nos_&quot; IS NULL  AND B.&quot;Expiration Calculation&quot; IS NULL  AND B.&quot;Warehouse Class Code&quot; IS NULL  AND B.&quot;Special Equipment Code&quot; IS NULL  AND B.&quot;Put-away Template Code&quot; IS NULL  AND B.&quot;Put-away Unit of Measure Code&quot; IS NULL  AND B.&quot;Phys Invt Counting Period Code&quot; IS NULL  AND B.&quot;Last Counting Period Update&quot; IS NULL  AND B.&quot;Use Cross-Docking&quot; IS NULL  AND B.&quot;Next Counting Start Date&quot; IS NULL  AND B.&quot;Next Counting End Date&quot; IS NULL  AND B.&quot;Id&quot; IS NULL  AND B.&quot;Unit of Measure Id&quot; IS NULL  AND B.&quot;Tax Group Id&quot; IS NULL  AND B.&quot;Sales Blocked&quot; IS NULL  AND B.&quot;Purchasing Blocked&quot; IS NULL  AND B.&quot;Item Category Id&quot; IS NULL  AND B.&quot;Temp&quot; IS NULL  AND B.&quot;Department Code&quot; IS NULL  AND B.&quot;Office Location Code&quot; IS NULL  AND B.&quot;Equipment Type&quot; IS NULL  AND B.&quot;Make Model&quot; IS NULL  AND B.&quot;Date Created&quot; IS NULL  AND B.&quot;Category&quot; IS NULL  AND B.&quot;Equipment Code&quot; IS NULL  AND B.&quot;System Code&quot; IS NULL  AND B.&quot;Plant No_&quot; IS NULL  AND B.&quot;Description 3&quot; IS NULL  AND B.&quot;Old Item No_&quot; IS NULL  AND B.&quot;SPIN&quot; IS NULL  AND B.&quot;Bin&quot; IS NULL  AND B.&quot;Item Type&quot; IS NULL  AND B.&quot;Item Category&quot; IS NULL  AND B.&quot;Average Consumption per Year&quot; IS NULL  AND B.&quot;Item Movement&quot; IS NULL  AND B.&quot;Delivery Lead Time (Days)&quot; IS NULL  AND B.&quot;No_ Transaction per year&quot; IS NULL  AND B.&quot;Item Recomendation&quot; IS NULL  AND B.&quot;Item Recomendation Remarks&quot; IS NULL  AND B.&quot;Category Code&quot; IS NULL  AND B.&quot;WHT Product Posting Group&quot; IS NULL  AND B.&quot;Routing No_&quot; IS NULL  AND B.&quot;Production BOM No_&quot; IS NULL  AND B.&quot;Single-Level Material Cost&quot; IS NULL  AND B.&quot;Single-Level Capacity Cost&quot; IS NULL  AND B.&quot;Single-Level Subcontrd_ Cost&quot; IS NULL  AND B.&quot;Single-Level Cap_ Ovhd Cost&quot; IS NULL  AND B.&quot;Single-Level Mfg_ Ovhd Cost&quot; IS NULL  AND B.&quot;Overhead Rate&quot; IS NULL  AND B.&quot;Rolled-up Subcontracted Cost&quot; IS NULL  AND B.&quot;Rolled-up Mfg_ Ovhd Cost&quot; IS NULL  AND B.&quot;Rolled-up Cap_ Overhead Cost&quot; IS NULL  AND B.&quot;Order Tracking Policy&quot; IS NULL  AND B.&quot;Critical&quot; IS NULL  AND B.&quot;Common Item No_&quot; IS NULL  AND B.&quot;Shelf No_ 1&quot; IS NULL  AND B.&quot;Shelf No_ 2&quot; IS NULL  AND B.&quot;Shelf No_ 3&quot; IS NULL  AND B.&quot;Expenditure Type&quot; IS NULL )" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_pgeXUI8TEe6P7_rX6eDGbw" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_pgeXUY8TEe6P7_rX6eDGbw" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_pgeXUo8TEe6P7_rX6eDGbw" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_pgeXU48TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_pgeXVI8TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo80YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo81YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo82YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo83YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo84YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo85YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo86YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo87YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo88YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo89YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9WYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9XYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9YYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9ZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9aYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9bYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9cYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9dYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9eYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9fYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9gYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9hYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9iYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9jYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9kYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9lYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9mYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9nYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9oYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9pYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9qYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9rYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9sYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9tYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9uYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9vYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo90YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo91YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo92YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo93YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo94YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo95YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo96YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo97YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo98YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo99YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-WYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-XYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-YYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-ZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-aYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-bYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-cYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-dYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-eYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-fYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-gYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-hYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-iYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-jYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-kYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-lYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-mYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-nYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-oYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-pYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-qYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-rYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-sYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-tYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-uYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-vYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo--YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_WYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg__YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhABYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhACYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhADYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhALYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhANYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhARYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhASYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhATYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAXYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAYYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAaYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAbYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAcYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAdYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAeYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAfYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAgYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAhYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAiYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAjYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAkYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAlYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAmYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAnYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAoYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhApYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAqYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhArYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAsYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAtYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAuYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnBYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnCYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnDYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnLYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnNYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnRYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnSYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnTYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnXYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnYYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnaYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnbYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhncYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhndYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhneYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnfYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhngYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnhYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhniYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnjYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnkYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnlYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnmYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnnYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnoYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnpYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnqYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnrYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnsYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhntYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnuYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnvYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnwYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnxYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnyYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnzYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoBYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoCYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoDYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoLYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoNYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoRYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoSYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoTYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoXYmjEe6BzsJ0NRoj3Q"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_ISa3AY8TEe6P7_rX6eDGbw" count="17273" computed="true" notMatchingValueCount="17273">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_wImjEe6BzsJ0NRoj3Q"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <instantiatedExpressions xmi:id="_phDmII8TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &quot;dbo&quot;.&quot;Southwest Luzon Power Gen Corp$Item&quot; A LEFT JOIN &quot;dbo&quot;.&quot;Sem Calaca Power Corporation$Item&quot; B ON ( (A.&quot;timestamp&quot; = B.&quot;timestamp&quot;)  AND  (A.&quot;No_&quot; = B.&quot;No_&quot;)  AND  (A.&quot;No_ 2&quot; = B.&quot;No_ 2&quot;)  AND  (A.&quot;Description&quot; = B.&quot;Description&quot;)  AND  (A.&quot;Search Description&quot; = B.&quot;Search Description&quot;)  AND  (A.&quot;Description 2&quot; = B.&quot;Description 2&quot;)  AND  (A.&quot;Base Unit of Measure&quot; = B.&quot;Base Unit of Measure&quot;)  AND  (A.&quot;Price Unit Conversion&quot; = B.&quot;Price Unit Conversion&quot;)  AND  (A.&quot;Type&quot; = B.&quot;Type&quot;)  AND  (A.&quot;Inventory Posting Group&quot; = B.&quot;Inventory Posting Group&quot;)  AND  (A.&quot;Shelf No_&quot; = B.&quot;Shelf No_&quot;)  AND  (A.&quot;Item Disc_ Group&quot; = B.&quot;Item Disc_ Group&quot;)  AND  (A.&quot;Allow Invoice Disc_&quot; = B.&quot;Allow Invoice Disc_&quot;)  AND  (A.&quot;Statistics Group&quot; = B.&quot;Statistics Group&quot;)  AND  (A.&quot;Commission Group&quot; = B.&quot;Commission Group&quot;)  AND  (A.&quot;Unit Price&quot; = B.&quot;Unit Price&quot;)  AND  (A.&quot;Price_Profit Calculation&quot; = B.&quot;Price_Profit Calculation&quot;)  AND  (A.&quot;Profit _&quot; = B.&quot;Profit _&quot;)  AND  (A.&quot;Costing Method&quot; = B.&quot;Costing Method&quot;)  AND  (A.&quot;Unit Cost&quot; = B.&quot;Unit Cost&quot;)  AND  (A.&quot;Standard Cost&quot; = B.&quot;Standard Cost&quot;)  AND  (A.&quot;Last Direct Cost&quot; = B.&quot;Last Direct Cost&quot;)  AND  (A.&quot;Indirect Cost _&quot; = B.&quot;Indirect Cost _&quot;)  AND  (A.&quot;Cost is Adjusted&quot; = B.&quot;Cost is Adjusted&quot;)  AND  (A.&quot;Allow Online Adjustment&quot; = B.&quot;Allow Online Adjustment&quot;)  AND  (A.&quot;Vendor No_&quot; = B.&quot;Vendor No_&quot;)  AND  (A.&quot;Vendor Item No_&quot; = B.&quot;Vendor Item No_&quot;)  AND  (A.&quot;Lead Time Calculation&quot; = B.&quot;Lead Time Calculation&quot;)  AND  (A.&quot;Reorder Point&quot; = B.&quot;Reorder Point&quot;)  AND  (A.&quot;Maximum Inventory&quot; = B.&quot;Maximum Inventory&quot;)  AND  (A.&quot;Reorder Quantity&quot; = B.&quot;Reorder Quantity&quot;)  AND  (A.&quot;Alternative Item No_&quot; = B.&quot;Alternative Item No_&quot;)  AND  (A.&quot;Unit List Price&quot; = B.&quot;Unit List Price&quot;)  AND  (A.&quot;Duty Due _&quot; = B.&quot;Duty Due _&quot;)  AND  (A.&quot;Duty Code&quot; = B.&quot;Duty Code&quot;)  AND  (A.&quot;Gross Weight&quot; = B.&quot;Gross Weight&quot;)  AND  (A.&quot;Net Weight&quot; = B.&quot;Net Weight&quot;)  AND  (A.&quot;Units per Parcel&quot; = B.&quot;Units per Parcel&quot;)  AND  (A.&quot;Unit Volume&quot; = B.&quot;Unit Volume&quot;)  AND  (A.&quot;Durability&quot; = B.&quot;Durability&quot;)  AND  (A.&quot;Freight Type&quot; = B.&quot;Freight Type&quot;)  AND  (A.&quot;Tariff No_&quot; = B.&quot;Tariff No_&quot;)  AND  (A.&quot;Duty Unit Conversion&quot; = B.&quot;Duty Unit Conversion&quot;)  AND  (A.&quot;Country_Region Purchased Code&quot; = B.&quot;Country_Region Purchased Code&quot;)  AND  (A.&quot;Budget Quantity&quot; = B.&quot;Budget Quantity&quot;)  AND  (A.&quot;Budgeted Amount&quot; = B.&quot;Budgeted Amount&quot;)  AND  (A.&quot;Budget Profit&quot; = B.&quot;Budget Profit&quot;)  AND  (A.&quot;Blocked&quot; = B.&quot;Blocked&quot;)  AND  (A.&quot;Block Reason&quot; = B.&quot;Block Reason&quot;)  AND  (A.&quot;Last DateTime Modified&quot; = B.&quot;Last DateTime Modified&quot;)  AND  (A.&quot;Last Date Modified&quot; = B.&quot;Last Date Modified&quot;)  AND  (A.&quot;Last Time Modified&quot; = B.&quot;Last Time Modified&quot;)  AND  (A.&quot;Price Includes VAT&quot; = B.&quot;Price Includes VAT&quot;)  AND  (A.&quot;VAT Bus_ Posting Gr_ (Price)&quot; = B.&quot;VAT Bus_ Posting Gr_ (Price)&quot;)  AND  (A.&quot;Gen_ Prod_ Posting Group&quot; = B.&quot;Gen_ Prod_ Posting Group&quot;)  AND  (A.&quot;Picture&quot; = B.&quot;Picture&quot;)  AND  (A.&quot;Country_Region of Origin Code&quot; = B.&quot;Country_Region of Origin Code&quot;)  AND  (A.&quot;Automatic Ext_ Texts&quot; = B.&quot;Automatic Ext_ Texts&quot;)  AND  (A.&quot;No_ Series&quot; = B.&quot;No_ Series&quot;)  AND  (A.&quot;Tax Group Code&quot; = B.&quot;Tax Group Code&quot;)  AND  (A.&quot;VAT Prod_ Posting Group&quot; = B.&quot;VAT Prod_ Posting Group&quot;)  AND  (A.&quot;Reserve&quot; = B.&quot;Reserve&quot;)  AND  (A.&quot;Global Dimension 1 Code&quot; = B.&quot;Global Dimension 1 Code&quot;)  AND  (A.&quot;Global Dimension 2 Code&quot; = B.&quot;Global Dimension 2 Code&quot;)  AND  (A.&quot;Stockout Warning&quot; = B.&quot;Stockout Warning&quot;)  AND  (A.&quot;Prevent Negative Inventory&quot; = B.&quot;Prevent Negative Inventory&quot;)  AND  (A.&quot;Application Wksh_ User ID&quot; = B.&quot;Application Wksh_ User ID&quot;)  AND  (A.&quot;Assembly Policy&quot; = B.&quot;Assembly Policy&quot;)  AND  (A.&quot;GTIN&quot; = B.&quot;GTIN&quot;)  AND  (A.&quot;Default Deferral Template Code&quot; = B.&quot;Default Deferral Template Code&quot;)  AND  (A.&quot;Low-Level Code&quot; = B.&quot;Low-Level Code&quot;)  AND  (A.&quot;Lot Size&quot; = B.&quot;Lot Size&quot;)  AND  (A.&quot;Serial Nos_&quot; = B.&quot;Serial Nos_&quot;)  AND  (A.&quot;Last Unit Cost Calc_ Date&quot; = B.&quot;Last Unit Cost Calc_ Date&quot;)  AND  (A.&quot;Rolled-up Material Cost&quot; = B.&quot;Rolled-up Material Cost&quot;)  AND  (A.&quot;Rolled-up Capacity Cost&quot; = B.&quot;Rolled-up Capacity Cost&quot;)  AND  (A.&quot;Scrap _&quot; = B.&quot;Scrap _&quot;)  AND  (A.&quot;Inventory Value Zero&quot; = B.&quot;Inventory Value Zero&quot;)  AND  (A.&quot;Discrete Order Quantity&quot; = B.&quot;Discrete Order Quantity&quot;)  AND  (A.&quot;Minimum Order Quantity&quot; = B.&quot;Minimum Order Quantity&quot;)  AND  (A.&quot;Maximum Order Quantity&quot; = B.&quot;Maximum Order Quantity&quot;)  AND  (A.&quot;Safety Stock Quantity&quot; = B.&quot;Safety Stock Quantity&quot;)  AND  (A.&quot;Order Multiple&quot; = B.&quot;Order Multiple&quot;)  AND  (A.&quot;Safety Lead Time&quot; = B.&quot;Safety Lead Time&quot;)  AND  (A.&quot;Flushing Method&quot; = B.&quot;Flushing Method&quot;)  AND  (A.&quot;Replenishment System&quot; = B.&quot;Replenishment System&quot;)  AND  (A.&quot;Rounding Precision&quot; = B.&quot;Rounding Precision&quot;)  AND  (A.&quot;Sales Unit of Measure&quot; = B.&quot;Sales Unit of Measure&quot;)  AND  (A.&quot;Purch_ Unit of Measure&quot; = B.&quot;Purch_ Unit of Measure&quot;)  AND  (A.&quot;Time Bucket&quot; = B.&quot;Time Bucket&quot;)  AND  (A.&quot;Reordering Policy&quot; = B.&quot;Reordering Policy&quot;)  AND  (A.&quot;Include Inventory&quot; = B.&quot;Include Inventory&quot;)  AND  (A.&quot;Manufacturing Policy&quot; = B.&quot;Manufacturing Policy&quot;)  AND  (A.&quot;Rescheduling Period&quot; = B.&quot;Rescheduling Period&quot;)  AND  (A.&quot;Lot Accumulation Period&quot; = B.&quot;Lot Accumulation Period&quot;)  AND  (A.&quot;Dampener Period&quot; = B.&quot;Dampener Period&quot;)  AND  (A.&quot;Dampener Quantity&quot; = B.&quot;Dampener Quantity&quot;)  AND  (A.&quot;Overflow Level&quot; = B.&quot;Overflow Level&quot;)  AND  (A.&quot;Manufacturer Code&quot; = B.&quot;Manufacturer Code&quot;)  AND  (A.&quot;Item Category Code&quot; = B.&quot;Item Category Code&quot;)  AND  (A.&quot;Created From Nonstock Item&quot; = B.&quot;Created From Nonstock Item&quot;)  AND  (A.&quot;Product Group Code&quot; = B.&quot;Product Group Code&quot;)  AND  (A.&quot;Service Item Group&quot; = B.&quot;Service Item Group&quot;)  AND  (A.&quot;Item Tracking Code&quot; = B.&quot;Item Tracking Code&quot;)  AND  (A.&quot;Lot Nos_&quot; = B.&quot;Lot Nos_&quot;)  AND  (A.&quot;Expiration Calculation&quot; = B.&quot;Expiration Calculation&quot;)  AND  (A.&quot;Warehouse Class Code&quot; = B.&quot;Warehouse Class Code&quot;)  AND  (A.&quot;Special Equipment Code&quot; = B.&quot;Special Equipment Code&quot;)  AND  (A.&quot;Put-away Template Code&quot; = B.&quot;Put-away Template Code&quot;)  AND  (A.&quot;Put-away Unit of Measure Code&quot; = B.&quot;Put-away Unit of Measure Code&quot;)  AND  (A.&quot;Phys Invt Counting Period Code&quot; = B.&quot;Phys Invt Counting Period Code&quot;)  AND  (A.&quot;Last Counting Period Update&quot; = B.&quot;Last Counting Period Update&quot;)  AND  (A.&quot;Use Cross-Docking&quot; = B.&quot;Use Cross-Docking&quot;)  AND  (A.&quot;Next Counting Start Date&quot; = B.&quot;Next Counting Start Date&quot;)  AND  (A.&quot;Next Counting End Date&quot; = B.&quot;Next Counting End Date&quot;)  AND  (A.&quot;Id&quot; = B.&quot;Id&quot;)  AND  (A.&quot;Unit of Measure Id&quot; = B.&quot;Unit of Measure Id&quot;)  AND  (A.&quot;Tax Group Id&quot; = B.&quot;Tax Group Id&quot;)  AND  (A.&quot;Sales Blocked&quot; = B.&quot;Sales Blocked&quot;)  AND  (A.&quot;Purchasing Blocked&quot; = B.&quot;Purchasing Blocked&quot;)  AND  (A.&quot;Item Category Id&quot; = B.&quot;Item Category Id&quot;)  AND  (A.&quot;Temp&quot; = B.&quot;Temp&quot;)  AND  (A.&quot;Department Code&quot; = B.&quot;Department Code&quot;)  AND  (A.&quot;Office Location Code&quot; = B.&quot;Office Location Code&quot;)  AND  (A.&quot;Equipment Type&quot; = B.&quot;Equipment Type&quot;)  AND  (A.&quot;Make Model&quot; = B.&quot;Make Model&quot;)  AND  (A.&quot;Date Created&quot; = B.&quot;Date Created&quot;)  AND  (A.&quot;Category&quot; = B.&quot;Category&quot;)  AND  (A.&quot;Equipment Code&quot; = B.&quot;Equipment Code&quot;)  AND  (A.&quot;System Code&quot; = B.&quot;System Code&quot;)  AND  (A.&quot;Plant No_&quot; = B.&quot;Plant No_&quot;)  AND  (A.&quot;Description 3&quot; = B.&quot;Description 3&quot;)  AND  (A.&quot;Old Item No_&quot; = B.&quot;Old Item No_&quot;)  AND  (A.&quot;SPIN&quot; = B.&quot;SPIN&quot;)  AND  (A.&quot;Bin&quot; = B.&quot;Bin&quot;)  AND  (A.&quot;Item Type&quot; = B.&quot;Item Type&quot;)  AND  (A.&quot;Item Category&quot; = B.&quot;Item Category&quot;)  AND  (A.&quot;Average Consumption per Year&quot; = B.&quot;Average Consumption per Year&quot;)  AND  (A.&quot;Item Movement&quot; = B.&quot;Item Movement&quot;)  AND  (A.&quot;Delivery Lead Time (Days)&quot; = B.&quot;Delivery Lead Time (Days)&quot;)  AND  (A.&quot;No_ Transaction per year&quot; = B.&quot;No_ Transaction per year&quot;)  AND  (A.&quot;Item Recomendation&quot; = B.&quot;Item Recomendation&quot;)  AND  (A.&quot;Item Recomendation Remarks&quot; = B.&quot;Item Recomendation Remarks&quot;)  AND  (A.&quot;Category Code&quot; = B.&quot;Category Code&quot;)  AND  (A.&quot;WHT Product Posting Group&quot; = B.&quot;WHT Product Posting Group&quot;)  AND  (A.&quot;Routing No_&quot; = B.&quot;Routing No_&quot;)  AND  (A.&quot;Production BOM No_&quot; = B.&quot;Production BOM No_&quot;)  AND  (A.&quot;Single-Level Material Cost&quot; = B.&quot;Single-Level Material Cost&quot;)  AND  (A.&quot;Single-Level Capacity Cost&quot; = B.&quot;Single-Level Capacity Cost&quot;)  AND  (A.&quot;Single-Level Subcontrd_ Cost&quot; = B.&quot;Single-Level Subcontrd_ Cost&quot;)  AND  (A.&quot;Single-Level Cap_ Ovhd Cost&quot; = B.&quot;Single-Level Cap_ Ovhd Cost&quot;)  AND  (A.&quot;Single-Level Mfg_ Ovhd Cost&quot; = B.&quot;Single-Level Mfg_ Ovhd Cost&quot;)  AND  (A.&quot;Overhead Rate&quot; = B.&quot;Overhead Rate&quot;)  AND  (A.&quot;Rolled-up Subcontracted Cost&quot; = B.&quot;Rolled-up Subcontracted Cost&quot;)  AND  (A.&quot;Rolled-up Mfg_ Ovhd Cost&quot; = B.&quot;Rolled-up Mfg_ Ovhd Cost&quot;)  AND  (A.&quot;Rolled-up Cap_ Overhead Cost&quot; = B.&quot;Rolled-up Cap_ Overhead Cost&quot;)  AND  (A.&quot;Order Tracking Policy&quot; = B.&quot;Order Tracking Policy&quot;)  AND  (A.&quot;Critical&quot; = B.&quot;Critical&quot;)  AND  (A.&quot;Common Item No_&quot; = B.&quot;Common Item No_&quot;)  AND  (A.&quot;Shelf No_ 1&quot; = B.&quot;Shelf No_ 1&quot;)  AND  (A.&quot;Shelf No_ 2&quot; = B.&quot;Shelf No_ 2&quot;)  AND  (A.&quot;Shelf No_ 3&quot; = B.&quot;Shelf No_ 3&quot;)  AND  (A.&quot;Expenditure Type&quot; = B.&quot;Expenditure Type&quot;) ) WHERE (B.&quot;timestamp&quot; IS NULL  AND B.&quot;No_&quot; IS NULL  AND B.&quot;No_ 2&quot; IS NULL  AND B.&quot;Description&quot; IS NULL  AND B.&quot;Search Description&quot; IS NULL  AND B.&quot;Description 2&quot; IS NULL  AND B.&quot;Base Unit of Measure&quot; IS NULL  AND B.&quot;Price Unit Conversion&quot; IS NULL  AND B.&quot;Type&quot; IS NULL  AND B.&quot;Inventory Posting Group&quot; IS NULL  AND B.&quot;Shelf No_&quot; IS NULL  AND B.&quot;Item Disc_ Group&quot; IS NULL  AND B.&quot;Allow Invoice Disc_&quot; IS NULL  AND B.&quot;Statistics Group&quot; IS NULL  AND B.&quot;Commission Group&quot; IS NULL  AND B.&quot;Unit Price&quot; IS NULL  AND B.&quot;Price_Profit Calculation&quot; IS NULL  AND B.&quot;Profit _&quot; IS NULL  AND B.&quot;Costing Method&quot; IS NULL  AND B.&quot;Unit Cost&quot; IS NULL  AND B.&quot;Standard Cost&quot; IS NULL  AND B.&quot;Last Direct Cost&quot; IS NULL  AND B.&quot;Indirect Cost _&quot; IS NULL  AND B.&quot;Cost is Adjusted&quot; IS NULL  AND B.&quot;Allow Online Adjustment&quot; IS NULL  AND B.&quot;Vendor No_&quot; IS NULL  AND B.&quot;Vendor Item No_&quot; IS NULL  AND B.&quot;Lead Time Calculation&quot; IS NULL  AND B.&quot;Reorder Point&quot; IS NULL  AND B.&quot;Maximum Inventory&quot; IS NULL  AND B.&quot;Reorder Quantity&quot; IS NULL  AND B.&quot;Alternative Item No_&quot; IS NULL  AND B.&quot;Unit List Price&quot; IS NULL  AND B.&quot;Duty Due _&quot; IS NULL  AND B.&quot;Duty Code&quot; IS NULL  AND B.&quot;Gross Weight&quot; IS NULL  AND B.&quot;Net Weight&quot; IS NULL  AND B.&quot;Units per Parcel&quot; IS NULL  AND B.&quot;Unit Volume&quot; IS NULL  AND B.&quot;Durability&quot; IS NULL  AND B.&quot;Freight Type&quot; IS NULL  AND B.&quot;Tariff No_&quot; IS NULL  AND B.&quot;Duty Unit Conversion&quot; IS NULL  AND B.&quot;Country_Region Purchased Code&quot; IS NULL  AND B.&quot;Budget Quantity&quot; IS NULL  AND B.&quot;Budgeted Amount&quot; IS NULL  AND B.&quot;Budget Profit&quot; IS NULL  AND B.&quot;Blocked&quot; IS NULL  AND B.&quot;Block Reason&quot; IS NULL  AND B.&quot;Last DateTime Modified&quot; IS NULL  AND B.&quot;Last Date Modified&quot; IS NULL  AND B.&quot;Last Time Modified&quot; IS NULL  AND B.&quot;Price Includes VAT&quot; IS NULL  AND B.&quot;VAT Bus_ Posting Gr_ (Price)&quot; IS NULL  AND B.&quot;Gen_ Prod_ Posting Group&quot; IS NULL  AND B.&quot;Picture&quot; IS NULL  AND B.&quot;Country_Region of Origin Code&quot; IS NULL  AND B.&quot;Automatic Ext_ Texts&quot; IS NULL  AND B.&quot;No_ Series&quot; IS NULL  AND B.&quot;Tax Group Code&quot; IS NULL  AND B.&quot;VAT Prod_ Posting Group&quot; IS NULL  AND B.&quot;Reserve&quot; IS NULL  AND B.&quot;Global Dimension 1 Code&quot; IS NULL  AND B.&quot;Global Dimension 2 Code&quot; IS NULL  AND B.&quot;Stockout Warning&quot; IS NULL  AND B.&quot;Prevent Negative Inventory&quot; IS NULL  AND B.&quot;Application Wksh_ User ID&quot; IS NULL  AND B.&quot;Assembly Policy&quot; IS NULL  AND B.&quot;GTIN&quot; IS NULL  AND B.&quot;Default Deferral Template Code&quot; IS NULL  AND B.&quot;Low-Level Code&quot; IS NULL  AND B.&quot;Lot Size&quot; IS NULL  AND B.&quot;Serial Nos_&quot; IS NULL  AND B.&quot;Last Unit Cost Calc_ Date&quot; IS NULL  AND B.&quot;Rolled-up Material Cost&quot; IS NULL  AND B.&quot;Rolled-up Capacity Cost&quot; IS NULL  AND B.&quot;Scrap _&quot; IS NULL  AND B.&quot;Inventory Value Zero&quot; IS NULL  AND B.&quot;Discrete Order Quantity&quot; IS NULL  AND B.&quot;Minimum Order Quantity&quot; IS NULL  AND B.&quot;Maximum Order Quantity&quot; IS NULL  AND B.&quot;Safety Stock Quantity&quot; IS NULL  AND B.&quot;Order Multiple&quot; IS NULL  AND B.&quot;Safety Lead Time&quot; IS NULL  AND B.&quot;Flushing Method&quot; IS NULL  AND B.&quot;Replenishment System&quot; IS NULL  AND B.&quot;Rounding Precision&quot; IS NULL  AND B.&quot;Sales Unit of Measure&quot; IS NULL  AND B.&quot;Purch_ Unit of Measure&quot; IS NULL  AND B.&quot;Time Bucket&quot; IS NULL  AND B.&quot;Reordering Policy&quot; IS NULL  AND B.&quot;Include Inventory&quot; IS NULL  AND B.&quot;Manufacturing Policy&quot; IS NULL  AND B.&quot;Rescheduling Period&quot; IS NULL  AND B.&quot;Lot Accumulation Period&quot; IS NULL  AND B.&quot;Dampener Period&quot; IS NULL  AND B.&quot;Dampener Quantity&quot; IS NULL  AND B.&quot;Overflow Level&quot; IS NULL  AND B.&quot;Manufacturer Code&quot; IS NULL  AND B.&quot;Item Category Code&quot; IS NULL  AND B.&quot;Created From Nonstock Item&quot; IS NULL  AND B.&quot;Product Group Code&quot; IS NULL  AND B.&quot;Service Item Group&quot; IS NULL  AND B.&quot;Item Tracking Code&quot; IS NULL  AND B.&quot;Lot Nos_&quot; IS NULL  AND B.&quot;Expiration Calculation&quot; IS NULL  AND B.&quot;Warehouse Class Code&quot; IS NULL  AND B.&quot;Special Equipment Code&quot; IS NULL  AND B.&quot;Put-away Template Code&quot; IS NULL  AND B.&quot;Put-away Unit of Measure Code&quot; IS NULL  AND B.&quot;Phys Invt Counting Period Code&quot; IS NULL  AND B.&quot;Last Counting Period Update&quot; IS NULL  AND B.&quot;Use Cross-Docking&quot; IS NULL  AND B.&quot;Next Counting Start Date&quot; IS NULL  AND B.&quot;Next Counting End Date&quot; IS NULL  AND B.&quot;Id&quot; IS NULL  AND B.&quot;Unit of Measure Id&quot; IS NULL  AND B.&quot;Tax Group Id&quot; IS NULL  AND B.&quot;Sales Blocked&quot; IS NULL  AND B.&quot;Purchasing Blocked&quot; IS NULL  AND B.&quot;Item Category Id&quot; IS NULL  AND B.&quot;Temp&quot; IS NULL  AND B.&quot;Department Code&quot; IS NULL  AND B.&quot;Office Location Code&quot; IS NULL  AND B.&quot;Equipment Type&quot; IS NULL  AND B.&quot;Make Model&quot; IS NULL  AND B.&quot;Date Created&quot; IS NULL  AND B.&quot;Category&quot; IS NULL  AND B.&quot;Equipment Code&quot; IS NULL  AND B.&quot;System Code&quot; IS NULL  AND B.&quot;Plant No_&quot; IS NULL  AND B.&quot;Description 3&quot; IS NULL  AND B.&quot;Old Item No_&quot; IS NULL  AND B.&quot;SPIN&quot; IS NULL  AND B.&quot;Bin&quot; IS NULL  AND B.&quot;Item Type&quot; IS NULL  AND B.&quot;Item Category&quot; IS NULL  AND B.&quot;Average Consumption per Year&quot; IS NULL  AND B.&quot;Item Movement&quot; IS NULL  AND B.&quot;Delivery Lead Time (Days)&quot; IS NULL  AND B.&quot;No_ Transaction per year&quot; IS NULL  AND B.&quot;Item Recomendation&quot; IS NULL  AND B.&quot;Item Recomendation Remarks&quot; IS NULL  AND B.&quot;Category Code&quot; IS NULL  AND B.&quot;WHT Product Posting Group&quot; IS NULL  AND B.&quot;Routing No_&quot; IS NULL  AND B.&quot;Production BOM No_&quot; IS NULL  AND B.&quot;Single-Level Material Cost&quot; IS NULL  AND B.&quot;Single-Level Capacity Cost&quot; IS NULL  AND B.&quot;Single-Level Subcontrd_ Cost&quot; IS NULL  AND B.&quot;Single-Level Cap_ Ovhd Cost&quot; IS NULL  AND B.&quot;Single-Level Mfg_ Ovhd Cost&quot; IS NULL  AND B.&quot;Overhead Rate&quot; IS NULL  AND B.&quot;Rolled-up Subcontracted Cost&quot; IS NULL  AND B.&quot;Rolled-up Mfg_ Ovhd Cost&quot; IS NULL  AND B.&quot;Rolled-up Cap_ Overhead Cost&quot; IS NULL  AND B.&quot;Order Tracking Policy&quot; IS NULL  AND B.&quot;Critical&quot; IS NULL  AND B.&quot;Common Item No_&quot; IS NULL  AND B.&quot;Shelf No_ 1&quot; IS NULL  AND B.&quot;Shelf No_ 2&quot; IS NULL  AND B.&quot;Shelf No_ 3&quot; IS NULL  AND B.&quot;Expenditure Type&quot; IS NULL )" language="SQL"/>
+      <builtInIndicatorDefinition xmi:id="_pgrLoI8TEe6P7_rX6eDGbw" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_pgrLoY8TEe6P7_rX6eDGbw" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_pgrLoo8TEe6P7_rX6eDGbw" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_pgrLo48TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_pgrLpI8TEe6P7_rX6eDGbw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg_-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKg__YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhABYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhACYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhADYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhALYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhANYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhARYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhASYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhATYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAXYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAYYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAaYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAbYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAcYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAdYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAeYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAfYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAgYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAhYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAiYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAjYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAkYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAlYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAmYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAnYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAoYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhApYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAqYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhArYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAsYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAtYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhAuYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhm_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnBYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnCYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnDYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnLYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnNYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnRYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnSYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnTYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnXYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnYYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnaYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnbYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhncYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhndYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhneYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnfYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhngYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnhYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhniYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnjYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnkYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnlYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnmYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnnYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnoYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnpYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnqYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnrYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnsYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhntYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnuYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnvYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnwYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnxYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnyYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhnzYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhn_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoAYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoBYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoCYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoDYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoEYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoFYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoGYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoHYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoIYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoJYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoKYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoLYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoMYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoNYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoOYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoPYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoQYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoRYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoSYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoTYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoUYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoVYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoWYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetA href="../../metadata/connections/SMPC_NAV_0.1.item#_WKhoXYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo80YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo81YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo82YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo83YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo84YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo85YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo86YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo87YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo88YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo89YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo8_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9WYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9XYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9YYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9ZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9aYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9bYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9cYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9dYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9eYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9fYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9gYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9hYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9iYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9jYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9kYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9lYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9mYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9nYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9oYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9pYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9qYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9rYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9sYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9tYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9uYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9vYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo90YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo91YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo92YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo93YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo94YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo95YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo96YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo97YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo98YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo99YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9-YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo9_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-WYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-XYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-YYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-ZYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-aYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-bYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-cYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-dYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-eYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-fYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-gYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-hYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-iYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-jYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-kYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-lYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-mYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-nYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-oYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-pYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-qYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-rYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-sYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-tYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-uYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-vYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-wYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-xYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-yYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-zYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-0YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-1YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-2YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-3YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-4YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-5YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-6YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-7YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-8YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-9YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo--YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo-_YmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_AYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_BYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_CYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_DYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_EYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_FYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_GYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_HYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_IYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_JYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_KYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_LYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_MYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_NYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_OYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_PYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_QYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_RYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_SYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_TYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_UYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_VYmjEe6BzsJ0NRoj3Q"/>
+      <columnSetB href="../../metadata/connections/SMPC_NAV_0.1.item#_VEo_WYmjEe6BzsJ0NRoj3Q"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="__-RPiY8SEe6P7_rX6eDGbw" analysisType="Columns Comparison Analysis"/>
+  <contextType xmi:id="_ISYawI8TEe6P7_rX6eDGbw" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

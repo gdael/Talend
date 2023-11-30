@@ -1,5 +1,20 @@
 [ {
   "baseItem" : {
+    "id" : "_-LQT0I6QEe6P7_rX6eDGbw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_8SNcQI5IEe6f9vpKPRHb3A",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_-oG4wEiQEe6p-Ngmc4s3Fg",
     "version" : "0.1",
     "type" : "job"
@@ -84,6 +99,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_5VK-UI9DEe6P7_rX6eDGbw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ - Sem_Calaca_Power_Corporation_PM_Job_Header",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_5Wr4UIUeEe6YGMwwrWOFyQ",
     "version" : "0.1",
     "type" : "job"
@@ -149,6 +179,53 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_BjDIsNVKEe2EA-b3mTTz-w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0NaCgM-REe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FF7AENK5Ee24J-1vBwgffw - charge_detail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_giMUYNQsEe2G7bxDNOWD3g - ar_invoice",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kzGeANQuEe2G7bxDNOWD3g - policy",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vtvRgNQsEe2G7bxDNOWD3g - ar_invoice_detail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_CSXYoIg6Ee6bmYWQumyoFg",
     "version" : "0.1",
     "type" : "job"
@@ -195,6 +272,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_CqsdAI20Ee6rDdcmZpGyPA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_8SNcQI5IEe6f9vpKPRHb3A",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_FNqkgI2-Ee6f9vpKPRHb3A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_civNgI2-Ee6f9vpKPRHb3A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FNqkgI2-Ee6f9vpKPRHb3A - CM_PM_per_Asset",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_civNgI2-Ee6f9vpKPRHb3A - TOP_20_ASSETS_WITH_HIGHEST_CM_COSTS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_ED7NkErIEe6U-eUL53IKpw",
     "version" : "0.1",
     "type" : "job"
@@ -213,6 +317,53 @@
     "type" : "schema"
   }, {
     "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_I0kygNO-Ee2G7bxDNOWD3g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0NaCgM-REe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_QHgGMNPBEe2G7bxDNOWD3g - bed_entry_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_fxn1sNPBEe2G7bxDNOWD3g - ipd_room_class_ref",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_q4Pk0NPBEe2G7bxDNOWD3g - bed_type_ref",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_u0A20NPBEe2G7bxDNOWD3g - bed_action_ref",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -290,6 +441,76 @@
     "type" : "schema"
   }, {
     "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_OU2DMNK4Ee24J-1vBwgffw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FF7AENK5Ee24J-1vBwgffw - charge_detail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_e4HoQNK4Ee24J-1vBwgffw - costcentre",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nS3nANK4Ee24J-1vBwgffw - item",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_PHAfMNIkEe2j9vr5QABcYg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_8tf70NIkEe2j9vr5QABcYg - employee_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_yTAS4NIkEe2j9vr5QABcYg - caregiver_role",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -378,6 +599,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_XApskI9AEe6P7_rX6eDGbw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ - Sem_Calaca_Power_Corporation_PM_Job_ITP",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ - Southwest_Luzon_Power_Gen_Corp_PM_Job_ITP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_cL-G0IgtEe6bmYWQumyoFg",
     "version" : "0.1",
     "type" : "job"
@@ -427,20 +667,43 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_khEQQMyCEe2gwv041DXYTA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DqctoMyEEe2gwv041DXYTA - api_patient_view",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_lsXZgImiEe6BzsJ0NRoj3Q",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_U0G-8InOEe6h-cXgx-wjyw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_U0G-8InOEe6h-cXgx-wjyw - headers",
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ - Sem_Calaca_Power_Corporation_PM_Job_Header",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ - Southwest_Luzon_Power_Gen_Corp_PM_Job_Header",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -460,6 +723,103 @@
     "type" : "context"
   }, {
     "id" : "_mIou0EZDEe6DabcNpGtBLw - Client",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nRnFAM-SEe2r_M8QKBeeIg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0NaCgM-REe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FF7AENK5Ee24J-1vBwgffw - charge_detail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_giMUYNQsEe2G7bxDNOWD3g - ar_invoice",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kzGeANQuEe2G7bxDNOWD3g - policy",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vtvRgNQsEe2G7bxDNOWD3g - ar_invoice_detail",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oXbzgM9kEe2nF6JD8UiNyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0NaCgM-REe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_TMu64M9lEe2nF6JD8UiNyQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_TMu64M9lEe2nF6JD8UiNyQ - clinical_notes",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qDeIoM-SEe2r_M8QKBeeIg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -504,6 +864,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_txKM0I54Ee6P7_rX6eDGbw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_8SNcQI5IEe6f9vpKPRHb3A",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_wTDEoIg_Ee6bmYWQumyoFg",
     "version" : "0.1",
     "type" : "job"
@@ -516,6 +891,41 @@
     "id" : "_fL89oIg7Ee6bmYWQumyoFg",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xVvwoNL5Ee2G7bxDNOWD3g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_odT4oMxcEe2PtePfVtYuMw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5AfFEM-TEe2r_M8QKBeeIg - patient_info_view",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_TQwdkNL6Ee2G7bxDNOWD3g - patient_visit_medical_coding",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_d8Pv4NL6Ee2G7bxDNOWD3g - patient_medical_coding",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zkMbgM-TEe2r_M8QKBeeIg - Patient_Visit",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -542,6 +952,32 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_z9zSUNRJEe237euAck405w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "PDFDecode",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_0NaCgM-REe2r_M8QKBeeIg",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_3zni8M-LEe2r_M8QKBeeIg",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_RD6C8IUcEe6YGMwwrWOFyQ",
     "version" : "0.1",
     "type" : "joblet"
@@ -552,6 +988,17 @@
     "type" : "context"
   }, {
     "id" : "_3IjRAIUXEe6YGMwwrWOFyQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_U18OsI8jEe6P7_rX6eDGbw",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_Yjd5kIQQEe6MKaVzKXwixQ",
     "version" : "Latest",
     "type" : "property"
   } ]
