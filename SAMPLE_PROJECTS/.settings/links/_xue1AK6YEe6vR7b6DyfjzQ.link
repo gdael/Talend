@@ -1,0 +1,20 @@
+{
+  "itemId" : "_xue1AK6YEe6vR7b6DyfjzQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_j-QfEK3XEe6Xt7BQXMe_iQ",
+    "parameterList" : [ {
+      "id" : "_j-fvoa3XEe6Xt7BQXMe_iQ",
+      "name" : "Authorization"
+    }, {
+      "id" : "_u24-EK3uEe6uWqxTZDHXTw",
+      "name" : "URL"
+    }, {
+      "id" : "_AmU-kK6PEe6vR7b6DyfjzQ",
+      "name" : "pagecount"
+    }, {
+      "id" : "_AmU-ka6PEe6vR7b6DyfjzQ",
+      "name" : "pageSize"
+    } ]
+  } ]
+}
