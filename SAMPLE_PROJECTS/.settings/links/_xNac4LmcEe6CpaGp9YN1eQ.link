@@ -1,0 +1,32 @@
+{
+  "itemId" : "_xNac4LmcEe6CpaGp9YN1eQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KjCy8LmeEe6CpaGp9YN1eQ",
+    "parameterList" : [ {
+      "id" : "_KjVt4bmeEe6CpaGp9YN1eQ",
+      "name" : "host"
+    }, {
+      "id" : "_KjVt4rmeEe6CpaGp9YN1eQ",
+      "name" : "request_token"
+    }, {
+      "id" : "_8wsqILmtEe6CpaGp9YN1eQ",
+      "name" : "code"
+    }, {
+      "id" : "_8wsqIbmtEe6CpaGp9YN1eQ",
+      "name" : "redirect_url"
+    }, {
+      "id" : "_8wsqIrmtEe6CpaGp9YN1eQ",
+      "name" : "authorization"
+    }, {
+      "id" : "_8wsqI7mtEe6CpaGp9YN1eQ",
+      "name" : "grant_type"
+    }, {
+      "id" : "_o8V5YLmuEe6CpaGp9YN1eQ",
+      "name" : "client_key"
+    }, {
+      "id" : "_o8V5YbmuEe6CpaGp9YN1eQ",
+      "name" : "client_secret"
+    } ]
+  } ]
+}
