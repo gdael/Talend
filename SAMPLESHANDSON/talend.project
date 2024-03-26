@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Nwja4WcXEe60jJIKo7_VOg" label="SamplesHandsOn" language="java" technicalLabel="SAMPLESHANDSON" author="_Nwja4mcXEe60jJIKo7_VOg" productVersion="Talend Cloud Data Fabric-8.0.1.20230815_1353-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/gdael/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_Nwja4WcXEe60jJIKo7_VOg" label="SamplesHandsOn" language="java" technicalLabel="SAMPLESHANDSON" author="_Nwja4mcXEe60jJIKo7_VOg" productVersion="Talend Cloud Data Fabric-8.0.1.20240222_1049-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/gdael/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_NxdZ0GcXEe60jJIKo7_VOg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Nwja4mcXEe60jJIKo7_VOg" login="ivan.mangubat@nfr.mtc.com.ph" firstName="Ivan" lastName="Mangubat" type="DQ"/>
   <TalendProperties:User xmi:id="_AfIN8Kn7Ee6Eb69RJkBe3g" login="glenn.dael@nfr.mtc.com.ph" firstName="Glenn" lastName="Dael" type="DQ"/>
+  <TalendProperties:User xmi:id="_WXKScOs8Ee6m_v70Cr3-0w" login="glenndael@micropinnacletechnologycorporation_nfr" firstName="Glenn Marvin" lastName="Dael" type="DQ"/>
+  <TalendProperties:User xmi:id="_WXKSces8Ee6m_v70Cr3-0w" login="glenndael@micropinnacletechnologycorporation_nfr" firstName="Glenn Marvin" lastName="Dael" type="DQ"/>
 </xmi:XMI>
