@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_J8aIAUuFEe6RmNSsM6HtUQ" label="Sample_Projects" description="" language="java" technicalLabel="SAMPLE_PROJECTS" author="_J8aIAkuFEe6RmNSsM6HtUQ" productVersion="Talend Cloud Data Fabric-8.0.1.20231222_1430-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/gdael/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_J8aIAUuFEe6RmNSsM6HtUQ" label="Sample_Projects" description="" language="java" technicalLabel="SAMPLE_PROJECTS" author="_J8aIAkuFEe6RmNSsM6HtUQ" productVersion="Talend Cloud Data Fabric-8.0.1.20240222_1049-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/gdael/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <componentsSettings xmi:id="_a5UQUOTsEe6FDt7YPDImHw" name="DI|tArrayIn" family="Technical"/>
     <componentsSettings xmi:id="_a5UQUeTsEe6FDt7YPDImHw" name="DI|tHashOutput" family="Technical"/>
     <componentsSettings xmi:id="_a5UQUuTsEe6FDt7YPDImHw" name="DI|tHashInput" family="Technical"/>
@@ -9,4 +9,6 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_J8aIAkuFEe6RmNSsM6HtUQ" login="glenn.dael@nfr.mtc.com.ph" firstName="Glenn" lastName="Dael" type="DQ"/>
   <TalendProperties:User xmi:id="_M2N0sLjIEe6q-aYdCejO2A" login="ivan.mangubat@nfr.mtc.com.ph" firstName="Ivan" lastName="Mangubat" type="DQ"/>
+  <TalendProperties:User xmi:id="_mePt8OtAEe6JHJBT-KCOIQ" login="glenndael@micropinnacletechnologycorporation_nfr" firstName="Glenn Marvin" lastName="Dael" type="DQ"/>
+  <TalendProperties:User xmi:id="_mePt8etAEe6JHJBT-KCOIQ" login="glenndael@micropinnacletechnologycorporation_nfr" firstName="Glenn Marvin" lastName="Dael" type="DQ"/>
 </xmi:XMI>
