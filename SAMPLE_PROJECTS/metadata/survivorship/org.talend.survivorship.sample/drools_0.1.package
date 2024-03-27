@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+import java.util.Date
+import java.math.BigDecimal
+
+global org.talend.survivorship.model.DataSet dataset
+
+declare  RecordIn 
+
+    TALEND_INTERNAL_ID : int  
+    branch_code : Integer  
+    branch_name : String  
+end
+
+

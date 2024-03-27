@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+rule "Unique"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "UniqueGroup"
+when
+    $input : RecordIn( dataset.isMostCommon( branch_code, "Branch_Code", false) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "Branch_Code", drools.getRule().getName());
+
+
+end
+
+
