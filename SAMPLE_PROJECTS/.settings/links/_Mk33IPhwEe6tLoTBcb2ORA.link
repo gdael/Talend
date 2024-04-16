@@ -1,0 +1,26 @@
+{
+  "itemId" : "_Mk33IPhwEe6tLoTBcb2ORA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_G3Sz0PhxEe6tLoTBcb2ORA",
+    "parameterList" : [ {
+      "id" : "_G3kgofhxEe6tLoTBcb2ORA",
+      "name" : "tenant_id"
+    }, {
+      "id" : "_G3kgovhxEe6tLoTBcb2ORA",
+      "name" : "client_id"
+    }, {
+      "id" : "_G3kgo_hxEe6tLoTBcb2ORA",
+      "name" : "client_secrect_id"
+    }, {
+      "id" : "_G3kgpPhxEe6tLoTBcb2ORA",
+      "name" : "site_name"
+    }, {
+      "id" : "_6nYr8PhxEe6tLoTBcb2ORA",
+      "name" : "site_id"
+    }, {
+      "id" : "_dOjUQPhyEe6tLoTBcb2ORA",
+      "name" : "access_token"
+    } ]
+  } ]
+}
