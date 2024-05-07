@@ -122,27 +122,56 @@
     <routinesParameter id="_ZuCQ4EuJEe6RmNSsM6HtUQ" name="TalendStringUtil"/>
     <routinesParameter id="_Zt3RwEuJEe6RmNSsM6HtUQ" name="TalendString"/>
   </parameters>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="32">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="&#10;public class PdfToCsvConverter {&#10;&#10;    public static void main(String[] args) {&#10;        try {&#10;            // Load the PDF document&#10;            PDDocument document = PDDocument.load(new File(&quot;D:/Example PDF.pdf&quot;));&#10;&#10;            // Create a list to store the data&#10;            List&lt;String[]&gt; data = new ArrayList&lt;&gt;();&#10;&#10;            // Iterate over each page in the document&#10;            for (PDPage page : document.getPages()) {&#10;&#10;                // Create a PDFTextStripper to extract the text from the page&#10;                PDFTextStripper stripper = new PDFTextStripper();&#10;                stripper.setStartPage(page.getNumber());&#10;                stripper.setEndPage(page.getNumber());&#10;                String text = stripper.getText(document);&#10;&#10;                // Split the text into lines&#10;                String[] lines = text.split(&quot;\n&quot;);&#10;&#10;                // Add each line to the data list&#10;                for (String line : lines) {&#10;                    data.add(new String[]{line});&#10;                }&#10;            }&#10;&#10;            // Write the data to a CSV file&#10;            FileWriter csvWriter = new FileWriter(new File(&quot;D:/output.csv&quot;));&#10;            for (String[] row : data) {&#10;                for (int i = 0; i &lt; row.length; i++) {&#10;                    if (i &gt; 0) {&#10;                        csvWriter.write(&quot;,&quot;);&#10;                    }&#10;                    csvWriter.write(row[i]);&#10;                }&#10;                csvWriter.write(&quot;\n&quot;);&#10;            }&#10;            csvWriter.close();&#10;&#10;            // Close the PDF document&#10;            document.close();&#10;&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;}"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.apache.pdfbox.pdmodel.PDDocument;&#10;import org.apache.pdfbox.pdmodel.PDPage;&#10;import org.apache.pdfbox.pdmodel.PDPageContentStream;&#10;import org.apache.pdfbox.pdmodel.common.PDRectangle;&#10;import org.apache.pdfbox.text.PDFTextStripper;&#10;import java.io.BufferedReader;&#10;import java.io.File;&#10;import java.io.FileReader;&#10;import java.io.FileWriter;&#10;import java.io.IOException;&#10;import java.util.ArrayList;&#10;import java.util.List;"/>
+  <node componentName="tPDFToText" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPDFToText_1"/>
+    <elementParameter field="FILE" name="PDF_INPUT" value="&quot;D:/Sample-PDF.pdf&quot;"/>
+    <elementParameter field="FILE" name="PDF_OUTPUT" value="&quot;D:/file.txt&quot;"/>
+    <elementParameter field="TEXT" name="PDF_PAGE_START" value="-1"/>
+    <elementParameter field="TEXT" name="PDF_PAGE_END" value="-1"/>
+    <elementParameter field="ENCODING_TYPE" name="PDF_ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="PDF_ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="PDF_BY_AREA" value="false"/>
+    <elementParameter field="TEXT" name="PDF_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="PDF_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="PDF_WIDTH" show="false" value="0"/>
+    <elementParameter field="TEXT" name="PDF_HEIGHT" show="false" value="0"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tPDFtoCSV" componentVersion="2.0" offsetLabelX="0" offsetLabelY="0" posX="704" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPDFtoCSV_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="FILE" name="PDF_INPUT" value="&quot;C:/Users/g.dael/Downloads/Get_Started_With_Smallpdf.pdf&quot;"/>
+    <elementParameter field="FILE" name="PDF_OUTPUT" value="&quot;D:/file.txt&quot;"/>
+    <elementParameter field="FILE" name="CSV_OUTPUT" value="&quot;D:/file.csv&quot;"/>
+    <elementParameter field="TEXT" name="PDF_PAGE_START" value="&quot;-1&quot;"/>
+    <elementParameter field="TEXT" name="PDF_PAGE_END" value="&quot;-1&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="PDF_ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="PDF_ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="DELIM_TYPE" value="&quot;|&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPDFtoCSV_1"/>
   </node>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPDFToText_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_72e5f3f2-cfa5-48ed-a663-9d7bdf6dea14"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vOdr1S75JPiZ8Xw5bxKz6FXKx7Gpx9923FtSkP68SxwRq2c+ufZYR8RNHVnu+lI6vdPdO+FL1/zi&#13;
-DXVTSn8Ucw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa961d0e-df2d-4888-8ca3-16565522459d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KMVmj+GLWHTIIeCfA1ep7W628CSPUYoJ4aIkw57b4fou3hB67VuJaZ+EpY3bKS8ah5MihZylR5E1&#13;
-Ph+VE16DWA==</DigestValue></Reference></SignedInfo><SignatureValue>eiX5wZsA5YHxM5qvYyvgJhCqqhxoB6w03y40F43Oq1E7+2b31WOVvVVTkbzEC52WE8gG4CZWb/yb&#13;
-9pHb5jllGoFhlcWxRIBqahb4fHUgdFbyoufw/qZr0b0YKAKPCiLHumNuXw9MmC7ddrkLa5pLZup+&#13;
-Jsk1BYhZETblOcyNK0L8nzwmPjrFdgyZVaHwBJZU7Ih0xzA/TF2vCSc6hl2lcApxQosRgB6D/ONk&#13;
-Jb1Mj8YS4cCNm7hb/wWnD8nSkeSLGCTi8PauZHoO3fB306gxTG0xvzonUcIMQZfDqNQyOSsL8KXW&#13;
-jmp9HmqghcDFAnMb2SusfLjLTnwgyp7PTq0bmQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPDFtoCSV_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_119fe7a5-4b8f-41f2-b220-fb645094113c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YMzwhWbKbPMggr7ZsuYPqoc/Jw9Hwtt57FHvwDX23cSd+RjZoXK7yvvOWBr2pPULPRR4lnIAzRu0&#13;
+VI/Dnc20HQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6c5165a4-0236-4eee-872e-8036ed329f98"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iPjFzszGf+4Z8F9ZiCCEbjQycuENUrPfqQ+gFp0RTYNgCRYv3MNLG9CF/Vb8vV6wByGU5cfuI9Ia&#13;
+md3Qc2CWVg==</DigestValue></Reference></SignedInfo><SignatureValue>Gk7uDY0NINBNXS+0PAFmeI+yoFqe2KOLjmqGKKUTByH7TsuA3f4/o2aSyMP5t0DfPzSFkGZhAuRN&#13;
+AvxLVo8JDGjbNnCE9quJzBm76xexjn944qv9FRR4SfT0egKxvHUDkjAO1gfIo+ivAJFHyv68bu4v&#13;
+ElvcnDbprnoDADx1OIpJo+2aAAhPULamjwzeSYnurcUhhtTXwex7PUSRm/Ybklp5hDIj3FemafD9&#13;
+2kJBxq6+X+TmHBrKyqEOBD2e6s9tvtK5s8mhadSN84YNglTJ6OPI9peW+RYUzYutm0RSgSHPxDM/&#13;
+4talaMtHR/zcEgyxPf/7Y+in/uyG8/mMg5WGmA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -164,4 +193,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa961d0e-df2d-4888-8ca3-16565522459d" Target="#_72e5f3f2-cfa5-48ed-a663-9d7bdf6dea14"><Timestamp>2024-04-18 09:11:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6c5165a4-0236-4eee-872e-8036ed329f98" Target="#_119fe7a5-4b8f-41f2-b220-fb645094113c"><Timestamp>2024-05-03 08:42:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

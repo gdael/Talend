@@ -1,0 +1,26 @@
+{
+  "itemId" : "_M3PyoAIKEe-arovC5QwGew",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_9LhnAAIREe-arovC5QwGew",
+    "parameterList" : [ {
+      "id" : "_9MCkYQIREe-arovC5QwGew",
+      "name" : "host"
+    }, {
+      "id" : "_9MCkYgIREe-arovC5QwGew",
+      "name" : "code"
+    }, {
+      "id" : "_9MCkYwIREe-arovC5QwGew",
+      "name" : "client_key"
+    }, {
+      "id" : "_9MCkZAIREe-arovC5QwGew",
+      "name" : "client_secret"
+    }, {
+      "id" : "_9MCkZQIREe-arovC5QwGew",
+      "name" : "redirect_uri"
+    }, {
+      "id" : "_9MCkZgIREe-arovC5QwGew",
+      "name" : "grant_type"
+    } ]
+  } ]
+}

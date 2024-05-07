@@ -526,6 +526,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Fnt1EAXUEe-R_sexwtvS_w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_l3DEgAXuEe-WA9qfdhVTnQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_tIG5UAXYEe-WA9qfdhVTnQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tIG5UAXYEe-WA9qfdhVTnQ - pricelist",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_I0kygNO-Ee2G7bxDNOWD3g",
     "version" : "0.1",
     "type" : "job"
@@ -612,6 +631,17 @@
     "id" : "TalendEncryption",
     "version" : "Latest",
     "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_M3PyoAIKEe-arovC5QwGew",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9LhnAAIREe-arovC5QwGew",
+    "version" : "Latest",
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
@@ -1512,6 +1542,29 @@
     "type" : "context"
   }, {
     "id" : "_HBH94IW1Ee6YGMwwrWOFyQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wz0t8As6Ee-GjOQUMGR1GA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_l3DEgAXuEe-WA9qfdhVTnQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_jYkkkAtMEe-GjOQUMGR1GA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_tIG5UAXYEe-WA9qfdhVTnQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tIG5UAXYEe-WA9qfdhVTnQ - pricelist",
     "version" : "Latest",
     "type" : "schema"
   } ]

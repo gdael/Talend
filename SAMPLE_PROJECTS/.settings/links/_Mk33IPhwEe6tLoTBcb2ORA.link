@@ -21,6 +21,9 @@
     }, {
       "id" : "_dOjUQPhyEe6tLoTBcb2ORA",
       "name" : "access_token"
+    }, {
+      "id" : "_U4LlAAaxEe-yTcV9-96OTA",
+      "name" : "sharepoint_name"
     } ]
   } ]
 }

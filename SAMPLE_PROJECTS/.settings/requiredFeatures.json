@@ -128,6 +128,8 @@
   }, {
     "id" : "org.talend.studio.components.tck.google.analytics.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.google.analytics4.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.httpclient.connector.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.jira.feature.feature.group"
@@ -136,7 +138,11 @@
   }, {
     "id" : "org.talend.studio.components.tck.kudu.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.tck.odata.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.tck.pgp.connector.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.salesforcemarketingstudio.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.samba.feature.feature.group"
   }, {
